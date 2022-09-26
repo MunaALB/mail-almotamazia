@@ -1,0 +1,111 @@
+Return-Path: <info@wllko.website>
+Delivered-To: support+spam@almotamaiza.ly
+Received: from business71.web-hosting.com
+	by business71.web-hosting.com with LMTP
+	id cOPKLHbouGCBAy0AQZTD9Q
+	(envelope-from <info@wllko.website>)
+	for <support+spam@almotamaiza.ly>; Thu, 03 Jun 2021 10:34:30 -0400
+Return-path: <info@wllko.website>
+Envelope-to: support@almotamaiza.ly
+Delivery-date: Thu, 03 Jun 2021 10:34:30 -0400
+Received: from [152.32.169.133] (port=39749 helo=server1.wllko.website)
+	by business71.web-hosting.com with esmtp (Exim 4.94.2)
+	(envelope-from <info@wllko.website>)
+	id 1looQT-00COXh-UI
+	for support@almotamaiza.ly; Thu, 03 Jun 2021 10:34:30 -0400
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=tianlai; d=wllko.website;
+ h=Reply-To:Sender:Date:From:To:Subject:Message-ID:Mime-Version:Content-Type:Content-Transfer-Encoding; i=info@wllko.website;
+ bh=BUuhUzbR4MQgH363t0dtjJKYEGM=;
+ b=nFCbxvFYrgIhxgrgKG149D+1VmRcRfcFwYMPa4ZdtJ1rCF9Al+JyopqnaqrnRzWkKGV+Y1l8don6
+   XEiln+HMWEBUOVtRvCHV5G8jBN7JI54UQVsCk9Ynv8bIg2WILqwyN8VsZWXlyMg3sK0c3q6+zfSB
+   SpZVHF29vBcer0wuPtY=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=tianlai; d=wllko.website;
+ b=JtNO78riYLOZVXyRxTw5aIjX+yg9wgIyy1ZfA/eoJMRmQcj4AHWfMFG2fqoksGb+OCYFO85xLNGD
+   VSEiHS/bEZaiKKtPk5DRAnUP4FoBPJznHHx3Te/+4jgqzYbdVCVEIqfCUFk6YhDSx+96Mtkd+jqn
+   /cqIXwlgseBUzBpepr0=;
+Received: from mi (182.96.177.2) by server1.wllko.website id hn3k740e97cu for <support@almotamaiza.ly>; Thu, 3 Jun 2021 22:32:34 +0800 (envelope-from <info@wllko.website>)
+Reply-To: <dingyishisheng@hotmail.com>
+Sender: info@wllko.website
+Date: Thu, 3 Jun 2021 22:32:28 +0800
+From: "Jojo" <dingyishisheng@hotmail.com>
+To: <support@almotamaiza.ly>
+Message-ID: <20210603223233453433@wllko.website>
+X-Priority: 1 (Highest)
+X-mailer: Foxmail 6, 13, 102, 15 [cn]
+Mime-Version: 1.0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: base64
+X-Spam-Status: Yes, score=10.5
+X-Spam-Score: 105
+X-Spam-Bar: ++++++++++
+X-Spam-Report: Spam detection software, running on the system "business71.web-hosting.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Good day! This is Jojo from KK WISDOM LIMITED！ I am sales
+    manager for electronic component. Our company is a leading and specialist
+    electronic component trading firm in worldwide，specializing in do Capacitors，Resistors
+    and Inductors . We have stock with MURATA、 SAMSUNG、 TDK、 YAGEO� [...]
+    
+ Content analysis details:   (10.5 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: wllko.website]
+  4.5 URIBL_DBL_SPAM         Contains a spam URL listed in the Spamhaus DBL
+                             blocklist
+                             [URIs: wllko.website]
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [dingyishisheng[at]hotmail.com]
+  1.2 FORGED_HOTMAIL_RCVD2   hotmail.com 'From' address, but no
+                             'Received:'
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+  0.0 T_SPF_PERMERROR        SPF: test of record failed (permerror)
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  2.0 RDNS_NONE              Delivered to internal network by a host with no rDNS
+  0.2 FREEMAIL_FORGED_FROMDOMAIN 2nd level domains in From and
+                             EnvelopeFrom freemail headers are
+                             different
+  0.1 DKIM_INVALID           DKIM or DK signature exists, but is not valid
+  0.0 SPOOFED_FREEMAIL_NO_RDNS From SPOOFED_FREEMAIL and no rDNS
+  2.0 SPOOFED_FREEMAIL       No description available.
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Electronic component from China
+
+PCFET0NUWVBFIEhUTUwgUFVCTElDICItLy9XM0MvL0RURCBIVE1MIDQuMCBUcmFuc2l0aW9uYWwv
+L0VOIj4NCjxIVE1MIHhtbG5zOm8gPSAidXJuOnNjaGVtYXMtbWljcm9zb2Z0LWNvbTpvZmZpY2U6
+b2ZmaWNlIj48SEVBRD4NCjxNRVRBIGNvbnRlbnQ9InRleHQvaHRtbDsgY2hhcnNldD11dGYtOCIg
+aHR0cC1lcXVpdj1Db250ZW50LVR5cGU+DQo8TUVUQSBuYW1lPUdFTkVSQVRPUiBjb250ZW50PSJN
+U0hUTUwgMTEuMDAuMTA1NzAuMTAwMSI+PC9IRUFEPg0KPEJPRFk+DQo8UD5Hb29kIGRheSE8L1A+
+DQo8UD5UaGlzIGlzIEpvam8gZnJvbSBLSyBXSVNET00gTElNSVRFRO+8gTxCUj5JIGFtIHNhbGVz
+IG1hbmFnZXIgZm9yIGVsZWN0cm9uaWMgDQpjb21wb25lbnQuPC9QPg0KPFA+T3VyIGNvbXBhbnkg
+aXMgYSBsZWFkaW5nIGFuZCBzcGVjaWFsaXN0IGVsZWN0cm9uaWMgY29tcG9uZW50IHRyYWRpbmcg
+ZmlybSBpbiANCndvcmxkd2lkZe+8jHNwZWNpYWxpemluZyBpbiBkbyBDYXBhY2l0b3Jz77yMUmVz
+aXN0b3JzIGFuZCBJbmR1Y3RvcnMgDQouPEJSPldlJm5ic3A7aGF2ZSZuYnNwO3N0b2NrJm5ic3A7
+d2l0aCZuYnNwOyZuYnNwO01VUkFUQeOAgSZuYnNwO1NBTVNVTkfjgIEmbmJzcDtUREvjgIEmbmJz
+cDtZQUdFT+OAgUtFTUVU44CBV2Fsc2luLjwvUD4NCjxQPkkgYW0gc3VyZWx5LCB3ZSBoYXZlIGdv
+b2QgcHJpY2UgYW5kIHNlcnZpY2UgZm9yIHlvdXIgY29tcGFueS4mbmJzcDsgV2UgYWxzbyANCmFy
+ZSBvbmUgb2YgdGhlIGdvbGRlbiBtZW1iZXIgaW4gVEJGIGFuZCBJQyBTT1VSQ0UuPC9QPg0KPFA+
+V2lzaCBvdXIgcHJvZHVjdHMgd2lsbCBiZSBoZWxwZnVsIGZvciB5b3VyIGJ1c2luZXNzLjxCUj5B
+bnkgcXVlc3Rpb24scGxzIA0Ka2luZGx5IGxldCBtZSBrbm93PEJSPiZuYnNwOzxCUj5CZXN0IHJl
+Z2FyZHMsPEJSPkpvam88L1A+DQo8UD5TdHJvbmcgJm5ic3A7TGluZXPvvJpNdXJhdGHjgIFUREvj
+gIEmbmJzcDtTYW1zdW5nJm5ic3A744CBVGFpeW8gDQpZdWRlbuOAgUFWWOOAgUtlbWV044CBVmlz
+aGF544CBT24gU2VtaS4uLjwvUD4NCjxQPktLJm5ic3A7Jm5ic3A7Jm5ic3A7V0lTRE9NJm5ic3A7
+Jm5ic3A7TElNSVRFRDwvUD4NCjxQPjxCUj5Nb2JpbGUgUGhvbmXvvJoxMzU5MDIxNTIyMzxCUj5F
+LW1haWw6Jm5ic3A7PEEgDQpocmVmPSJtYWlsdG86c2FsZXNAa2t3aXNkb20uY29tIj5zYWxlc0Br
+a3dpc2RvbS5jb208L0E+ICZuYnNwOyAmbmJzcDsgDQombmJzcDs8QlI+U2t5cGU6Jm5ic3A7Jm5i
+c3A7PEEgDQpocmVmPSJtYWlsdG86c2FsZXNAa2t3aXNkb20uY29tIj5zYWxlc0Bra3dpc2RvbS5j
+b208L0E+PEJSPldoYXTigJlzIA0KQXBw77yaJm5ic3A7ODUyJm5ic3A7Njk0MTc0MjwvUD4NCjxQ
+PiZuYnNwOzwvUD48L0JPRFk+PC9IVE1MPg0K
+
+

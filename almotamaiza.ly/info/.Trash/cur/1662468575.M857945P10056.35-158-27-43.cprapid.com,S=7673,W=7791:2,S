@@ -1,0 +1,118 @@
+Return-Path: <almotamisa@yahoo.com>
+Delivered-To: info@almotamaiza.ly
+Received: from 35-158-27-43.cprapid.com
+	by 35-158-27-43.cprapid.com with LMTP
+	id uObiMt9BF2NIJwAALyatdA
+	(envelope-from <almotamisa@yahoo.com>)
+	for <info@almotamaiza.ly>; Tue, 06 Sep 2022 14:49:35 +0200
+Return-path: <almotamisa@yahoo.com>
+Envelope-to: info@almotamaiza.ly
+Delivery-date: Tue, 06 Sep 2022 14:49:35 +0200
+Received: from sonic308-56.consmr.mail.ne1.yahoo.com ([66.163.187.31]:33761)
+	by 35-158-27-43.cprapid.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.95)
+	(envelope-from <almotamisa@yahoo.com>)
+	id 1oVBtM-0002FG-TM
+	for info@almotamaiza.ly;
+	Mon, 05 Sep 2022 15:11:57 +0200
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1662383474; bh=CZqS+20JEP/Xq/aFXqFo8firo5Npt2qB7vdS41iOtaI=; h=From:Date:Subject:To:References:From:Subject:Reply-To; b=YNy9R4DZaAwEUYGHPkiJBXfXlWiE6NZYot3Q4CZWoQubj9vZY7j0JtEY4J2MKNZRQ4/bQWU/QjLc8aEZ0CFKI6hR1x+JBvtiN9VOP+sjYr9mXKbjcXCV2QvwM7mTdOBMkPI6QUpktEc4bQLXCIglZgnoyMAbIXbg9gRrWYOinV73Fl7cn8WmtObKNmzazrSKepetAJK/JEa7k9203QQt/VT9hprE0inMS1HQc4UtHqhuAewu9uMo+rAn62RCw6ad5e9t65VBc2VlYMxC/ScuS1bVHOMCKFdid+oI4OkcWUyBuDnevIhZmbRwGSWdMnuj/2Is+n+IIYyw5ltHFmXo7Q==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1662383474; bh=UOPB400Iqi6WIUi0rTdU9k/E6oox7xkcMUJJg8XgxxW=; h=X-Sonic-MF:From:Date:Subject:To:From:Subject; b=VDKUs0H3fnDbaZIygcjhbFqVCPe56Cn2EGa7W40zkVK+N8r5wYvNpaJKojgU05/ntuEQilHROnNfmip61AZ1Rhw8s9T8l2dH2nWBWuGgr7yVCIQNMUEBfPke+HYdVcrUBZqF+EXTqUjirU7Anw7VQBtF2GlQZeoztihjdNHVJNJRcjXZrF//6psQQj07bxg7JyeyGVM+XqnvglUxKxxnwcz4gYS4Yywq6set1GkAYlLd7rRJJDSbZQedsOnVhIM0Jbp3EFBEA//xr1ERiLx6JVf/pHVbSKEj9NLC83EkxQ0RFgbvkhKV/kNB2e68f0P0y1CHixtz6P6INxvP/JWzsw==
+X-YMail-OSG: r8uIsHgVM1l2YIOUolCapYaFdumoGXEyt_ov2Cy_8u6gIsEToc42CTO8czFLDCU
+ g.f_BvOsTe3LS.yrQ7Ge6qrEk9NClJMiAEHDFvhhCYk7NOqRtLPq35051JMYz6kYC2kFerFgO96U
+ aK0_sJ7JbL7uPe2YZpec88nzjn0LBQNpSlVY1tMF60KN2CDGB5C_5kh2vkWfigcwxE_Xvxy06UZq
+ iIIpN0CMLHkfnlcnoW9qnxizw_yM8fuA7fMkfzAVX5Flxrs1xAYh.geGsCYXF4rDRNhPbbcWpUPW
+ tuHU3OFLoLjbtGxpsdjxd3s43CNio4zrJGEBlbkaLCwWzZXuB98s6FwXnvVDi7pbKGd_QQR6Krmq
+ JMlisuG.TvzAF6ReFzF9ZHzVEn7p8CZ7UW53MfOl8uIXWdFwbzJtlvwTa.Po2qEwisxgESMc8zzC
+ NAuOuiXKd91Usy.o9RiozzaqRjZE5slbWX6uGtVTavaqC4lWEN.fgUGfK6hhBVb6TnbGH9uDxgCc
+ GuCOPHkZhcXCPxBrs.bOEjX0nYfP8NGW8sSuwFbEbmw82vM5B9H6xI2HajF9SJo7OXydrK9Tu3Pk
+ YyRRagsY8WkBaKeB7xNHt8J0yVH_D0UHKgxFs8yyCIippDiDTgGomNnX2gnvtHOftWA5ZUMY8wyC
+ .C4RXdXFRDkohgn.wqkF0ynBxp2A5IUFERPEzMjEFey1X00cdOvTQLU5a.CRV9MAUefJyC4.6.DZ
+ HIkQZ3KgGSTa4HEn1co79vDGF1oNwpg.UB4c.vEHgdKK273NBC_7yv15xYomOi0QpS4.ApFuuHLJ
+ IrHAV0teAL1XASu0M7GPeJbHchfdaiwLDvWBy3LhSfUta2naznSUtndDmZ99ZV40HF.Mp.gPld0l
+ cDHdYqkhsBJNT.MKgHOHPMOqNuS9qA.pYynlyaTOLMViY6Y.qiqgqxU4szuyJQXoCS2mTPR_nde8
+ K7AG2aT0c9sdDOYjZBXPnZhORIVQcmcMR_I7bpx5pLQXbJtOf_DoxbElQ8O5B63ekeuEvBOAYfvN
+ CRi6NmB8agy4j8sJjxhZonPyL9vglWUcHvIojfC4SolNO51.L9Mm29vtSv5MumFqqXgeLXMhY6T1
+ 5Cx5O6Vk2WaIk55mIWl8hmd_BCOHwD7YKLiYozZubNnlc9lSwls6I1iADb40FYvDn_AHP3zObz81
+ UsNE8WqQ2wKgx2B2cBjqPHVoElkwD8P7D1eeWWoBhps8vOwotFubInHZx_mWgYsn18lwlazl0qgC
+ zMvla1PifthwKMShMV4FUL5UnbuXduuL7Stkfr53YK6C133MQdTSq797QpMgjLZTfhYPHVdSVa96
+ eh1LOXi9XMZso9UiBGYy34ShZZdddKUvU1WKF.jFDdiLh3Fjh.Ew8fQOkQDzFz74ZJo3d9dd7WUa
+ 7b9tzbCvIwMsOx6Jyhx7Si0bWayBlKStgJWdt5dabcQhVcsT66BcUXFbpzliGfn5SRzOrBnEAbMc
+ iuKJFMhl_YANVfCdwsFmVaq.Xo7YdgcPyZ2T2l7cPzEt_aoQkFthFilVYi8OZHbEtnIvRSMfQrWr
+ cUfbcEdZeqvh0ZwV6OXtsYUZaZzKeUlkWWxREnaEqHMg7K9hNAajoW8x45s3XD96WakgREkGAvlU
+ A5.zUpsbcU0yzYfZo2aAEwk1MEsDD7zYeEVtIVFt8iAmbzpGXJM4XNDQBFZGcHASG74SYxjkBnj3
+ sP752zVdGKrbbDE.VMOu2tkv1g7RBXqG0tV7ZOU1f.bzy35BSd8UzvziuJGMiv7REkGpJkbCUqA8
+ iYufTh4IGxxzKrU_itv6.X.PD6GVEhu7KxVwEzd52dsYr30jzvk4dKVvGYmK_O.ireaYb1jtgZF2
+ eBtiBhZDQtwYzf1exkYPlLnC9LQK9MyM3ueyE9ACCzMsEOZHDf9LOByYV8RsYAVq79i0ke0KCNPt
+ JNBwpFsrYbXK2peBVuP5PC22MFn9rruWQcQFSw.Hi389XiEn9VRfQt0ZvrfXZXO0XoSVOkeGJQjC
+ TMOO5MahMlcIoPY.QwSAolCN8lPPjYFfMuILCLSi4BStDmzB2WLq3XKJL3Iqm_56N4Lsov22.d5N
+ 1S5nnj5mWzMFAqD18WlE9fe3oZv2m.6SFGH6s3lepy.2M46IfBz6KEzgeDBZt9w32.bwGKVP3UV6
+ ntRCIg6RdJWes8Kr5hh5h8AADCQH9WLvmp0QoDZQV5p9y9469NOZeiVOAAh6HSP3mITXQ2LNMM6.
+ iidlnKrRgWdRxl9GsYohbCTGeZxhqkP45YVoVgoxaWP_Z
+X-Sonic-MF: <almotamisa@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic308.consmr.mail.ne1.yahoo.com with HTTP; Mon, 5 Sep 2022 13:11:14 +0000
+Received: by hermes--canary-production-ir2-85867b7b87-ptl5z (Yahoo Inc. Hermes SMTP Server) with ESMTPA ID 3ce669074e0d8a1eebcbb65619def002;
+          Mon, 05 Sep 2022 11:30:23 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=Apple-Mail-AD233EA9-164C-4C5D-AC63-2D47104D042B
+Content-Transfer-Encoding: 7bit
+From: Sedig Krer <almotamisa@yahoo.com>
+Mime-Version: 1.0 (1.0)
+Date: Mon, 5 Sep 2022 13:30:21 +0200
+Subject: Hi
+Message-Id: <8079D231-A2C2-47D6-B201-2F1EABD5F535@yahoo.com>
+To: info@almotamaiza.ly
+X-Mailer: iPhone Mail (19G82)
+References: <8079D231-A2C2-47D6-B201-2F1EABD5F535.ref@yahoo.com>
+Content-Length: 1236
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "35-158-27-43.cprapid.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi Sedig Krer Almotamiza International Company G M Mobile
+   # +218913139615 +218918884889 Tripoli - Libya Sent from my iPhone 
+ Content analysis details:   (-0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [almotamisa[at]yahoo.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+
+--Apple-Mail-AD233EA9-164C-4C5D-AC63-2D47104D042B
+Content-Type: text/plain;
+	charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Hi
+
+Sedig Krer
+Almotamiza International Company
+G M
+Mobile # +218913139615
+                +218918884889 
+               
+Tripoli - Libya
+Sent from my iPhone
+
+
+--Apple-Mail-AD233EA9-164C-4C5D-AC63-2D47104D042B
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html><head><meta http-equiv="content-type" content="text/html; charset=utf-8"></head><body dir="auto">Hi<br><br><div dir="ltr"><div>Sedig Krer</div><div style="direction: ltr;"><div style="direction: ltr;"><span style="background-color: rgba(255, 255, 255, 0);">Almotamiza International Company</span></div><div style="direction: ltr;">G M</div></div><div>Mobile #&nbsp;<span style="background-color: rgba(255, 255, 255, 0);">+218913139615</span></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; +<span style="font-size: 13pt;">218918884889&nbsp;</span></div><div><span style="font-size: 13pt;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></div><div>Tripoli - Libya</div>Sent from my iPhone<div><div><br></div></div></div></body></html>
+--Apple-Mail-AD233EA9-164C-4C5D-AC63-2D47104D042B--

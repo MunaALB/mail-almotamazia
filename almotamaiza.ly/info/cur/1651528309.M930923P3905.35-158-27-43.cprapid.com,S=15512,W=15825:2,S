@@ -1,0 +1,313 @@
+Return-Path: <almotamisa@yahoo.com>
+Delivered-To: info@almotamaiza.ly
+Received: from 35-158-27-43.cprapid.com
+	by 35-158-27-43.cprapid.com with LMTP
+	id fO6wNnVScGJBDwAALyatdA
+	(envelope-from <almotamisa@yahoo.com>)
+	for <info@almotamaiza.ly>; Mon, 02 May 2022 23:51:49 +0200
+Return-path: <almotamisa@yahoo.com>
+Envelope-to: info@almotamaiza.ly
+Delivery-date: Mon, 02 May 2022 23:51:49 +0200
+Received: from sonic316-21.consmr.mail.ne1.yahoo.com ([66.163.187.147]:33542)
+	by 35-158-27-43.cprapid.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.95)
+	(envelope-from <almotamisa@yahoo.com>)
+	id 1nldxJ-000108-Mu
+	for info@almotamaiza.ly;
+	Mon, 02 May 2022 23:51:49 +0200
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1651528260; bh=clxuL6po4DBt+ntcde48oA/eUXjMy/erY5ruWyXLMSw=; h=From:Date:Subject:References:To:From:Subject:Reply-To; b=fE0t6720nCFySye414yTyug5Slpj3nBtzQ+JHbdGAxn/vkGzgvc0G/8odoucv7OYGQDC3IirEqOy0k7gxVq5DE3UaFHh7KUiAiUZLOOFeluZH83axHY942oohNTNmEaYfYvVtXQH5c3z75uI2Ov/dGAcUhVL82TWrxJ0z0VqDb+Jt/prtkb9RzuHW29C4WvY8pHtJRdoomu4RmL0NWQvejL+3lXZL8UwcXIgjXkHnpaZbOOYkD7AEemKLxMI+mqqNiBl1fAGV+JQCalu04XLNgAhD/UUbD3mCPhgJGj2poeXgi9uigL92/2yO2nSI732Vh/CTF+BcAiAwe3cCdxmQA==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1651528260; bh=2BeXRkaL4pEODcugz2ab1oirGx4v0jfhIXTV6FYVN6U=; h=X-Sonic-MF:From:Date:Subject:To:From:Subject; b=rsCBXR2P+4V7wMjDpsaGHwBkbqlv2QhdXP7xBvKIA+ZysTlZZrhnjmKW314hqGLOWRlIQQCD5stHH1LIlv5FzXnX6YIlC6v0GdYkhsWMnkrlJ9mSGctGFhDzAUm6MOI3H2cJC7pUw7GUsw5f/iIOgqSGMF6zSfyh9rt7Cy28dagTwk1gveGhVZemwAGJBrDYhMQk5/rcrtw0zvA9AMcFJPgDEMbEJq1Lr14NcREQDQRQBgmp1o3TEtUHDdLvzI8mHAV6z4Xi6SP6yZyqrtWJA+tPUVa6Wi7YRlCjX9nnSURYb3vbDZwBPiwM4V3JONvHb/hEr1JCQ7v8HEWmjvNQUw==
+X-YMail-OSG: fAs.ITgVM1mn5CtqSXsy9phPOtK7wwmiGqiF1p9fAiwTXBH8THCh9TfM1K97Ykd
+ LIVRo2tjAQRgoPIypDEUeN0W.ftHw_Qa0tea.BaFEuQvwl4EdT9OZZIoMaD.qpdacOXhA6Xs0.54
+ 4BaaoFHdI8__98Xjo4orr9j6OMKhnWz1.J.ooPlVh3Z8UYVDcEfZsqH5y0ok9OegHcv8g_.6cHuc
+ B8fq49HZosO6pnocyWKI_SupevFTsEjbxNQjrAEd7B7J6_5ymAQgS7pqr02sQZ_z6kEMAHw72iVW
+ tRaa1bI8_q8xAjufVtKFQhzCZFNKvtMR79B_jd0AA3z7Th_lEMbTDWO4qyH815LXHq7HcXCTrkPX
+ jTus2Jx1rSfzkmJGDORQvLfUi.cZMQTXAdhbki_nRUT4N8S0vxmD2QuKa_ThLrKYO0z8wPwTMqhu
+ nHmfNy5UzosJ5AWw_GmUK9tqOob.4XWU1jDHuV6_YuPsXJS7k1Z4mGX9s4kp_ccVmfOEETr8gv20
+ QxFT0I0cgyjxLloK3cAnMpj0tVT8BmEcjzFTJJblBkO30LujN9zue6iLgQ__eV6PoSAuvWeYNZqe
+ DkrwOhwD1t0PzwcIMUbq_UElLaE.Gk42oJ7S8bxjZHyeaZNk8RpYBtnzZvUTXuZzM0oFY4XLa3Th
+ XBzXtkAEI8no4AJPrtKhhkjXl8Fw8j7ZrTr61hNlbQEZoJxN9JNzLIlxhEMr9jv6tPLUQ5e_dVq5
+ Yj6LghHQkqMOG49jhm7DcLweuGD9pd3BZVAL9ZfBSiGVBRdzRG2znrpdlKc7jHyS_rcgCK392KqT
+ gU_N3rmNLdsQIPzTz.XJwlX1e_XqMrGlDii8xdUDKBH.54ndfWNk00QcvCcfGcMKShzqe0JpcwkV
+ DGHQO_yoUSFKC0Ypz_c3viYAjvo3_TN8UOo_DbOG8D56AmhTj6SEJ0v_Q06D.KpnUHuNYbIQKvu1
+ yTvjtEuERChIQxcuxoMMXoBa2x5YKuAhA_ECVlZbWzFVG6FMKwJPofaW.E5_m9DQ2bCcmCnUStzk
+ Ycm2dohh4RMJhJHANxzVAa7.xy0wkcG.uVhA6NLcFo0Z286Gva97cvl27BPobHGqAIrf0BcskWuJ
+ jYkAW3wiimU119amIiCWw5EBsWtOdZGcbZUjZMyHE7TxGGbvrA0VFIGnnhLS9eNAr7Yj6w5CmC1s
+ Dsoa4TTsEv1rAt6xcYB2tS5O4g03oG8n1grVo8BgYGJb2zjaq_E9w7g5Az6Vrr0xC9dxn5i2yDwJ
+ NiBRgUj6TmAM4UeSDZFO5KZrm41hW8h1RExrWgE_7XRWJSJmYKS5g4iwT73sTQbR5iZjepII5d.g
+ HFoqOGB1WVOYw05p5vUvxwtLtdl3ST1FGui6Cwb7cBqyqKsbCr3tXxL_AlvExsJwZgIgqCfuR0bl
+ 79nmQ6NJSbkyFNoIXEjHMZ3w9VhP9aSJKWFono4TH8JlGxscrpd9XllO6arkckcRVjSi4El1qtWY
+ f3BC7U50yPamvdtDGiEASMA9uLrhH8l.cCE7NV0fd3Rr05pLRajc60nGkJSyhKMDjSYlz7zzTdA6
+ peSyCFMV0z_KmNJ4pQRZFbdNaTRVTqdEoEmLzsEkuPUwHUCGWjK.4POrVd..NemOx75_dZI4sY.o
+ wbBrKGBoZB.QszQ9d8KqBv0_rm_c1WV_IA3c7cdwjdse93l6PiE2jwYyrlVqX3L6YyC3XQgY_IAr
+ iVSTABwe2abOPEC7tPYpmyXNDI5JUKvUTD_sdwxgjnCwAa4pZUHkQGe3CKajac_jxPKABYQPG10q
+ tPGRjKRPUykbWsbiAtZSYyuGqDlGy3UMWhKDCS4UVsNZr6I03GJBXfPtjPm6n0epHdeQ8BXiJSf5
+ ivY1Q05XwUHGxo.lCXAYV_kEu764Lgn4WZlfy_PpWxAU52M4Hd0mg4OKWPpl7Dt4D071i2Uq3GSC
+ ic1WV5NXynmRX710tsQRfBE6V56sH6dUlraXAqv2cg9m.w6otr0_UHJHBJWgKTmVu.lArFOSC6z6
+ llMEInysI7RZlnO3dBb1X3L2NtG8adn.9rkjgGX_N2F5sJt2vgItyCqjW_jRReUiP2gIhN.BO4zk
+ Jb1yMOiuXbHEaF1WdUGbyP_PK45junfqtlEgge8fg2LVMp_MKTSkhtCQn4RVXXi4vWNeWLyKJqw5
+ 8SIGQEk..hb4O6fYSS0l6Wmqom3Z7eswXUgsSD9J0jIfNK5QvmFquoBngOJmYh6jX66NKHEGdZAW
+ _n.9FiTWGU49njJffbejvj81sSFu92riWIUgrGcwq
+X-Sonic-MF: <almotamisa@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic316.consmr.mail.ne1.yahoo.com with HTTP; Mon, 2 May 2022 21:51:00 +0000
+Received: by hermes--canary-production-ir2-55699dbb94-c94r5 (Yahoo Inc. Hermes SMTP Server) with ESMTPA ID 8ce8a4911fb6d22cb7e16f27bf4bc7a6;
+          Mon, 02 May 2022 21:50:58 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=Apple-Mail-E16F677F-DB0E-41FD-B321-0B99392E24EC
+Content-Transfer-Encoding: 7bit
+From: Sedig Krer <almotamisa@yahoo.com>
+Mime-Version: 1.0 (1.0)
+Date: Mon, 2 May 2022 23:50:56 +0200
+Subject: Fwd: ORIGINAL SHIPPING DOCUMENTS OF YOUR ORDER  (PI 104)  GAS OVENS AND SPARE PARTS 1 X 20 BOX  FROM ITALY 
+Message-Id: <07410652-38D4-42FD-8BA6-44CF79045360@yahoo.com>
+References: <AM6PR04MB46612D3CABC73A1C28F7B881F9C19@AM6PR04MB4661.eurprd04.prod.outlook.com>
+To: info@almotamaiza.ly
+X-Mailer: iPhone Mail (19E258)
+Content-Length: 8761
+X-Spam-Status: No, score=0.3
+X-Spam-Score: 3
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "35-158-27-43.cprapid.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Sedig Krer Almotamiza International Company G M Mobile # +218913139615
+    +218918884889 Tripoli - Libya Sent from my iPhone Begin forwarded message:
+    
+ Content analysis details:   (0.3 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.5 SUBJ_ALL_CAPS          Subject is all capitals
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [almotamisa[at]yahoo.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 MIME_QP_LONG_LINE      RAW: Quoted-printable line longer than 76
+                             chars
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+
+--Apple-Mail-E16F677F-DB0E-41FD-B321-0B99392E24EC
+Content-Type: text/plain;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+Sedig Krer
+Almotamiza International Company
+G M
+Mobile # +218913139615
+                +218918884889=20
+              =20
+Tripoli - Libya
+Sent from my iPhone
+
+
+Begin forwarded message:
+
+> From: Lucia Mazzola <lucia.mazzola@hirux.com>
+> Date: 2 May 2022 at 4:47:25 PM GMT+2
+> To: Sedig Krer <almotamisa@yahoo.com>
+> Cc: info@almotamaiza.ly, Radwan Khawatmi <r.khawatmi@hirux.com>, Hirux Int=
+ernational <hirux@hirux.com>, Valentina Perini <valentina.perini@hirux.com>,=
+ Pierpaolo Truffelli <pierpaolo.truffelli@hirux.com>
+> Subject: R: ORIGINAL SHIPPING DOCUMENTS OF YOUR ORDER  (PI 104)  GAS OVENS=
+ AND SPARE PARTS 1 X 20 BOX  FROM ITALY
+>=20
+> =EF=BB=BF
+> Dear Mr. Sedig
+> =20
+> Regarding the shipping  documents , we inform you that the courier made a m=
+istake ,  they shipped the documents by Ups when Ups actually doesn=E2=80=99=
+t ship to Lybia. Due to this inconvenient, today the documents have been ret=
+urned to us in Italy.
+> So we  inform you that today we sent you again the documents  by Dhl  AWB N=
+. 6571442533.
+> =20
+> =20
+> Best regards
+> Hirux International S.p.a
+> Lucia Mazzola
+> =20
+> Da: Lucia Mazzola=20
+> Inviato: mercoled=C3=AC 27 aprile 2022 10:07
+> A: Sedig Krer <almotamisa@yahoo.com>
+> Cc: info@almotamaiza.ly; Radwan Khawatmi <r.khawatmi@hirux.com>; Hirux Int=
+ernational <hirux@hirux.com>; Valentina Perini <valentina.perini@hirux.com>;=
+ Pierpaolo Truffelli <pierpaolo.truffelli@hirux.com>
+> Oggetto: ORIGINAL SHIPPING DOCUMENTS OF YOUR ORDER (PI 104) GAS OVENS AND S=
+PARE PARTS 1 X 20 BOX FROM ITALY
+> =20
+> =20
+> Dear Mr. Sedig,
+> =20
+> We inform you that we are sending you  by  express courier  AWB N. 1Z86634=
+V0490769343  the original shipping documents  ( see attached copies)
+> SEE BELOW THE SHIPPING DETAILS
+> =20
+> ETD 23/04
+> VESSEL NAME CHARLOTTA
+> ETA 02/05
+> =20
+> =20
+> Best regards
+> Hirux International S.p.a
+> Lucia Mazzola
+> =20
+> =20
+
+--Apple-Mail-E16F677F-DB0E-41FD-B321-0B99392E24EC
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto"><br><br><div dir=3D"ltr"><div>Sedig Krer</d=
+iv><div style=3D"direction: ltr;"><div style=3D"direction: ltr;"><span style=
+=3D"background-color: rgba(255, 255, 255, 0);">Almotamiza International Comp=
+any</span></div><div style=3D"direction: ltr;">G M</div></div><div>Mobile #&=
+nbsp;<span style=3D"background-color: rgba(255, 255, 255, 0);">+218913139615=
+</span></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; +<=
+span style=3D"font-size: 13pt;">218918884889&nbsp;</span></div><div><span st=
+yle=3D"font-size: 13pt;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp;</span></div><div>Tripoli - Libya</div>Sent from my iPhone<div><div><br>=
+</div></div></div><div dir=3D"ltr"><br>Begin forwarded message:<br><br></div=
+><blockquote type=3D"cite"><div dir=3D"ltr"><b>From:</b> Lucia Mazzola &lt;l=
+ucia.mazzola@hirux.com&gt;<br><b>Date:</b> 2 May 2022 at 4:47:25 PM GMT+2<br=
+><b>To:</b> Sedig Krer &lt;almotamisa@yahoo.com&gt;<br><b>Cc:</b> info@almot=
+amaiza.ly, Radwan Khawatmi &lt;r.khawatmi@hirux.com&gt;, Hirux International=
+ &lt;hirux@hirux.com&gt;, Valentina Perini &lt;valentina.perini@hirux.com&gt=
+;, Pierpaolo Truffelli &lt;pierpaolo.truffelli@hirux.com&gt;<br><b>Subject:<=
+/b> <b>R: ORIGINAL SHIPPING DOCUMENTS OF YOUR ORDER&nbsp; (PI 104)&nbsp; GAS=
+ OVENS AND SPARE PARTS 1 X 20 BOX&nbsp; FROM ITALY</b><br><br></div></blockq=
+uote><blockquote type=3D"cite"><div dir=3D"ltr">=EF=BB=BF
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.StileMessaggioDiPostaElettronica20
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 2.0cm 2.0cm 2.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+
+
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><span lang=3D"EN-US">Dear Mr. Sedig<o:p></o:p></span>=
+</p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US">Regarding the shipping&nbsp; doc=
+uments , we inform you that the courier made a mistake , &nbsp;they shipped t=
+he documents by Ups when Ups actually doesn=E2=80=99t ship to Lybia. Due to t=
+his inconvenient, today the documents have been returned
+ to us in Italy.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US">So we&nbsp; inform you that toda=
+y we sent you again the documents&nbsp; by Dhl&nbsp; AWB N. 6571442533.
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US">Best regards<o:p></o:p></span></=
+p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US">Hirux International S.p.a<o:p></=
+o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"mso-fareast-language:EN=
+-US">Lucia Mazzola
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"mso-fareast-language:EN=
+-US"><o:p>&nbsp;</o:p></span></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm 0=
+cm 0cm">
+<p class=3D"MsoNormal"><b><span lang=3D"EN-US">Da:</span></b><span lang=3D"E=
+N-US"> Lucia Mazzola
+<br>
+<b>Inviato:</b> mercoled=C3=AC 27 aprile 2022 10:07<br>
+<b>A:</b> Sedig Krer &lt;almotamisa@yahoo.com&gt;<br>
+<b>Cc:</b> info@almotamaiza.ly; Radwan Khawatmi &lt;r.khawatmi@hirux.com&gt;=
+; Hirux International &lt;hirux@hirux.com&gt;; Valentina Perini &lt;valentin=
+a.perini@hirux.com&gt;; Pierpaolo Truffelli &lt;pierpaolo.truffelli@hirux.co=
+m&gt;<br>
+<b>Oggetto:</b> ORIGINAL SHIPPING DOCUMENTS OF YOUR ORDER (PI 104) GAS OVENS=
+ AND SPARE PARTS 1 X 20 BOX FROM ITALY
+<o:p></o:p></span></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"mso-fareast-language:EN=
+-US">Dear Mr. Sedig,<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"mso-fareast-language:EN=
+-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"mso-fareast-language:EN=
+-US">We inform you that we are sending&nbsp;you &nbsp;by &nbsp;express couri=
+er &nbsp;AWB N. 1Z86634V0490769343 &nbsp;the original shipping documents &nb=
+sp;( see attached copies)
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"mso-fareast-language:EN=
+-US">SEE BELOW THE SHIPPING DETAILS
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"mso-fareast-language:EN=
+-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"mso-fareast-language:EN=
+-US">ETD 23/04<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"mso-fareast-language:EN=
+-US">VESSEL NAME CHARLOTTA
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"mso-fareast-language:EN=
+-US">ETA 02/05<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"mso-fareast-language:EN=
+-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"mso-fareast-language:EN=
+-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"mso-fareast-language:EN=
+-US">Best regards<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"mso-fareast-language:EN=
+-US">Hirux International S.p.a<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"mso-fareast-language:EN-US">Lucia Mazz=
+ola<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"mso-fareast-language:EN-US"><o:p>&nbsp=
+;</o:p></span></p>
+<div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</div>
+
+
+</div></blockquote></body></html>=
+
+--Apple-Mail-E16F677F-DB0E-41FD-B321-0B99392E24EC--

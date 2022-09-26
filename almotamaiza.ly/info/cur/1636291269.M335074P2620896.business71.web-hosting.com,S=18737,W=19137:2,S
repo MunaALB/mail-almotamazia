@@ -1,0 +1,400 @@
+Return-Path: <almotamisa@yahoo.com>
+Delivered-To: info@almotamaiza.ly
+Received: from business71.web-hosting.com
+	by business71.web-hosting.com with LMTP
+	id qP5ZE8XSh2Hg/ScAQZTD9Q
+	(envelope-from <almotamisa@yahoo.com>)
+	for <info@almotamaiza.ly>; Sun, 07 Nov 2021 08:21:09 -0500
+Return-path: <almotamisa@yahoo.com>
+Envelope-to: info@almotamaiza.ly
+Delivery-date: Sun, 07 Nov 2021 08:21:09 -0500
+Received: from sonic313-56.consmr.mail.ne1.yahoo.com ([66.163.185.31]:42580)
+	by business71.web-hosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.94.2)
+	(envelope-from <almotamisa@yahoo.com>)
+	id 1mji6X-00B41E-8s
+	for info@almotamaiza.ly; Sun, 07 Nov 2021 08:21:09 -0500
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1636291219; bh=nYJh3wnBVxWtUZ2gYjaaJVwNGJBlUe0eqnM3+i2VX8Q=; h=Subject:From:In-Reply-To:Date:Cc:References:To:From:Subject:Reply-To; b=ijkTnqrosVB08SALWVhXO/a0YSHVuRQjVJ05BS7Immka6Nt+UqZyom22+OSMCw+ovviY9gh2SdcInp/CwH+p0G79QkflzCUwPDCHmwZExsr9DnjUzcOS8eL7d8rPpkhJX2dCtINM7fKkIITmwffCHykt6Km3FuiKSo3czKBJ/BI+E0+FmEVi1A6f1vge2l2xDjBTlaa9W2XxI/BXS9H0jxW4DsinQrQPtMZD3mcI+NxQ4hP8IekmB61np0s9bK/aEpWtXei6u/uMVpp/7z0BVERwY9raQvAuDaNKh2K7hHH6V/uUkGIPJ7I3gk/fIT7wvQGK+jA8ZAEAmr4XNUO0SA==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1636291219; bh=43NuM1HvxDxhwlGTOffdPpWyG8mT84Fh7+yH7gOG2b1=; h=X-Sonic-MF:Subject:From:Date:To:From:Subject; b=kvVdQaJLU0LKAsS351P3iZwq1KldzcvCe7XAKwHhHdpXW/ejmeQljIUFoyWPX16A7D7qd4eLnlg6j8UNqHXVdBTZo5dCLrMttVpnDxY5MJ4op8Nx1uIAwFu293fkzfDd8JBd3yuoldJhd9JE5qd/Uc5+X1VCWBvt4K3TRg38yhj6GU90GYGQuUfcbbTdWO2pucjJcIi+BSs4nReVV9CsjF7/4btw5kIMticupjyxAkfMHXoAEzMc39/D1VlTKigPUIGvXChC1s/DN1kkPuDu+tlcOLAN30IIXTibhk6DP15VylMJWsN8dFnKpkq1ME8p+hxTrRDm4KJlHJtwg7fCSw==
+X-YMail-OSG: vHmKpxsVM1lsEeKumEmL0kYlQQDpy0PdWc1EbzoseIupiBDugtpOz1oqXm20I97
+ 60u.i.EEy81.F9Ro.iKYXdMcaXMXi.OGkaNbw.Uq9oM5N81p7PJLTJClhEpj1X9ZSa7DXFrl3DHV
+ zsg_Ymxy6fUDUnDjJiVaf.PPV9FyRFSRiBvd9a3omgRn1e1.PjLt8wYGneZWfoExSLnQutDUnK7q
+ UA_GZu6ClVXmrwHXD_negwH1jCmFSuNhp7RAbNvNkZvx8yajcnbqO9Bjf56eRKKvc18F3JFWnrKo
+ KQJveamPwOycXfVO4n9c4VxijDIctZOcw4O.3c_YBv4BiUjnPpOx89ZWM3t1Gc1DThpJGapZXz_b
+ rlaE0JFEtQyEx4RFdxtFhOPEqXxI1yEzrMn9dywzB97a8xEpDlhuOmr.w2wLDy1VLYEEUl7mfTss
+ Kd.7dFHfj_wQuHRpIEXeoOlsgKh2rAA.QAULRvmCp0tp45W.xjJqebzIVFo1nGPh8D8UghPxI4Zc
+ jaGOlY9UoXPAlkZvGDX5U2A6ZgYsI7TM6tqsobooWzn50r7J7vBsAywNhShNJqeMhWb3i.yljf4y
+ _Y43HsJw.OlzfZY_pHvHITDHm.HjrGvISDKaf5JboCCZvdScc5AXoS0mtmmYKfMT5IY5s93fBXye
+ K0xzAk1karZ6Rbjbs1t912Yo2TM8CPM89byhsc4RBlgydaUIRZO5C2dd4pYFolWhkq1Dx50ySuGR
+ 40lAtO9IEqjFNRZCxjLb4NpgLQXISzDKD9btF2mlYLr4U.vLzqXAdCYKUd65m9BxSot8wtQCu8qA
+ si.4Ycq97suRDRjKurK7ylP.SokLrbidxRB6drZm.ngL4Y4Swkvwf_IT1YOrRg0LxD9ZEFvWV0ks
+ ENu4zN8nVE5sADEbSP9AbWoSh513kLKA8ODUC6ep1ULYjqx8GqS1TeV4JEZnOAGJz_RzfTZGdMS2
+ NoDge_OVTzODg8NYAXyP.UFGgsr7GtMOuZ.LbiNBUBRsqZi0LgIIwH386kYwLNAmaVuuSQAYTj5M
+ ipG3Wlil.74N.nevby2jbk16wRd5yqyjto4HC_5e.b9p0lLEF5afUZZM3NmyU1Ftt63FmdUZ_UC2
+ mZ_s0SK0B722zsgAVDy8Sw5qYpB7Lmdmz_0hIOqDQMSJd35tDCMvqCEe3pdOKyywd.BZrODfv_23
+ 6niJmBst8LrVn2JEAdsgXbuAh6_DS9fEbVT57_MbH9XJuSa2.xAIw_5BvEo5EME9pr58Jg2y2vap
+ aPTaQI9eu6L74dJahLR7CXGK0NetHn2jl3GoBxu8WZdGtd8T.TJQFbq0FNUsOhpCSoLQDz.nNinA
+ .gkHYkKPscO254wgPrC52xROHoFQ6NEjRMoc5G.sLS1CLNxHdYq5D8Ky0EZv3KrAcb09cusSB2Jf
+ amuT0GD8w2zunpIvkK5YHrPbembDhhEXqv2hL0Y5qrF7StTJa1vahSu2uYA1iFXCpjCD4Fl7ab66
+ BXyOjtEYwXM37tmk9xy1W9acf_q4vR4I.3qWyIZjkAjE58goi6g6Q_suWoWV7ki6Bkb86kRMOUbJ
+ prFVoaRzYoqY9w139V6gF4VbTPky672enfou5.I31Co89FHcATt2XHinfKoY69N8UOKs8QFtmPOw
+ WpG0ZHhT2I1jDlefViZckqc6hqI9ZnYm2sKIXerhE9CKTfJpHpypLWIwRsKtAdxd0VMfb3Bj7.KS
+ p7EqwRGvQBGVLWMbnQta4sD7riL62.do9xbWP6CvStNWAA1mePSmO9f4b4.rAj5pZrYKqxPktFCt
+ g33ev3Ck2IPWj7E_NKIvxhE5QmWW9H8ktNGJJ.TYT2ecgOkBkMkRQjN0JNFPMMPEy1JQMVXM1hQj
+ mBd0jfm37O0iUwRDO.MnJGkR0KreZI_qBtHaXttC9lSy3nOAYm349ddbEo2KjmC3DyGCYeT19HnV
+ J8qwIzHOKWY10a9R6YWcXNoZ4WKGtsvJHIp0cN8wzSa4Tm2p3y49N0ecrdhiReR8hPpMdutcstUx
+ V1Q6AkR3rCzv8F7qfCeqOoMwqlg3U_OL.yHRAr0Z2mrwSP6n1fyaC1nmxufUH7xjYkh8Obxs7sTh
+ BclN4.TABGb0gahNMFjzcDc0ynlb4TJ.ksFAL.S2db0J8fPVWLLR2c05RHMLD_1m2WuPWZubSsLX
+ J9d5tIcbiDAkB9CfNv1zqGcCdq3sLd0.EO.Ypv5huI0ZYysL15OCgas3hlvxjyY5r3l0eGEdycFk
+ _x6vmEp4aFaaUW6Ky6Th.Q0EPGK30KC_ixT1qZp5y0JRgNQ--
+X-Sonic-MF: <almotamisa@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic313.consmr.mail.ne1.yahoo.com with HTTP; Sun, 7 Nov 2021 13:20:19 +0000
+Received: by kubenode506.mail-prod1.omega.ir2.yahoo.com (VZM Hermes SMTP Server) with ESMTPA ID aa507e3dbd478d27048044925f9f810a;
+          Sun, 07 Nov 2021 13:20:15 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=Apple-Mail-8D42CC16-3992-4B2E-8015-613CE90E9BDA
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (1.0)
+Subject: Re: @1890 Gas cookers proposal
+From: Sedig Krer <almotamisa@yahoo.com>
+In-Reply-To: <AM0PR04MB4580A77AB87253C72DD1F8628E8E9@AM0PR04MB4580.eurprd04.prod.outlook.com>
+Date: Sun, 7 Nov 2021 15:20:12 +0200
+Cc: Alessandro Khawatmi <a.khawatmi@hirux.com>,
+ Pierpaolo Truffelli <pierpaolo.truffelli@hirux.com>,
+ Radwan Khawatmi <r.khawatmi@hirux.com>
+Message-Id: <62843357-EABB-4038-AEA3-6542B738FA90@yahoo.com>
+References: <AM0PR04MB4580A77AB87253C72DD1F8628E8E9@AM0PR04MB4580.eurprd04.prod.outlook.com>
+To: Valentina Perini <valentina.perini@hirux.com>
+X-Mailer: iPhone Mail (18H17)
+Content-Length: 11806
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "business71.web-hosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Daer Valentina Good evening We would like to thank you for
+    your concern and care for THOMSON Libya branch And given the stagnation that
+    the market has been going through for a while, waiting for the results of
+    the D [...] 
+ Content analysis details:   (-0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [almotamisa[at]yahoo.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 MIME_QP_LONG_LINE      RAW: Quoted-printable line longer than 76
+                             chars
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+X-Spam-Flag: NO
+
+
+--Apple-Mail-8D42CC16-3992-4B2E-8015-613CE90E9BDA
+Content-Type: text/plain;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+Daer Valentina
+
+Good evening
+We would like to thank you for your concern and  care for  THOMSON Libya bra=
+nch
+And given the stagnation that the market has been going through for a while,=
+ waiting for the results of the December elections, we are satisfied with th=
+e shipment number PI 65 for the time being.=20
+
+Best Regards...
+
+
+Sedig Krer
+Almotamiza International Company
+G M
+Mobile # +218913139615
+                        =20
+Tripoli - Libya
+Sent from my iPhone
+
+
+> On 05/11/2021, at 1:22 PM, Valentina Perini <valentina.perini@hirux.com> w=
+rote:
+>=20
+> =EF=BB=BF
+> Our.ref@1890/21/RK/vp     =20
+> =20
+> Dear Mr. Sedig
+> =20
+> We would like to share with you the following important results:
+> This year, Thomson activity was excellent and we closed the year 2021 (as w=
+e have already closed the production program of December) with the following=
+ indications:
+> =20
+> For the first time Thomson built in products became Nr. 1 in all GCC area (=
+Saudi Arabia, Kuwait, UAE) and we are over the Group Electrolux.
+> In Egypt we made very important progress, and we are the second Group for b=
+uilt in European products.
+> The good news is coming from the free standing gas cookers 90x60 made in I=
+taly, where we consolidated our market share and we are nr. 1 in all GCC are=
+a in terms of quality, design, and nr. 2 in terms of market share.
+> We take this opportunity to send you a simple proposal for 1x40HC of gas c=
+ookers 90x60, just to test the market, where we are sure that you will take a=
+ very important market share in Libya.
+> This proposal of 1x40HC will be 50% entry level model T95BBGSB/FS, and 50%=
+ from model T95BPGGS/FS (model with cooking fan), total quantity for both mo=
+dels 123 pcs (62 pcs entry level and 61 pcs model with fan).
+> =20
+> Please find attached our proforma for the above proposal, along with pictu=
+res and technical specifications of Thomson gas cookers.
+> =20
+> Awaiting your feedback, best regards
+> =20
+> Valentina Perini
+> Hirux International Spa
+> =20
+> =20
+> =20
+> =20
+> <gas cooker 90 CM MADE IN ITALY 05.11.2021.pptx>
+> <doc10621720211105123150.pdf>
+
+--Apple-Mail-8D42CC16-3992-4B2E-8015-613CE90E9BDA
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto"><div style=3D"direction: ltr;"><br></div><d=
+iv>Daer Valentina</div><div><br></div><div>Good evening</div><div>We would l=
+ike to thank you for your concern and &nbsp;care for &nbsp;THOMSON Libya bra=
+nch</div><div>And given the stagnation that the market has been going throug=
+h for a while, waiting for the results of the December elections, we are sat=
+isfied with the shipment number PI 65 for the time being.&nbsp;</div><div><b=
+r></div><div>Best Regards...</div><div><br></div><div><br></div><div dir=3D"=
+ltr"><div>Sedig Krer</div><div style=3D"direction: ltr;"><div style=3D"direc=
+tion: ltr;"><span style=3D"background-color: rgba(255, 255, 255, 0);">Almota=
+miza International Company</span></div><div style=3D"direction: ltr;">G M</d=
+iv></div><div>Mobile #&nbsp;<span style=3D"background-color: rgba(255, 255, 2=
+55, 0);">+218913139615</span></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp;<span style=3D"font-size: 13pt;">&nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp;&nbsp;</span></div><div>Tripoli - Libya</div>Sent from my iPhone<d=
+iv><div><br></div></div></div><div dir=3D"ltr"><br><blockquote type=3D"cite"=
+>On 05/11/2021, at 1:22 PM, Valentina Perini &lt;valentina.perini@hirux.com&=
+gt; wrote:<br><br></blockquote></div><blockquote type=3D"cite"><div dir=3D"l=
+tr">=EF=BB=BF
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii">=
+
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+span.StileMessaggioDiPostaElettronica17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:navy;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none none;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 2.0cm 2.0cm 2.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+/* List Definitions */
+@list l0
+	{mso-list-id:728302970;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1496406046 1340891632 68157443 68157445 6815=
+7441 68157443 68157445 68157441 68157443 68157445;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:-;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-font-family:Calibri;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+
+
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy"><a href=3D"mailto:Our.ref@1890/21/RK/vp">Our.ref@1890/21/RK/vp</a>&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">Dear Mr. Sedig<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">We would like to share with you the following important results:<o:p><=
+/o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">This year, Thomson activity was excellent and we closed the year 2021 (=
+as we have already closed the production program of December) with the follo=
+wing indications:<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy"><o:p>&nbsp;</o:p></span></p>
+<ul style=3D"margin-top:0cm" type=3D"disc">
+<li class=3D"MsoListParagraph" style=3D"color:navy;margin-left:0cm;mso-list:=
+l0 level1 lfo1">
+<span lang=3D"EN-GB" style=3D"font-size:12.0pt">For the first time Thomson b=
+uilt in products became Nr. 1 in all GCC area (Saudi Arabia, Kuwait, UAE) an=
+d we are over the Group Electrolux.<o:p></o:p></span></li><li class=3D"MsoLi=
+stParagraph" style=3D"color:navy;margin-left:0cm;mso-list:l0 level1 lfo1">
+<span lang=3D"EN-GB" style=3D"font-size:12.0pt">In Egypt we made very import=
+ant progress, and we are the second Group for built in European products.<o:=
+p></o:p></span></li><li class=3D"MsoListParagraph" style=3D"color:navy;margi=
+n-left:0cm;mso-list:l0 level1 lfo1">
+<span lang=3D"EN-GB" style=3D"font-size:12.0pt">The good news is coming from=
+ the free standing gas cookers 90x60 made in Italy, where we consolidated ou=
+r market share and we are nr. 1 in all GCC area in terms of quality, design,=
+ and nr. 2 in terms of market share.<o:p></o:p></span></li><li class=3D"MsoL=
+istParagraph" style=3D"color:navy;margin-left:0cm;mso-list:l0 level1 lfo1">
+<span lang=3D"EN-GB" style=3D"font-size:12.0pt">We take this opportunity to s=
+end you a simple proposal for 1x40HC of gas cookers 90x60, just to test the m=
+arket, where we are sure that you will take a very important market share in=
+ Libya.<o:p></o:p></span></li><li class=3D"MsoListParagraph" style=3D"color:=
+navy;margin-left:0cm;mso-list:l0 level1 lfo1">
+<span lang=3D"EN-GB" style=3D"font-size:12.0pt">This proposal of 1x40HC will=
+ be 50% entry level model T95BBGSB/FS, and 50% from model T95BPGGS/FS (model=
+ with cooking fan), total quantity for both models 123 pcs (62 pcs entry lev=
+el and 61 pcs model with fan).<o:p></o:p></span></li></ul>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">Please find attached our proforma for the above proposal, along with p=
+ictures and technical specifications of Thomson gas cookers.<o:p></o:p></spa=
+n></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">Awaiting your feedback, best regards<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">Valentina Perini<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">Hirux International Spa<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy"><o:p>&nbsp;</o:p></span></p>
+</div>
+
+
+<div>&lt;gas cooker 90 CM MADE IN ITALY 05.11.2021.pptx&gt;</div><div>&lt;do=
+c10621720211105123150.pdf&gt;</div></div></blockquote></body></html>=
+
+--Apple-Mail-8D42CC16-3992-4B2E-8015-613CE90E9BDA--

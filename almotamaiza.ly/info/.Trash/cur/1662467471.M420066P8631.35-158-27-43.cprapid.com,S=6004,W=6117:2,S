@@ -1,0 +1,113 @@
+Return-Path: <sedigkrer@gmail.com>
+Received: from 35-158-27-43.cprapid.com
+	by 35-158-27-43.cprapid.com with LMTP
+	id cH3WGI89F2O3IQAALyatdA
+	(envelope-from <sedigkrer@gmail.com>); Tue, 06 Sep 2022 14:31:11 +0200
+Return-path: <sedigkrer@gmail.com>
+Envelope-to: s.krer@almotamaiza.ly,
+ info@almotamaiza.ly
+Delivery-date: Tue, 06 Sep 2022 14:31:11 +0200
+Received: from mail-wr1-f46.google.com ([209.85.221.46]:44914)
+	by 35-158-27-43.cprapid.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.95)
+	(envelope-from <sedigkrer@gmail.com>)
+	id 1oVXjQ-0002Fg-FN;
+	Tue, 06 Sep 2022 14:31:11 +0200
+Received: by mail-wr1-f46.google.com with SMTP id c11so10985937wrp.11;
+        Tue, 06 Sep 2022 05:30:27 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=to:cc:message-id:date:mime-version:content-transfer-encoding:from
+         :from:to:cc:subject:date;
+        bh=VArO6djhpMjstPZdybkFP02p2bSsK7ADcut07YgscIE=;
+        b=ZL7UUYDKWNktCkhR4EfzKkMS+Do5REOW3Hd0pqja1yNkwcFZSfQB91lIKrOB5xxIlM
+         iWGm+d2AJVRw1cnHE9GIuWs+PAxqM4OvVCYgIErN2e/ez4p4raO2facjfv91xYgdN3qF
+         pSpuFNsB6GOdut8CVvFPdXVJNIBn7Rx2+R5HaOlZ3cJ4F8Ycc10YKLRDHECLnV/wP3ov
+         vrDM4d9hIG1BtVq19ED6mMNQyNBx/ZmRFXcQNL2iX4bDXVjZoCiQ9Fd69rlD9YrW1BaD
+         tZTdhXTFYrR7n2xVI93+IFJRf9T4fsIJF1TyE5oeVuUIlWqFw1WPeM0m48CEd8QJFhRP
+         GiUg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=to:cc:message-id:date:mime-version:content-transfer-encoding:from
+         :x-gm-message-state:from:to:cc:subject:date;
+        bh=VArO6djhpMjstPZdybkFP02p2bSsK7ADcut07YgscIE=;
+        b=U8yEJECpnI3xV3d/QXihtIFefKcmU6kVjUnuAm6SDK1yyZi85si2sex+zZavMaqj5/
+         cQd8RnocOtL9og1L2JR9124JHd1fjMBz+yXY1+8ZubkzinQrkUlRBWZtzwkL9/TqWRrH
+         DdIcnbrIVCue4v6hdVa53pi5g5cVZm/Ub3WCLBwJKfW1QTfgXkzbL7Iw6iXF5ciS32X9
+         Vf/fzzWZT0VOT5/0OK7lI82g/X9VkuikAcJgqVqPan9NMHrIzsGIKvPTXY6ysxpOS10P
+         //T3SSc6e1EB88oLJJYpA+hZPOtVkFuXYAnaoiF/R4mCDLR703m3Duh++i5GUEaj6/TD
+         yiBg==
+X-Gm-Message-State: ACgBeo3hrsPZT/FVPhxCFJ6ocbc7sCotqBnHtClBN+zUKxvq1v7mT/eP
+	o0YLyURn5ErocazxQhLh/hJLbugYpk0=
+X-Google-Smtp-Source: AA6agR5EgoycFDd24+5MRR46xIGEqDlvyy4dz47zVan35oyFmTzh8e/IIMJr+sLB7xTmAKH6SueB8w==
+X-Received: by 2002:a5d:588d:0:b0:225:9818:668d with SMTP id n13-20020a5d588d000000b002259818668dmr26060155wrf.100.1662467406360;
+        Tue, 06 Sep 2022 05:30:06 -0700 (PDT)
+Received: from smtpclient.apple ([41.254.65.205])
+        by smtp.gmail.com with ESMTPSA id bh5-20020a05600005c500b0021ee65426a2sm11995023wrb.65.2022.09.06.05.30.05
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Tue, 06 Sep 2022 05:30:05 -0700 (PDT)
+From: Sedig Krer <sedigkrer@gmail.com>
+X-Google-Original-From: Sedig Krer <Sedigkrer@gmail.com>
+Content-Type: multipart/alternative; boundary=Apple-Mail-B0514648-8DB5-4BD8-A9CA-C4EC658A9C4C
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (1.0)
+Date: Tue, 6 Sep 2022 14:30:04 +0200
+Message-Id: <319CDFFB-C20F-4817-9327-E29C9FA3B4DA@gmail.com>
+Cc: s.krer@almotamaiza.ly
+To: info@almotamaiza.ly
+X-Mailer: iPhone Mail (19G82)
+X-Spam-Status: No, score=1.8
+X-Spam-Score: 18
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "35-158-27-43.cprapid.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi Sedig Krer Almotamiza International Company G M Mobile
+   # +218913139615 +218918884889 Tripoli - Libya Sent from my iPhone 
+ Content analysis details:   (1.8 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.2 KAM_BLANKSUBJECT       Message has a blank Subject
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [sedigkrer[at]gmail.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  1.8 MISSING_SUBJECT        Missing Subject: header
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+
+--Apple-Mail-B0514648-8DB5-4BD8-A9CA-C4EC658A9C4C
+Content-Type: text/plain;
+	charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Hi
+
+Sedig Krer
+Almotamiza International Company
+G M
+Mobile # +218913139615
+                +218918884889 
+               
+Tripoli - Libya
+Sent from my iPhone
+
+
+--Apple-Mail-B0514648-8DB5-4BD8-A9CA-C4EC658A9C4C
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html><head><meta http-equiv="content-type" content="text/html; charset=utf-8"></head><body dir="auto">Hi<br><br><div dir="ltr"><div>Sedig Krer</div><div style="direction: ltr;"><div style="direction: ltr;"><span style="background-color: rgba(255, 255, 255, 0);">Almotamiza International Company</span></div><div style="direction: ltr;">G M</div></div><div>Mobile #&nbsp;<span style="background-color: rgba(255, 255, 255, 0);">+218913139615</span></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; +<span style="font-size: 13pt;">218918884889&nbsp;</span></div><div><span style="font-size: 13pt;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></div><div>Tripoli - Libya</div>Sent from my iPhone<div><div><br></div></div></div></body></html>
+--Apple-Mail-B0514648-8DB5-4BD8-A9CA-C4EC658A9C4C--

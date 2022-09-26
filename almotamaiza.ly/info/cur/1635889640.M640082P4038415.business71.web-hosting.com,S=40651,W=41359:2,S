@@ -1,0 +1,708 @@
+Return-Path: <TheReaddleteam-atixdl1tjullijidk1d@cmail20.com>
+Delivered-To: info@almotamaiza.ly
+Received: from business71.web-hosting.com
+	by business71.web-hosting.com with LMTP
+	id QC1tJeixgWEPnz0AQZTD9Q
+	(envelope-from <TheReaddleteam-atixdl1tjullijidk1d@cmail20.com>)
+	for <info@almotamaiza.ly>; Tue, 02 Nov 2021 17:47:20 -0400
+Return-path: <TheReaddleteam-atixdl1tjullijidk1d@cmail20.com>
+Envelope-to: info@almotamaiza.ly
+Delivery-date: Tue, 02 Nov 2021 17:47:20 -0400
+Received: from mx197.a.outbound.createsend.com ([203.55.21.197]:34487)
+	by business71.web-hosting.com with esmtp (Exim 4.94.2)
+	(envelope-from <TheReaddleteam-atixdl1tjullijidk1d@cmail20.com>)
+	id 1mi1ch-00Gy1E-5r
+	for info@almotamaiza.ly; Tue, 02 Nov 2021 17:47:20 -0400
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=cm; d=readdlenews.com;
+ h=Subject:From:To:Reply-To:Date:MIME-Version:Content-Type:List-Unsubscribe:Message-ID; i=team@readdlenews.com;
+ bh=AZlsTF9yWcxm3SIDxDiVBEqcCPE=;
+ b=tqQ9OWz6ScqgGE6p/puxsjnWIROXRhhCduneLRn2vsAJsxfW7apSiGXBy1Cm/Iyas4CKHMslMf7h
+   jpVDDh3qAXgBYsImtGr1juh2++DLTZi8kYOO08t1zbAdp5NQEJblXDWI2dszoVqyzHfaLAzoXlxF
+   Wft5ibF8j9KYjrCp8gI=
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=cs2013; d=cmail2.com;
+ h=Subject:From:To:Reply-To:Date:MIME-Version:Content-Type:List-Unsubscribe:Message-ID;
+ bh=AZlsTF9yWcxm3SIDxDiVBEqcCPE=;
+ b=vWIG5ssS1jXLEiZrA10qRGSKDlZDWv0L2oDi/DgAIn7tSb1yBlvEWSfOP21YjxREjDExycGaraKp
+   HmHnX7D/oF1h9jxOUYQ1quBJibjWwr8JWJLBkrtQh/5QBVaO7bk6yA4o1SgR1NK6IY53aWzDyVcr
+   i16tQ6sEvA6SLScFxrg=
+Subject: =?utf-8?Q?What=e2=80=99s_so_great_about_iOS15=3f?=
+From: "The Readdle team" <team@readdlenews.com> 
+To: "info@almotamaiza.ly" <info@almotamaiza.ly>
+Reply-To: team@readdlenews.com
+Date: Wed, 03 Nov 2021 08:19:01 +1100
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_e39008c7-c729-4d3c-a049-96048bd6d9af_"; charset=utf-8
+X-Mailer: Create Send
+X-Complaints-To: abuse@cmail20.com
+X-Feedback-ID: CA1-d-atixdl:LI1-d-nikyky:CL1-d-jjkikr:createSEND
+List-Unsubscribe: <http://unsub.cmail20.com/t/d-u-atixdl-tjullijidk/>,
+ <mailto:unsubscribe-atixdl2tjullijidk2d-17B9EFC9@cmail20.com?subject=Unsubscribe>
+Message-ID: <cm.0819012541580.atixdl.tjullijidk.d@cmail20.com>
+X-Spam-Status: No, score=0.2
+X-Spam-Score: 2
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "business71.web-hosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Here’s a digest on how you can unlock some cool features
+    of iOS15. ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌
+    ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ [...]
+    
+ Content analysis details:   (0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: readdlenews.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+  0.0 HTML_IMAGE_RATIO_08    BODY: HTML has a low ratio of text to image
+                             area
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 MIME_QP_LONG_LINE      RAW: Quoted-printable line longer than 76
+                             chars
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+X-Spam-Flag: NO
+
+--_e39008c7-c729-4d3c-a049-96048bd6d9af_
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Here=E2=80=99s a digest on how you can unlock some cool features of iOS15=
+=2E   =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C=
+ =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=
+=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=
+=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C=
+ =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=
+=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=
+=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C=
+ =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=
+=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=
+=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C=
+ =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C=E2=80=8C =E2=80=8C =E2=
+=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=
+=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C=
+ =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=
+=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=
+=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C=E2=80=8C =E2=80=8C =
+=E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=
+=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=
+=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C=
+ =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=
+=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C
+
+Explore the best things about iOS15
+
+Have you updated your iPhone and iPad to iOS15 yet? We did. And we=E2=80=99=
+ve already had time to enjoy all the niceties of XL widgets, Quick Note, =
+and Focus mode. Just can=E2=80=99t wait to tell you more.
+
+How to be in the moment with Focus
+
+For many users, the usual Do Not Disturb and On Airplane modes have been =
+a good option for peace of mind. However, toggling them ON could cause yo=
+u to miss important information. Luckily, the Focus mode works in a diffe=
+rent way. That is, you choose which calls and notifications should be all=
+owed. How cool is that?
+
+Learn more  [https://readdle.com/blog/how-to-focus-mode-ios?utm_source=3D=
+Newsletter&utm_medium=3Demail&utm_campaign=3Dnewsletter-ios15]
+
+How to use Quick Note on iPad
+
+Have you ever read an interesting newsletter, let=E2=80=99s say in Spark,=
+ and come across a =E2=80=9CWooow, how insightful is that=E2=80=9D piece =
+of information that you want to save on the spot? Well...now you can! Ope=
+n instantly a Quick Note, scribble things you want, and just add a link t=
+o that specific email in Spark =E2=80=94 So easy! The best thing about Qu=
+ick Note is that it works across all your apps.
+
+Get more details  [https://readdle.com/blog/how-to-quick-note-ipad?utm_s=
+ource=3DNewsletter&utm_medium=3Demail&utm_campaign=3Dnewsletter-ios15]
+
+How to add larger widgets on your iPad
+
+Today your screen is your personal workspace. So don=E2=80=99t turn it in=
+to a mess of folders with strange names. A chaotic Home Screen is like a =
+sports car without fuel, only worse. It might kill your productivity. We=E2=
+=80=99ve created a simple guide that explains how to add widgets right ne=
+xt to your favorite apps.
+
+Here is it  [https://readdle.com/blog/how-to-larger-widgets-ipad?utm_sou=
+rce=3DNewsletter&utm_medium=3Demail&utm_campaign=3Dnewsletter-ios15]
+
+Remember you can talk to us on  Twitter [https://twitter.com/Readdle]?
+
+We=E2=80=99re always happy to chat with you :)
+
+Created with =E2=9D=A4=EF=B8=8F,
+
+The Readdle Team
+
+Need some help? Mail to  [rdsupport@readdle.com].
+
+If you don't want to receive this type of emails anymore, you can  unsubs=
+cribe https://readdle.cmail20.com/t/d-u-atixdl-tjullijidk-r/. =C2=
+=A9 2021 Readdle Inc. 795 Folsom str., San Francisco, CA 94107
+
+--_e39008c7-c729-4d3c-a049-96048bd6d9af_
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://ww=
+w.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang=3D"en" xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:s=
+chemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:off=
+ice">
+<head>
+  <title>Digest iOS15 en</title>
+  <meta content=3D"width=3Ddevice-width; initial-scale=3D1.0;" name=3D"vi=
+ewport" />
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <!--[if mso]>
+    <style type=3D"text/css">
+    p {font-family: sans-serif !important !important;}
+    </style>
+<![endif]-->
+<style type=3D"text/css">
+     =20
+    @media (prefers-color-scheme: dark) {
+        body { background: #191c23 !important; color: #fff !important; }
+        .layout { background: #191c23 !important; }
+        .main { background: #191c23 !important; }
+        .inner-block { background: #242833 !important; }
+        p { color: #ebebeb !important; }
+        #logo-readdle { content: url(http://i1.cmail20.com/ei/d/A1/9DD/3C=
+2/010658/csimport/f6267be738cb4ef9be8121dfe9071647_0.png) !important; }
+    }=20
+      @media only screen and (min-device-width : 320px) and (max-device-w=
+idth : 480px) {
+        u + #body { width: 100vw !important; }
+        #body { background: #ffffff; }=20
+        .gmailfix { display:none; display:none!important; }
+        .inner { padding-left: 30px !important; padding-right: 30px !impo=
+rtant; }
+        .logo { padding-left: 30px !important; padding-right: 30px !impor=
+tant; }
+        #logo-spark { width: 70% !important; padding: 20px 0 16px !import=
+ant; }
+        .title { font-size: 26px !important; line-height: 1.3 !important;=
+ }
+        .subtitle { font-size: 16px !important; line-height: 26px !import=
+ant; padding: 8px 0 0 !important; }
+        .button-text { width: 82% !important; }
+        .btn { padding: 24px 0 36px !important; }
+        .wrapper { padding: 0 !important; width: 100% !important; }
+        .block-image { width: 100% !important; }
+        .content-block { width: 100% !important; }
+        .content-text { font-size: 16px !important; line-height: 26px !im=
+portant; }
+        .content-link { font-size: 16px !important; line-height: 26px !im=
+portant; }
+        .content-image { width: 100% !important; }
+        .sign { padding: 0 30px !important;  }
+        .footer { padding: 0 20px 0 !important; }
+        .footer-text { padding: 0 30px 36px !important; }
+    }
+    @media only screen and (min-device-width : 320px) and (max-device-wid=
+th : 568px) and (device-aspect-ratio: 40/71) {
+        .wrapper { padding: 0 !important; }
+    }
+    @media only screen and (min-device-width : 374px) and (max-device-wid=
+th : 376px) {
+       =20
+    }
+    @media only screen and (min-device-width : 413px) and (max-device-wid=
+th : 415px) {
+       =20
+    }
+    @media only screen and (min-device-width : 768px) and (max-device-wid=
+th : 1024px) {
+    }
+</style>
+<!--[if gte mso 9]>
+<xml>
+  <o:OfficeDocumentSettings>
+    <o:AllowPNG/>
+    <o:PixelsPerInch>96</o:PixelsPerInch>
+ </o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+</head>
+<body id=3D"body" bgcolor=3D"#ffffff" style=3D"mso-line-height-rule:exact=
+ly;font-family:'HelveticaNeue', 'Helvetica Neue', 'TeXGyreHerosRegular', =
+Helvetica, Tahoma, Geneva, Arial, sans-serif;margin-top:0;margin-bottom:0=
+;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-righ=
+t:0;padding-left:0;font-size:18px;font-weight:400;font-stretch:normal;col=
+or:#3d4751;background-color:#ffffff;background-image:none;background-repe=
+at:repeat;background-position:top left;background-attachment:scroll;text-=
+rendering:optimizeLegibility;" >
+<div style=3D"display:none;max-height:0px;overflow:hidden;" >
+    Here=E2=80=99s a digest on how you can unlock some cool features of i=
+OS15.
+</div>
+<div style=3D"display:none;max-height:0px;overflow:hidden;" >
+=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=
+=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=
+=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C
+</div>
+    <table class=3D"layout" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0" align=3D"center" bgcolor=3D"#ffffff">
+        <tr>
+            <td>
+                <table class=3D"wrapper" width=3D"640" border=3D"0" cells=
+pacing=3D"0" cellpadding=3D"0" align=3D"center" style=3D"width:640px;max-=
+width:640px;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:au=
+to;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;text-ali=
+gn:center;" >
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class=3D"gmailfix" style=3D"white-sp=
+ace:nowrap;font-style:normal;font-variant:normal;font-weight:normal;font-=
+size:15px;font-family:courier;line-height:0;" >
+                                    =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0=20
+                                    =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0=20
+                                    =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 =20
+                                </div>
+                                <table class=3D"content-block" width=3D"6=
+00" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"center" sty=
+le=3D"margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-t=
+op:0;padding-bottom:0;padding-right:20px;padding-left:20px;text-align:cen=
+ter;color:#3d4751;" >
+                                    <tbody>
+                                        <tr>                             =
+   =20
+                                            <td align=3D"center">
+                                                <table width=3D"100%" bor=
+der=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"padding-top:0;padd=
+ing-bottom:0;padding-right:0;padding-left:0;" >
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class=3D"=
+logo" align=3D"left" style=3D"padding-top:40px;padding-bottom:40px;paddin=
+g-right:40px;padding-left:40px;" >
+                                                                <img id=3D=
+"logo-readdle" alt=3D"Readdle" width=3D"90"  src=3D"http://i2.cmail20.com=
+/ei/d/A1/9DD/3C2/010658/csimport/575e858a69fe4d3eaa01349a5e35869a_1.png" =
+border=3D"0" style=3D"display:block;height:auto;margin-top:0;margin-botto=
+m:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-r=
+ight:0;padding-left:0;color:#0d0d0d;font-size:24px;font-weight:bold;text-=
+align:right;" />
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>=20
+                                            </td>
+                                        </tr>=20
+                                        <tr>
+                                            <td>
+                                                <table class=3D"content-b=
+lock main" width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+ bgcolor=3D"#FFFFFF">
+                                                    <tr>                 =
+              =20
+                                                        <td class=3D"inne=
+r" align=3D"center" style=3D"padding-top:0;padding-bottom:40px;padding-ri=
+ght:40px;padding-left:40px;" >
+                                                            <p class=3D"t=
+itle" style=3D"margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;=
+padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;color:#2222=
+22;font-size:40px;font-weight:600;line-height:48px;text-align:left;" >
+                                                            Explore the b=
+est things about iOS15   </p>
+                                                            <!--[if mso]=
+><table class=3D"spacing" width=3D"100%" border=3D"0" cellspacing=3D"0" c=
+ellpadding=3D"0" align=3D"center" style=3D"margin-top:0;margin-bottom:0;m=
+argin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:=
+0;padding-left:0;text-align:center;font-size:8px;line-height:16px;" ><tr>=
+<td>=C2=A0</td></tr></table><![endif]-->
+                                                            <p class=3D"s=
+ubtitle" style=3D"margin-top:0;margin-bottom:0;margin-right:0;margin-left=
+:0;padding-top:16px;padding-bottom:0;padding-right:0;padding-left:0;color=
+:#696969;font-size:20px;line-height:28px;text-align:left;" >
+                                                            Have you upda=
+ted your iPhone and iPad to iOS15 yet? We did. And we=E2=80=99ve already =
+had time to enjoy all the niceties of XL widgets, Quick Note, and Focus m=
+ode. Just can=E2=80=99t wait to tell you more.</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <table border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"margin-top:0;margin-b=
+ottom:24px;margin-right:0;margin-left:0;" >
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <=
+td align=3D"center" bgcolor=3D"#F7F7F7" class=3D"inner inner-block" style=
+=3D"padding-top:40px;padding-bottom:40px;padding-right:40px;padding-left:=
+40px;background-color:#F7F7F7;border-radius:14px;" >
+                                                                       =20=
+
+                                                                         =
+   <img class=3D"content-image" alt=3D"" width=3D"520" height=3D"auto"  s=
+rc=3D"http://i3.cmail20.com/ei/d/A1/9DD/3C2/010658/csimport/bc69c2f087de4=
+ab9a33e52b93d7bdc27_2.png" border=3D"0" style=3D"display:block;height:aut=
+o;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0=
+;padding-bottom:0;padding-right:0;padding-left:0;border-radius:10px;" />
+                                                                         =
+   <!--[if mso]><table class=3D"spacing" width=3D"100%" border=3D"0" cel=
+lspacing=3D"0" cellpadding=3D"0" align=3D"center" style=3D"margin-top:0;m=
+argin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:=
+0;padding-right:0;padding-left:0;text-align:center;font-size:8px;line-hei=
+ght:32px;" ><tr><td>=C2=A0</td></tr></table><![endif]-->
+                                                                         =
+   <p class=3D"content-title" style=3D"margin-top:0;margin-bottom:0;margi=
+n-right:0;margin-left:0;padding-top:32px;padding-bottom:0;padding-right:0=
+;padding-left:0;color:#222222;font-size:24px;line-height:32px;font-weight=
+:700;text-align:left;" >
+                                                                         =
+   How to be in the moment with Focus  </p>
+                                                                         =
+   <!--[if mso]><table class=3D"spacing" width=3D"100%" border=3D"0" cel=
+lspacing=3D"0" cellpadding=3D"0" align=3D"center" style=3D"margin-top:0;m=
+argin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:=
+0;padding-right:0;padding-left:0;text-align:center;font-size:8px;line-hei=
+ght:8px;" ><tr><td>=C2=A0</td></tr></table><![endif]-->
+                                                                         =
+   <p class=3D"content-text" style=3D"margin-top:0;margin-bottom:0;margin=
+-right:0;margin-left:0;padding-top:8px;padding-bottom:0;padding-right:0;p=
+adding-left:0;color:#696969;font-size:18px;line-height:26px;text-align:le=
+ft;" >
+                                                                         =
+   For many users, the usual Do Not Disturb and On Airplane modes have be=
+en a good option for peace of mind. However, toggling them ON could cause=
+ you to miss important information. Luckily, the Focus mode works in a di=
+fferent way. That is, you choose which calls and notifications should be =
+allowed. How cool is that?   </p>
+                                                                         =
+   <!--[if mso]><table class=3D"spacing" width=3D"100%" border=3D"0" cel=
+lspacing=3D"0" cellpadding=3D"0" align=3D"center" style=3D"margin-top:0;m=
+argin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:=
+0;padding-right:0;padding-left:0;text-align:center;font-size:8px;line-hei=
+ght:8px;" ><tr><td>=C2=A0</td></tr></table><![endif]-->
+                                                                         =
+   <p class=3D"content-link" style=3D"margin-top:0;margin-bottom:0;margin=
+-right:0;margin-left:0;padding-top:8px;padding-bottom:0;padding-right:0;p=
+adding-left:0;color:#2FA5FF;font-size:18px;line-height:26px;text-align:le=
+ft;font-weight:600;" >
+                                                                         =
+   <a  href=3D"https://readdle.cmail20.com/t/d-l-atixdl-=
+tjullijidk-y/" style=3D"text-decoration:none;color:#2FA5FF;" >Learn more <img clas=
+s=3D"icon-arrow" alt=3D"=E2=9F=A9" width=3D"8"  src=3D"http://i4.cmail20.=
+com/ei/d/A1/9DD/3C2/010658/csimport/5af9d307f8164a0c8a8579a69939d738_3.pn=
+g" border=3D"0" style=3D"display:inline-block;height:auto;margin-top:0;ma=
+rgin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:2=
+px;padding-right:2px;padding-left:2px;vertical-align:middle;text-align:le=
+ft;" /></a></p>
+                                                                        <=
+/td>
+                                                                    </tr>=
+
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                   =20
+                                                    <!--[if mso]>
+                                                    <tr><td><table role=3D=
+"presentation" class=3D"spacing" width=3D"100%" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" align=3D"center" style=3D"margin-top:0;margin-botto=
+m:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-r=
+ight:0;padding-left:0;text-align:center;font-size:16px;line-height:24px;"=
+ ><tr><td>=C2=A0</td></tr></table></td></tr>
+                                                    <![endif]-->
+                                                   =20
+                                                    <tr>
+                                                        <td>
+                                                            <table border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"margin-top:0;margin-b=
+ottom:24px;margin-right:0;margin-left:0;" >
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <=
+td align=3D"center" bgcolor=3D"#F7F7F7" class=3D"inner inner-block" style=
+=3D"padding-top:40px;padding-bottom:40px;padding-right:40px;padding-left:=
+40px;background-color:#F7F7F7;border-radius:14px;" >
+                                                                       =20=
+
+                                                                         =
+   <img class=3D"content-image" alt=3D"" width=3D"520" height=3D"auto"  s=
+rc=3D"http://i5.cmail20.com/ei/d/A1/9DD/3C2/010658/csimport/023ae890cf094=
+af6ad3a1c9a14c81245_4.png" border=3D"0" style=3D"display:block;height:aut=
+o;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0=
+;padding-bottom:0;padding-right:0;padding-left:0;border-radius:10px;" />
+                                                                         =
+  =20
+                                                                         =
+   <!--[if mso]><table class=3D"spacing" width=3D"100%" border=3D"0" cel=
+lspacing=3D"0" cellpadding=3D"0" align=3D"center" style=3D"margin-top:0;m=
+argin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:=
+0;padding-right:0;padding-left:0;text-align:center;font-size:8px;line-hei=
+ght:32px;" ><tr><td>=C2=A0</td></tr></table><![endif]-->
+                                                                         =
+   <p class=3D"content-title" style=3D"margin-top:0;margin-bottom:0;margi=
+n-right:0;margin-left:0;padding-top:32px;padding-bottom:0;padding-right:0=
+;padding-left:0;color:#222222;font-size:24px;line-height:32px;font-weight=
+:700;text-align:left;" >
+                                                                         =
+   How to use Quick Note on iPad  </p>
+                                                                         =
+   <!--[if mso]><table class=3D"spacing" width=3D"100%" border=3D"0" cel=
+lspacing=3D"0" cellpadding=3D"0" align=3D"center" style=3D"margin-top:0;m=
+argin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:=
+0;padding-right:0;padding-left:0;text-align:center;font-size:8px;line-hei=
+ght:8px;" ><tr><td>=C2=A0</td></tr></table><![endif]-->
+                                                                         =
+   <p class=3D"content-text" style=3D"margin-top:0;margin-bottom:0;margin=
+-right:0;margin-left:0;padding-top:8px;padding-bottom:0;padding-right:0;p=
+adding-left:0;color:#696969;font-size:18px;line-height:26px;text-align:le=
+ft;" >
+                                                                         =
+   Have you ever read an interesting newsletter, let=E2=80=99s say in Spa=
+rk, and come across a =E2=80=9CWooow, how insightful is that=E2=80=9D pie=
+ce of information that you want to save on the spot? Well...now you can! =
+Open instantly a Quick Note, scribble things you want, and just add a lin=
+k to that specific email in Spark =E2=80=94 So easy! The best thing about=
+ Quick Note is that it works across all your apps.</p>
+                                                                         =
+   <!--[if mso]><table class=3D"spacing" width=3D"100%" border=3D"0" cel=
+lspacing=3D"0" cellpadding=3D"0" align=3D"center" style=3D"margin-top:0;m=
+argin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:=
+0;padding-right:0;padding-left:0;text-align:center;font-size:8px;line-hei=
+ght:8px;" ><tr><td>=C2=A0</td></tr></table><![endif]-->
+                                                                         =
+   <p class=3D"content-link" style=3D"margin-top:0;margin-bottom:0;margin=
+-right:0;margin-left:0;padding-top:8px;padding-bottom:0;padding-right:0;p=
+adding-left:0;color:#2FA5FF;font-size:18px;line-height:26px;text-align:le=
+ft;font-weight:600;" >
+                                                                         =
+   <a  href=3D"https://readdle.cmail20.com/t/d-l-atixdl-=
+tjullijidk-j/" style=3D"text-decoration:none;color:#2FA5FF;" >Get more details <im=
+g class=3D"icon-arrow" alt=3D"=E2=9F=A9" width=3D"8"  src=3D"http://i4.cm=
+ail20.com/ei/d/A1/9DD/3C2/010658/csimport/5af9d307f8164a0c8a8579a69939d73=
+8_3.png" border=3D"0" style=3D"display:inline-block;height:auto;margin-to=
+p:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bo=
+ttom:2px;padding-right:2px;padding-left:2px;vertical-align:middle;text-al=
+ign:left;" /></a></p>
+                                                                        <=
+/td>
+                                                                    </tr>=
+
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    <!--[if mso]>
+                                                    <tr><td><table role=3D=
+"presentation" class=3D"spacing" width=3D"100%" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" align=3D"center" style=3D"margin-top:0;margin-botto=
+m:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-r=
+ight:0;padding-left:0;text-align:center;font-size:16px;line-height:24px;"=
+ ><tr><td>=C2=A0</td></tr></table></td></tr>
+                                                    <![endif]-->
+                                                    <tr>
+                                                        <td>
+                                                            <table border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"margin-top:0;margin-b=
+ottom:40px;margin-right:0;margin-left:0;" >
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <=
+td align=3D"center" bgcolor=3D"#F7F7F7" class=3D"inner inner-block" style=
+=3D"padding-top:40px;padding-bottom:40px;padding-right:40px;padding-left:=
+40px;background-color:#F7F7F7;border-radius:14px;" >
+                                                                       =20=
+
+                                                                         =
+   <img class=3D"content-image" alt=3D"" width=3D"520" height=3D"auto"  s=
+rc=3D"http://i6.cmail20.com/ei/d/A1/9DD/3C2/010658/csimport/e6c5d14cd7344=
+d448b3c79022ed37bd6_5.png" border=3D"0" style=3D"display:block;height:aut=
+o;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0=
+;padding-bottom:0;padding-right:0;padding-left:0;border-radius:10px;" />
+                                                                         =
+  =20
+                                                                         =
+   <!--[if mso]><table class=3D"spacing" width=3D"100%" border=3D"0" cel=
+lspacing=3D"0" cellpadding=3D"0" align=3D"center" style=3D"margin-top:0;m=
+argin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:=
+0;padding-right:0;padding-left:0;text-align:center;font-size:8px;line-hei=
+ght:32px;" ><tr><td>=C2=A0</td></tr></table><![endif]-->
+                                                                         =
+   <p class=3D"content-title" style=3D"margin-top:0;margin-bottom:0;margi=
+n-right:0;margin-left:0;padding-top:32px;padding-bottom:0;padding-right:0=
+;padding-left:0;color:#222222;font-size:24px;line-height:32px;font-weight=
+:700;text-align:left;" >
+                                                                         =
+   How to add larger widgets on your iPad  </p>
+                                                                         =
+   <!--[if mso]><table class=3D"spacing" width=3D"100%" border=3D"0" cel=
+lspacing=3D"0" cellpadding=3D"0" align=3D"center" style=3D"margin-top:0;m=
+argin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:=
+0;padding-right:0;padding-left:0;text-align:center;font-size:8px;line-hei=
+ght:8px;" ><tr><td>=C2=A0</td></tr></table><![endif]-->
+                                                                         =
+   <p class=3D"content-text" style=3D"margin-top:0;margin-bottom:0;margin=
+-right:0;margin-left:0;padding-top:8px;padding-bottom:0;padding-right:0;p=
+adding-left:0;color:#696969;font-size:18px;line-height:26px;text-align:le=
+ft;" >
+                                                                         =
+   Today your screen is your personal workspace. So don=E2=80=99t turn it=
+ into a mess of folders with strange names. A chaotic Home Screen is like=
+ a sports car without fuel, only worse. It might kill your productivity. =
+We=E2=80=99ve created a simple guide that explains how to add widgets rig=
+ht next to your favorite apps.</p>
+                                                                         =
+   <!--[if mso]><table class=3D"spacing" width=3D"100%" border=3D"0" cel=
+lspacing=3D"0" cellpadding=3D"0" align=3D"center" style=3D"margin-top:0;m=
+argin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:=
+0;padding-right:0;padding-left:0;text-align:center;font-size:8px;line-hei=
+ght:8px;" ><tr><td>=C2=A0</td></tr></table><![endif]-->
+                                                                         =
+   <p class=3D"content-link" style=3D"margin-top:0;margin-bottom:0;margin=
+-right:0;margin-left:0;padding-top:8px;padding-bottom:0;padding-right:0;p=
+adding-left:0;color:#2FA5FF;font-size:18px;line-height:26px;text-align:le=
+ft;font-weight:600;" >
+                                                                         =
+   <a  href=3D"https://readdle.cmail20.com/t/d-l-atixdl-=
+tjullijidk-t/" style=3D"text-decoration:none;color:#2FA5FF;" >Here is it <img clas=
+s=3D"icon-arrow" alt=3D"=E2=9F=A9" width=3D"8"  src=3D"http://i4.cmail20.=
+com/ei/d/A1/9DD/3C2/010658/csimport/5af9d307f8164a0c8a8579a69939d738_3.pn=
+g" border=3D"0" style=3D"display:inline-block;height:auto;margin-top:0;ma=
+rgin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:2=
+px;padding-right:2px;padding-left:2px;vertical-align:middle;text-align:le=
+ft;" /></a></p>
+                                                                        <=
+/td>
+                                                                    </tr>=
+
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    <!--[if mso]>
+                                                    <tr><td><table role=3D=
+"presentation" class=3D"spacing" width=3D"100%" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" align=3D"center" style=3D"margin-top:0;margin-botto=
+m:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-r=
+ight:0;padding-left:0;text-align:center;font-size:16px;line-height:40px;"=
+ ><tr><td>=C2=A0</td></tr></table></td></tr>
+                                                    <![endif]-->
+                                                   =20
+                                                    <tr>
+                                                        <td align=3D"cent=
+er" class=3D"sign" style=3D"padding-top:0;padding-bottom:0;padding-right:=
+40px;padding-left:40px;" >
+                                                            <p class=3D"c=
+ontent-text" style=3D"margin-top:0;margin-bottom:0;margin-right:0;margin-=
+left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;colo=
+r:#696969;font-size:18px;line-height:26px;text-align:left;" >
+                                                            Remember you =
+can talk to us on <a  href=3D"https://readdle.cmail20.com/t/d-l-atixdl-=
+tjullijidk-i/" style=3D"text-decoration:none;color:#2FA5FF;" >Twitt=
+er</a>?<br>
+We=E2=80=99re always happy to chat with you&nbsp;:)    </p>
+                                                            <!--[if mso]=
+><table class=3D"spacing" width=3D"100%" border=3D"0" cellspacing=3D"0" c=
+ellpadding=3D"0" align=3D"center" style=3D"margin-top:0;margin-bottom:0;m=
+argin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:=
+0;padding-left:0;text-align:center;font-size:8px;line-height:80px;" ><tr>=
+<td>=C2=A0</td></tr></table><![endif]-->
+                                                            <p class=3D"c=
+ontent-text" style=3D"margin-top:0;margin-bottom:0;margin-right:0;margin-=
+left:0;padding-top:100px;padding-bottom:0;padding-right:0;padding-left:0;=
+color:#696969;font-size:18px;line-height:26px;text-align:left;" >
+                                                            Created with =
+=E2=9D=A4=EF=B8=8F,<br>
+The Readdle Team    </p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style=3D"padding-top:32px=
+;padding-bottom:46px;padding-right:0;padding-left:0;mso-padding-alt:32px =
+85px 46px;" >
+                                                <p class=3D"footer" style=
+=3D"font-size:12px;color:#838B93;line-height:16px;margin-top:0;margin-bot=
+tom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding=
+-right:85px;padding-left:85px;text-align:center;-webkit-text-size-adjust:=
+none;" >
+                                                      Need some help? Mai=
+l to <a  href=3D"mailto:rdsupport@readdle.com" style=3D"text-decoration:n=
+one;color:#2FA5FF;" >rdsupport@readdle.com</a>.<br>
+If you don't want to receive this type of emails anymore, you=C2=A0can=C2=
+=A0<a href=3D"https://readdle.cmail20.com/t/d-u-atixdl-tjullijidk=
+-d/" style=3D"text-decoration:none;color:#2FA5FF;" >unsubscribe</a>. =C2=A9=
+=C2=A02021 Readdle Inc. 795 Folsom str., San=C2=A0Francisco, CA 94107    =
+                                        </p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+<img src=3D"https://readdle.cmail20.com/t/d-o-atixdl-tjullijidk/o=
+=2Egif"  width=3D"1" height=3D"1" border=3D"0" alt=3D"" style=3D"visibility=
+:hidden !important;display:block !important;height:1px !important;width:1=
+px !important;border-width:0 !important;margin-top:0 !important;margin-bo=
+ttom:0 !important;margin-right:0 !important;margin-left:0 !important;padd=
+ing-top:0 !important;padding-bottom:0 !important;padding-right:0 !importa=
+nt;padding-left:0 !important;" /></body>
+</html>=
+
+
+
+
+--_e39008c7-c729-4d3c-a049-96048bd6d9af_--

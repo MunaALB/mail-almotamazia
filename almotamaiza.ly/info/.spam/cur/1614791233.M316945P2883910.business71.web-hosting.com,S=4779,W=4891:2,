@@ -1,0 +1,112 @@
+Return-Path: <ty2@a.gfjq.xyz>
+Delivered-To: info+spam@almotamaiza.ly
+Received: from business71.web-hosting.com
+	by business71.web-hosting.com with LMTP
+	id uCIoEUHCP2BGASwAQZTD9Q
+	(envelope-from <ty2@a.gfjq.xyz>)
+	for <info+spam@almotamaiza.ly>; Wed, 03 Mar 2021 12:07:13 -0500
+Return-path: <ty2@a.gfjq.xyz>
+Envelope-to: info@almotamaiza.ly
+Delivery-date: Wed, 03 Mar 2021 12:07:13 -0500
+Received: from [103.45.147.213] (port=63467 helo=a.gfjq.xyz)
+	by business71.web-hosting.com with smtp (Exim 4.93)
+	(envelope-from <ty2@a.gfjq.xyz>)
+	id 1lHUxl-00C8sy-NI
+	for info@almotamaiza.ly; Wed, 03 Mar 2021 12:07:13 -0500
+Received: from 115.193.46.93 (HELO PC-201802190613); Thu, 4 Mar 2021 01:06:24 +0800
+From: =?UTF-8?Q?ailex?= <862508684@qq.com>
+Reply-To: 862508684@qq.com
+To: info@almotamaiza.ly
+Date: Thu, 4 Mar 2021 1:06:15 +0800
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="Mark=_230739394115369697269"
+X-Mailer: Foxmail 7, 2,52,  20[cn]
+Message-ID: <0DC0CDC203040106141992DF125BE@PC-201802190613>
+X-Spam-Status: Yes, score=8.0
+X-Spam-Score: 80
+X-Spam-Bar: ++++++++
+X-Spam-Report: Spam detection software, running on the system "business71.web-hosting.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Dear sir, We are glad to get your information from import&export
+    data that you are on the market of the air fryers.We want to take this opportunity
+    to introduce our company and our pruduct. Our compan [...] 
+ Content analysis details:   (8.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  1.7 DEAR_SOMETHING         BODY: Contains 'Dear (something)'
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: cnouran.com]
+  0.2 FREEMAIL_REPLYTO_END_DIGIT Reply-To freemail username ends in
+                             digit
+                             [862508684[at]qq.com]
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [862508684[at]qq.com]
+  0.0 UNPARSEABLE_RELAY      Informational: message has unparseable relay
+                             lines
+  0.5 FROM_SUSPICIOUS_NTLD   From abused NTLD
+  0.0 FROM_SUSPICIOUS_NTLD_FP From abused NTLD
+  0.2 FREEMAIL_FORGED_FROMDOMAIN 2nd level domains in From and
+                             EnvelopeFrom freemail headers are
+                             different
+  2.0 RDNS_NONE              Delivered to internal network by a host with no rDNS
+  1.0 KAM_LAZY_DOMAIN_SECURITY Sending domain does not have any
+                             anti-forgery methods
+  0.0 SPOOFED_FREEMAIL_NO_RDNS From SPOOFED_FREEMAIL and no rDNS
+  2.0 SPOOFED_FREEMAIL       No description available.
+X-Spam-Flag: YES
+Subject:  ***SPAM***  =?UTF-8?Q?New_Supplier_of_Air_Fryers_In_China?=
+
+This is a multi-part message in MIME format.
+
+--Mark=_230739394115369697269
+Content-Type: multipart/related; type="multipart/alternative";
+	boundary="Mark=_230739394115369697433"
+
+
+--Mark=_230739394115369697433
+Content-Type: multipart/alternative; boundary="Mark=_230739394115369697937"
+
+
+--Mark=_230739394115369697937
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear sir,
+      We are glad to get your information from import&export data that =
+you are on the market of the air fryers.We want to take this opportunit=
+y to introduce our company and our pruduct.
+      Our company,Zhejiang Jinhua Suteng Industrial And Trade Co.Ltd,is=
+ one leading factory of small household appliances in China,especially =
+specializing in oil-free air fryers  for many years.We can offer you ai=
+r fryers with superior quality,novel design,beautiful appearcance and e=
+xcellent performance at a competitive price.
+      If any interest,please do not hesitate to contact with me for fur=
+ther information.We are sure your inquiry or requirements will get prom=
+pt attention. 
+      Hope to establish a cooperation relationship with you!
+
+Best Regards,
+
+ailex
+
+
+Hangzhou Lature internet Technology Co., Ltd
+
+E: sales@lature.cn    
+T: +86-150 6812 0343
+www.cnouran.com 
+
+--Mark=_230739394115369697937--
+
+--Mark=_230739394115369697433--
+
+--Mark=_230739394115369697269--

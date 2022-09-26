@@ -1,0 +1,531 @@
+Return-Path: <rita.celeste@smeg.it>
+Delivered-To: info@almotamaiza.ly
+Received: from business71.web-hosting.com
+	by business71.web-hosting.com with LMTP
+	id oAHGEE0y91/32DAAQZTD9Q
+	(envelope-from <rita.celeste@smeg.it>)
+	for <info@almotamaiza.ly>; Thu, 07 Jan 2021 11:09:49 -0500
+Return-path: <rita.celeste@smeg.it>
+Envelope-to: info@almotamaiza.ly
+Delivery-date: Thu, 07 Jan 2021 11:09:49 -0500
+Received: from mail-eopbgr50059.outbound.protection.outlook.com ([40.107.5.59]:54918 helo=EUR03-VE1-obe.outbound.protection.outlook.com)
+	by business71.web-hosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.93)
+	(envelope-from <rita.celeste@smeg.it>)
+	id 1kxXr4-00DTWh-B3
+	for info@almotamaiza.ly; Thu, 07 Jan 2021 11:09:49 -0500
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=SVnuGurwnUfX6J8Vlw+/PvHNq+A+CFkhfz75+J1TGeD73TsZoxXWPFStjbKBoZaqvWyjyqJPlYKIed1JVVwAUo+Do6VJ8xKjx+rJgUJnfJf0spiCpjs6RXpAlcRpknSKUf8XoJfjk6ZrU7nV6M47hKKV8nwTdueCzG6xbp0VvukAz/qYSfjicMN4/5aU1S7g/tFl1xZnJyL1eV2V3b4x7agMxeuoU0cMKQDplJGFVyVRKm5PjDoyjKso2fWsUC86FoarOtK2zsPlqGV5D3mRL6fQFe0nC78C5Rv38aks8+rG6DrKHF0td24f6rHTB162C1nyIAX3S4Coresjj/gQwA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=RrSTqQjA63LMsFKbZI0Vh2t2zreDO8AbalKBD1x9CCo=;
+ b=Q9ux48CEsZwo46dMv3qlSTw222fKqdIEDM2ADQN7+AuPkSZ7Jh2+S1L9D+nXksAANFMbNqEJPt0oDVtRCiP1dBlxt/oIdKVH0Jf0S/T1WhOEmWkrAImZYAOoHIZnrGBEpOgWAXSj1KliaEq8+4rheccAMGEaKy3hE3PsosN4+gqFlRq1MyOTkZS1V/bTVH+LkpqhuNgoeTLFNSO951DonOQHKaxWttFpFS9oIJHIgEa1we0lARByL3siZhgI3JZR2NLvr5qj/T347XEiTb6ub72vt7dmf5B5dWdhY+hmBmof8HkGJMkht/3Z2Gqe/+Js3yBCEFBle0oXXJJJBrgITw==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=smeg.it; dmarc=pass action=none header.from=smeg.it; dkim=pass
+ header.d=smeg.it; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=smeg.it; s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=RrSTqQjA63LMsFKbZI0Vh2t2zreDO8AbalKBD1x9CCo=;
+ b=XCw6t3STLdjunSF8WrIMp6WdCEdGPwmWM74ctLin/HwcVsEWCcp1+/0o8bMWszMejn7D4Kb0hmwbz71WpPRGqcqZhs6g3jMwWCSY7+s1ZfhaYW5n5MwQWJry9PGJf5Gx/MgeswEjDjyw8BYreqiPUyoIrJtGGFClgcRbn1IEUdU=
+Received: from VI1PR02MB3021.eurprd02.prod.outlook.com (2603:10a6:802:20::12)
+ by VI1PR02MB3021.eurprd02.prod.outlook.com (2603:10a6:802:20::12) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3721.20; Thu, 7 Jan
+ 2021 16:08:59 +0000
+Received: from VI1PR02MB3021.eurprd02.prod.outlook.com
+ ([fe80::3d8e:9ee:6085:e271]) by VI1PR02MB3021.eurprd02.prod.outlook.com
+ ([fe80::3d8e:9ee:6085:e271%4]) with mapi id 15.20.3721.024; Thu, 7 Jan 2021
+ 16:08:59 +0000
+From: "Celeste, Rita" <rita.celeste@smeg.it>
+To: "support@digix.ly" <support@digix.ly>
+CC: "info@almotamaiza.ly" <info@almotamaiza.ly>, "lazord@digix.ly"
+	<lazord@digix.ly>, "majdi.fajr@digix.ly" <majdi.fajr@digix.ly>,
+	"almotamisa@yahoo.com" <almotamisa@yahoo.com>, 'Marco Babboni'
+	<freebusiness@mbabboni.com>, "Montanari, Augusto" <Augusto.Montanari@smeg.it>
+Subject: R: Domain | Smeg.ly
+Thread-Topic: Domain | Smeg.ly
+Thread-Index: AQHW32eyYUTRpdCGSkC0A+YoEmXaw6ob1FxAgAA9kfyAACSK4A==
+Importance: high
+X-Priority: 1
+Date: Thu, 7 Jan 2021 16:08:58 +0000
+Message-ID:
+ <VI1PR02MB302191A8173D6BFC226C387B98AF0@VI1PR02MB3021.eurprd02.prod.outlook.com>
+References: <6a5c8ba3-b651-4ff3-8f05-d550d29ff6e3@Spark>
+ <01070176b88bdaf0-e5f3b604-d95e-459b-94fc-dfc6090f8493-000000@eu-central-1.amazonses.com>,<VI1PR02MB30211F68A931B54F79269C2698AF0@VI1PR02MB3021.eurprd02.prod.outlook.com>
+ <DB7PR02MB5308639B26CA5434610DCF08FDAF0@DB7PR02MB5308.eurprd02.prod.outlook.com>
+In-Reply-To:
+ <DB7PR02MB5308639B26CA5434610DCF08FDAF0@DB7PR02MB5308.eurprd02.prod.outlook.com>
+Accept-Language: it-IT, en-US
+Content-Language: it-IT
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator:
+authentication-results: digix.ly; dkim=none (message not signed)
+ header.d=none;digix.ly; dmarc=none action=none header.from=smeg.it;
+x-originating-ip: [193.110.151.6]
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 71f9381b-68a8-4ee0-6b97-08d8b3268abf
+x-ms-traffictypediagnostic: VI1PR02MB3021:
+x-ms-exchange-transport-forked: True
+x-microsoft-antispam-prvs:
+ <VI1PR02MB3021C8FE789BA11D0E004AFB98AF0@VI1PR02MB3021.eurprd02.prod.outlook.com>
+x-ms-oob-tlc-oobclassifiers: OLM:10000;
+x-ms-exchange-senderadcheck: 1
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ qT9q11vHWcnNbgHcA6H2jCphsjd0bjFKrv4itAuf6x2bS4kob6gdMv6vWcmTC/f07aT27UZPU8hYLMR48+/gc//uGRsKRwOQuyV8GY0UZ7IRdVF0q0niFxGiLYQvqOBz9m0PyZXEQwYifrtLY6JoiHZsMCj+XJBzAvOdqatBvvmclye/7gnAA2F6b9FaJwxIDxRhbtaTEPYYq75QINAYde9qZ1zw6dEUDw21Y+jSk3uZUQO739mY3FxETHvU6bClI+5eDUjKctdZ8E+5QoNZVkGraimy8B6xqYV3vnT7sJuF2WsvAiDLPUOnll+HEeFWzYZSWSTH6hnhdxpTSiinFQY9hN2Yn6XgKy6XfjQ3+C4iQDh5QSlx62nvcTlMkm7LA/Kw7evwAlZYzzazzSzvWX0eTGPMey8D9AHATiywS7L5+xiiShfVjU8soxy/hLwwBCOXeubP/R2qa89HB++j/A==
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:VI1PR02MB3021.eurprd02.prod.outlook.com;PTR:;CAT:NONE;SFS:(4636009)(39850400004)(346002)(396003)(376002)(136003)(366004)(5660300002)(107886003)(55016002)(66556008)(71200400001)(9686003)(45080400002)(76116006)(4326008)(186003)(6506007)(33656002)(66446008)(2906002)(8676002)(6916009)(86362001)(26005)(316002)(66616009)(7696005)(66476007)(66946007)(166002)(64756008)(478600001)(83380400001)(54906003)(52536014)(8936002)(99936003);DIR:OUT;SFP:1101;
+x-ms-exchange-antispam-messagedata:
+ =?iso-8859-1?Q?/M/DVYwXWiiF2ztsWpZKibg8NbXQobK9aR9NQi0CxbDKpFVlUhRNH+4z3/?=
+ =?iso-8859-1?Q?v23Y3BRxrlmFmroxXMmIkbnuhQb4WAQvT+O0liivCWbbeE0sxUlznnAY3F?=
+ =?iso-8859-1?Q?WJan2Mjt/aitJV0diTdbKATpHn7tY4gc/LZ2ZekjiYnteHmCJkf2ZGh82m?=
+ =?iso-8859-1?Q?hAleGV1Q/E8awiVJTRgebEZ2RVoXRcsAxyTMMv5kNgPm1M/Hto82Y3Rpt3?=
+ =?iso-8859-1?Q?TcFC5JMUUYePsO5r+WfjTLI3/Q4kgqFEUtjyG6qATlrw2jAiAq3Ep+eWF9?=
+ =?iso-8859-1?Q?bubOCi5//Of1CnwLn/d+X6CG+fxU36Xk5z9Z1qunMlm2DXBawE4pvpqTnX?=
+ =?iso-8859-1?Q?XXTuv6qAv17HgFRJ7T/Q+2N+RCbdNZgyOktAUkGDPSsVgmSa17KxQniRLt?=
+ =?iso-8859-1?Q?bH5ieTphXk1CYY5Dajsu9PUzYWQMuH01OIFBqF+p0JmpHo0kXeZ1TdI78f?=
+ =?iso-8859-1?Q?klJNDA6Oj3b3eNoDngZh0GdFERF6bsXJpzbKeG83zOd+I8R4iqHp6QTVJD?=
+ =?iso-8859-1?Q?2ccH9BPvm+vXzctUJKs/N6FlOLWjECmXp03SyYyGvXbfwL+viEJJgg1gQt?=
+ =?iso-8859-1?Q?60+kSIt6zmgNpbzDmOAZfl2MAbAb+PV7yoRAYjFBRo4ccxJvq26oI4aDLY?=
+ =?iso-8859-1?Q?k/uCPAcMr+eS+76jg2TPRQ0/g3EARWl44I5BMqD+LDXU60PbSOflg8IuqO?=
+ =?iso-8859-1?Q?vNL0Z+zuAR0zXOU7Jz9ldGADJ7ShpovZfdb/13EwqndNfVFLvOjrVM4BoP?=
+ =?iso-8859-1?Q?ZZNUbdcuLaL6xDkqUJ8r+y9cifTALHut+4ZaVQuotpMQwY9SFaddFdKsnp?=
+ =?iso-8859-1?Q?sMr0s13jaVjlMdXBv9bFfB/V4XGQfBDYIUYX0TSIPBGbtOHUxoFWgwutST?=
+ =?iso-8859-1?Q?eAdq+hQOMuKdBWFZhbEW0pXBYC8pytPjYsC40I07lZOJlgIuAzqaA1FNxd?=
+ =?iso-8859-1?Q?zzxrOo36lje8q1R0KT909fxPWQ8MGMif2SZkI35DvOWwUEZQd9hvVFj+Od?=
+ =?iso-8859-1?Q?MohHrGlx2HaIRgSkY=3D?=
+Content-Type: multipart/related;
+	boundary="_004_VI1PR02MB302191A8173D6BFC226C387B98AF0VI1PR02MB3021eurp_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+X-OriginatorOrg: smeg.it
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: VI1PR02MB3021.eurprd02.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 71f9381b-68a8-4ee0-6b97-08d8b3268abf
+X-MS-Exchange-CrossTenant-originalarrivaltime: 07 Jan 2021 16:08:58.9435
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: e701931a-24d3-4b97-9306-85ba2b95f7f0
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: gp7Lj+jggdmZq3FzenZZvklSdrCkgcmBDhFr/5ljxY7BwJ6LbTWV4ANsaRswTID5qQj0lEOK22nLvDgDE1cuDw==
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: VI1PR02MB3021
+X-Spam-Status: No, score=1.5
+X-Spam-Score: 15
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "business71.web-hosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Dear all, Smeg SpA owns the www.smeg.ly<http://www.smeg.ly>
+    domain - as well as all domains that include the word "smeg" - and doesn't
+    allow the access to anyone else for direct management. Therefore, you, as
+    Almotamiza Co's Agency, must activate a hosting service to prepare and leave
+    the distributor's website. You will then have to send us the IP, - that is
+    the reference of this "space" [...] 
+ Content analysis details:   (1.5 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: sophos.com]
+  1.7 DEAR_SOMETHING         BODY: Contains 'Dear (something)'
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+X-Spam-Flag: NO
+
+--_004_VI1PR02MB302191A8173D6BFC226C387B98AF0VI1PR02MB3021eurp_
+Content-Type: multipart/alternative;
+	boundary="_000_VI1PR02MB302191A8173D6BFC226C387B98AF0VI1PR02MB3021eurp_"
+
+--_000_VI1PR02MB302191A8173D6BFC226C387B98AF0VI1PR02MB3021eurp_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Dear all,
+
+Smeg SpA owns the www.smeg.ly<http://www.smeg.ly>  domain - as well as all =
+domains that include the word "smeg" -  and doesn't allow the access to any=
+one else for direct management.
+
+Therefore, you, as Almotamiza Co's Agency, must activate a hosting service =
+to prepare and leave the distributor's website.
+You will then have to send us the IP, - that is the reference of this "spac=
+e" - in order to configure the  smeg.ly domain, making it point to the comm=
+unicated IP.
+In practice, the link sent will be hooked to smeg.ly domain for putting it =
+online.
+I invite you to send us the link in advance to verify the conformity of the=
+ layout of the site in construction with that of smeg.com,  before completi=
+ng it.
+
+As regards the possibility of using email addresses, such as info@smeg.ly<m=
+ailto:info@smeg.ly> , for example, it is necessary to register this email d=
+omain.
+This is the procedure:
+1. DigiX (on behalf of Almotamiza Co)  registers with a mail provider (e.g.=
+ Google for business or Office365)
+2. DigiX passes the supplied text string to Smeg
+3. Smeg configures the string to validate the smeg.ly domain
+4. Smeg then notifies DigiX that the site has been verified so that you can=
+ create all the necessary email addresses
+5. DigiX communicates to Smeg the MX record that is provided by the chosen =
+portal (Google or Office),  so that Smeg can add it to the DNS.
+
+I hope it's all clear. Otherwise, don't hesitate to contact me for any clar=
+ification you may need.
+
+
+Best Regards,
+
+
+
+M.Rita
+
+
+M. Rita Celeste
+Marketing & Communication Export Dept.
+Smeg Spa
+Via Leonardo da Vinci, 4 - 42016 Guastalla (RE) - Italy
+Phone: +39 0522 8211 - Direct +39 0522 821857
+[cid:image001.jpg@01D6E508.B934C270]<https://eu-central-1.protection.sophos=
+.com/?d=3Dsmeg.com&u=3DaHR0cDovL3d3dy5zbWVnLmNvbS8=3D&e=3Dcml0YS5jZWxlc3RlQ=
+HNtZWcuaXQ=3D&h=3Df9cd0880f3d24b36947e41ddfdcb6f2c&t=3DL2JIdG9QWUhkQldEUVNq=
+T0g5bUQrNzJiQTJzcUNaSkxMUnoyeDRGUnY4az0=3D>
+www.smeg.com<https://eu-central-1.protection.sophos.com?d=3Dsmeg.com&u=3DaH=
+R0cDovL3d3dy5zbWVnLmNvbS8=3D&e=3Dcml0YS5jZWxlc3RlQHNtZWcuaXQ=3D&h=3Df9cd088=
+0f3d24b36947e41ddfdcb6f2c&t=3DL2JIdG9QWUhkQldEUVNqT0g5bUQrNzJiQTJzcUNaSkxMU=
+noyeDRGUnY4az0=3D>
+
+
+
+Da: support@digix.ly<mailto:support@digix.ly> <support@digix.ly<mailto:supp=
+ort@digix.ly>>
+Inviato: gioved=EC 31 dicembre 2020 12:26
+A: Celeste, Rita <rita.celeste@smeg.it<mailto:rita.celeste@smeg.it>>
+Oggetto: Domain | Smeg.ly
+
+
+
+Dear Sir/Madam or to whom it may concern.
+Greetings full of cordiality and respect, hope this email finds you well.
+
+Regarding to our previous email, we are writing to reminds you about our re=
+quest to get the access to manage Smeg.ly domain in our server.
+
+We did sent you the record as a DNS Requirements.
+
+Therefore, we kindly asking to know more about the latest updates, please l=
+et us know if there is any other requirements that may be needed.
+
+Looking forward to hearing back from you.
+
+Best Regards,
+DigiX Team.
+
+--
+Messaggio analizzato da Libraesva ESG.
+Segnala come spam.<http://smg-esva01.smeg.it/action/AA10841D4D.A360C/learn-=
+spam>
+Mettilo in blacklist.<http://smg-esva01.smeg.it/action/AA10841D4D.A360C/bla=
+cklist>
+
+--_000_VI1PR02MB302191A8173D6BFC226C387B98AF0VI1PR02MB3021eurp_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Century Gothic";
+	panose-1:2 11 5 2 2 2 2 2 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+p.xmsonormal, li.xmsonormal, div.xmsonormal
+	{mso-style-name:x_msonormal;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 2.0cm 2.0cm 2.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"IT" link=3D"blue" vlink=3D"purple">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:12.0pt;mso-f=
+areast-language:EN-US">Dear all,<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:12.0pt;mso-f=
+areast-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:12.0pt;mso-f=
+areast-language:EN-US">Smeg SpA owns the
+<a href=3D"http://www.smeg.ly">www.smeg.ly</a> &nbsp;domain - as well as al=
+l domains that include the word &quot;smeg&#8221; - &nbsp;and doesn&#8217;t=
+ allow the access to anyone else for direct management.<o:p></o:p></span></=
+p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:12.0pt;mso-f=
+areast-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:12.0pt;mso-f=
+areast-language:EN-US">Therefore, you, as Almotamiza Co&#8217;s Agency, mus=
+t activate a hosting service to prepare and leave the distributor's website=
+.<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-top:6.0pt"><span lang=3D"EN-US" styl=
+e=3D"font-size:12.0pt;mso-fareast-language:EN-US">You will then have to sen=
+d us the IP, - that is the reference of this &#8220;space&#8221; - in order=
+ to configure the &nbsp;smeg.ly domain, making it point to
+ the communicated IP.<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-top:6.0pt"><span lang=3D"EN-US" styl=
+e=3D"font-size:12.0pt;mso-fareast-language:EN-US">In practice, the link sen=
+t will be hooked to smeg.ly domain for putting it online.<o:p></o:p></span>=
+</p>
+<p class=3D"MsoNormal" style=3D"margin-top:6.0pt"><span lang=3D"EN-US" styl=
+e=3D"font-size:12.0pt;mso-fareast-language:EN-US">I invite you to send us t=
+he link in advance to verify the conformity of the layout of the site in co=
+nstruction with that of smeg.com, &nbsp;before
+ completing it.<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-top:6.0pt"><span lang=3D"EN-US" styl=
+e=3D"font-size:12.0pt;mso-fareast-language:EN-US"><o:p>&nbsp;</o:p></span><=
+/p>
+<p class=3D"MsoNormal" style=3D"margin-top:6.0pt"><span lang=3D"EN-US" styl=
+e=3D"font-size:12.0pt;mso-fareast-language:EN-US">As regards the possibilit=
+y of using email addresses, such as
+<a href=3D"mailto:info@smeg.ly">info@smeg.ly</a> , for example, it is neces=
+sary to register this email domain.<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-top:6.0pt"><span lang=3D"EN-US" styl=
+e=3D"font-size:12.0pt;mso-fareast-language:EN-US">This is the procedure:<o:=
+p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:12.0pt;mso-f=
+areast-language:EN-US">1. DigiX (on behalf of Almotamiza Co) &nbsp;register=
+s with a mail provider (e.g. Google for business or Office365)<o:p></o:p></=
+span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:12.0pt;mso-f=
+areast-language:EN-US">2. DigiX passes the supplied text string to Smeg<o:p=
+></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:12.0pt;mso-f=
+areast-language:EN-US">3. Smeg configures the string to validate the smeg.l=
+y domain<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:12.0pt;mso-f=
+areast-language:EN-US">4. Smeg then notifies DigiX that the site has been v=
+erified so that you can create all the necessary email addresses<o:p></o:p>=
+</span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:12.0pt;mso-f=
+areast-language:EN-US">5. DigiX communicates to Smeg the MX record that is =
+provided by the chosen portal (Google or Office), &nbsp;so that Smeg can ad=
+d it to the DNS.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"mso-fareast-language:E=
+N-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"mso-fareast-language:E=
+N-US">I hope it's all clear. Otherwise, don&#8217;t hesitate to contact me =
+for any clarification you may need.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"mso-fareast-language:E=
+N-US"><o:p>&nbsp;</o:p></span></p>
+<div>
+<div>
+<p class=3D"xmsonormal" style=3D"margin-bottom:6.0pt"><span lang=3D"EN-GB" =
+style=3D"font-size:12.0pt">Best Regards,<o:p></o:p></span></p>
+<p class=3D"xmsonormal"><span lang=3D"EN-GB"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"xmsonormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt">M.R=
+ita<o:p></o:p></span></p>
+<p class=3D"xmsonormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt"><o:=
+p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-top:6.0pt"><a name=3D"_Hlk42512839">=
+<b><span lang=3D"EN-US" style=3D"font-size:10.0pt;font-family:&quot;Century=
+ Gothic&quot;,sans-serif;mso-fareast-language:EN-US">M. Rita Celeste
+</span></b></a><span style=3D"mso-bookmark:_Hlk42512839"><b><span lang=3D"E=
+N-US" style=3D"font-size:10.0pt;font-family:&quot;Century Gothic&quot;,sans=
+-serif;mso-fareast-language:EN-US"><o:p></o:p></span></b></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:6.0pt"><span style=3D"mso-boo=
+kmark:_Hlk42512839"><span lang=3D"EN-GB" style=3D"font-size:10.0pt;font-fam=
+ily:&quot;Century Gothic&quot;,sans-serif;mso-fareast-language:EN-US">Marke=
+ting &amp; Communication Export Dept.
+<o:p></o:p></span></span></p>
+<p class=3D"MsoNormal"><span style=3D"mso-bookmark:_Hlk42512839"><b><span s=
+tyle=3D"font-size:10.0pt;font-family:&quot;Century Gothic&quot;,sans-serif;=
+mso-fareast-language:EN-US">Smeg Spa
+<o:p></o:p></span></b></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:3.0pt"><span style=3D"mso-boo=
+kmark:_Hlk42512839"><span style=3D"font-size:9.0pt;font-family:&quot;Centur=
+y Gothic&quot;,sans-serif;mso-fareast-language:EN-US">Via Leonardo da Vinci=
+, 4 - 42016 Guastalla (RE) &#8211; Italy
+<o:p></o:p></span></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:6.0pt"><span style=3D"mso-boo=
+kmark:_Hlk42512839"><span style=3D"font-size:9.0pt;font-family:&quot;Centur=
+y Gothic&quot;,sans-serif;mso-fareast-language:EN-US">Phone:
+<a name=3D"_Hlk59126345">+39 0522 </a>8211 &#8211; Direct +39 0522 821857<o=
+:p></o:p></span></span></p>
+<p class=3D"MsoNormal"><span style=3D"mso-bookmark:_Hlk42512839"></span><a =
+href=3D"https://eu-central-1.protection.sophos.com/?d=3Dsmeg.com&amp;u=3DaH=
+R0cDovL3d3dy5zbWVnLmNvbS8=3D&amp;e=3Dcml0YS5jZWxlc3RlQHNtZWcuaXQ=3D&amp;h=
+=3Df9cd0880f3d24b36947e41ddfdcb6f2c&amp;t=3DL2JIdG9QWUhkQldEUVNqT0g5bUQrNzJ=
+iQTJzcUNaSkxMUnoyeDRGUnY4az0=3D"><span style=3D"mso-bookmark:_Hlk42512839">=
+<span style=3D"font-size:9.0pt;color:#0563C1;mso-fareast-language:EN-US;tex=
+t-decoration:none"><img border=3D"0" width=3D"94" height=3D"19" style=3D"wi=
+dth:.9791in;height:.1979in" id=3D"_x0000_i1025" src=3D"cid:image001.jpg@01D=
+6E508.B934C270"></span></span><span style=3D"mso-bookmark:_Hlk42512839"></s=
+pan></a><span style=3D"mso-bookmark:_Hlk42512839"><span style=3D"font-size:=
+9.0pt;mso-fareast-language:EN-US"><o:p></o:p></span></span></p>
+<p class=3D"MsoNormal" style=3D"margin-top:6.0pt"><span style=3D"mso-bookma=
+rk:_Hlk42512839"></span><a href=3D"https://eu-central-1.protection.sophos.c=
+om?d=3Dsmeg.com&amp;u=3DaHR0cDovL3d3dy5zbWVnLmNvbS8=3D&amp;e=3Dcml0YS5jZWxl=
+c3RlQHNtZWcuaXQ=3D&amp;h=3Df9cd0880f3d24b36947e41ddfdcb6f2c&amp;t=3DL2JIdG9=
+QWUhkQldEUVNqT0g5bUQrNzJiQTJzcUNaSkxMUnoyeDRGUnY4az0=3D"><span style=3D"mso=
+-bookmark:_Hlk42512839"><span lang=3D"EN-US" style=3D"font-size:9.0pt;font-=
+family:&quot;Century Gothic&quot;,sans-serif;color:#0563C1;mso-fareast-lang=
+uage:EN-US">www.smeg.com</span></span><span style=3D"mso-bookmark:_Hlk42512=
+839"></span></a><span style=3D"mso-bookmark:_Hlk42512839"><u><span lang=3D"=
+EN-US" style=3D"font-size:9.0pt;font-family:&quot;Century Gothic&quot;,sans=
+-serif;color:#0563C1;mso-fareast-language:EN-US"><o:p></o:p></span></u></sp=
+an></p>
+<p class=3D"MsoNormal"><span style=3D"mso-bookmark:_Hlk42512839"><span lang=
+=3D"EN-US" style=3D"font-size:9.0pt;font-family:&quot;Century Gothic&quot;,=
+sans-serif;mso-fareast-language:EN-US"></span></span><span lang=3D"EN-US" s=
+tyle=3D"font-size:9.0pt;font-family:&quot;Century Gothic&quot;,sans-serif;m=
+so-fareast-language:EN-US"><o:p></o:p></span></p>
+<p class=3D"xmsonormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt">&nb=
+sp;</span>&nbsp;<o:p></o:p></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm">
+<p class=3D"xmsonormal"><b>Da:</b> <a href=3D"mailto:support@digix.ly">supp=
+ort@digix.ly</a> &lt;<a href=3D"mailto:support@digix.ly">support@digix.ly</=
+a>&gt;
+<br>
+<b>Inviato:</b> gioved=EC 31 dicembre 2020 12:26<br>
+<b>A:</b> Celeste, Rita &lt;<a href=3D"mailto:rita.celeste@smeg.it">rita.ce=
+leste@smeg.it</a>&gt;<br>
+<b>Oggetto:</b> Domain | Smeg.ly<o:p></o:p></p>
+</div>
+</div>
+<p class=3D"xmsonormal">&nbsp;<o:p></o:p></p>
+<div name=3D"x_messageBodySection">
+<div>
+<p class=3D"xmsonormal"><span style=3D"font-size:10.0pt;font-family:&quot;A=
+rial&quot;,sans-serif">Dear Sir/Madam or to whom it may concern.</span><spa=
+n style=3D"font-size:10.0pt"><br>
+</span><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-s=
+erif">Greetings full of cordiality and respect, hope this email finds you w=
+ell.</span><span style=3D"font-size:10.0pt"><br>
+<br>
+</span><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-s=
+erif">Regarding to our previous email, we are writing to reminds you about =
+our request to get the access to manage&nbsp;</span><a href=3D"" target=3D"=
+_blank"><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-=
+serif">Smeg.ly</span></a><span style=3D"font-size:10.0pt;font-family:&quot;=
+Arial&quot;,sans-serif">&nbsp;domain
+ in our server.</span><span style=3D"font-size:10.0pt"><br>
+<br>
+</span><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-s=
+erif">We did sent you the record as a DNS Requirements.</span><span style=
+=3D"font-size:10.0pt"><br>
+<br>
+</span><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-s=
+erif">Therefore, we kindly asking to know more about the latest updates, pl=
+ease let us know if there is any other requirements that may be needed.</sp=
+an><span style=3D"font-size:10.0pt"><br>
+<br>
+</span><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-s=
+erif">Looking forward to hearing back from you.</span><span style=3D"font-s=
+ize:10.0pt"><br>
+<br>
+</span><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-s=
+erif">Best Regards,</span><span style=3D"font-size:10.0pt"><br>
+</span><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-s=
+erif">DigiX Team.</span><o:p></o:p></p>
+</div>
+</div>
+<p><br>
+-- <br>
+<span style=3D"font-size:7.5pt;font-family:&quot;Arial&quot;,sans-serif;col=
+or:#999999">Messaggio analizzato da Libraesva ESG.<br>
+<a href=3D"http://smg-esva01.smeg.it/action/AA10841D4D.A360C/learn-spam">Se=
+gnala come spam.</a><br>
+<a href=3D"http://smg-esva01.smeg.it/action/AA10841D4D.A360C/blacklist">Met=
+tilo in blacklist.</a></span><o:p></o:p></p>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+--_000_VI1PR02MB302191A8173D6BFC226C387B98AF0VI1PR02MB3021eurp_--
+
+--_004_VI1PR02MB302191A8173D6BFC226C387B98AF0VI1PR02MB3021eurp_
+Content-Type: image/jpeg; name="image001.jpg"
+Content-Description: image001.jpg
+Content-Disposition: inline; filename="image001.jpg"; size=1172;
+	creation-date="Thu, 07 Jan 2021 16:08:58 GMT";
+	modification-date="Thu, 07 Jan 2021 16:08:58 GMT"
+Content-ID: <image001.jpg@01D6E508.B934C270>
+Content-Transfer-Encoding: base64
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIf
+IiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/wAALCAATAF4BAREA/8QAHwAAAQUBAQEB
+AQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1Fh
+ByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZ
+WmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXG
+x8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/9oACAEBAAA/APZDg183678TPFo8U3U8
+WpTWi29wyJaLxGoVsbWXv05zTNb+J/jC51t7pL6fTRGw22icKmOxB6/jS698UPF15qwnW9n0wRqu
+22i+VRwDkg9c9eexrd8S+K9Q1O+8PP4iutQ03RbuxSaU2GVMkhzk/mBx2Bq1YXX2bTtfk8N+Mnvt
+MGnSOtrcyuLqFwvDLkDoe49azrPSfEet/DKbxNP4qvl+wCQwW4kb5lVvmLNnOeuOvQVLHp/iTxH8
+OZfF114pvUksUYQQRuVBVDgliCPmPPNUtU8f6pqmgeHtJvdVns4pULX95ECZHXeVHTk/KPxNRQeJ
+dN8J+INPuvCWuajeWjuFvbW7UgEZGT6HOT2yCK34dPuPip8QNYt9S1K4g0zS2KxQRNjgMVUgHjJw
+STjNcd47tdU8L+J5dJ/tu9uo4Y08l2mYEIRkA89ua0br4w+K/wDhInvIrkRWqynbYtEu3Zn7p4zn
+HU561i654vm1Txm2v/2baRMku5beSEFTjp5g/ib1JpfFHjCXXfFg1v8Asy1gaJl2wPCGD4/56f3j
+9e1e8Wnhzw74y0/TfEOqaFbtdz28ch3AjHA4IB+YDtnPFZni6PxZp2uR3em6dDrugmMI+lmNMxkD
+GRkZ9x19MVxi+B9e1/VtS1qDw0ugQfYpI4bJWCmaRkKgY4xnPJwBxXV6F4X1mz+DV7oE9kU1GWOd
+Ug3qcljxznH60mieF9atPgzeaBPZFNSkjmVYN68lmyOc4/Wuch+GviS38O6Jqdlbxxa5pTvutZmU
+iRN5Zefuk8njPQ1s2Nr8Rdf1q1a60+z8O6fCR5/lxRsZRnnAO457DoBWfqmj/ZfiLe3Pg7xZZ2Op
+zljdWVyCuG6sMkFSM846+lee+LdL1CXxZdW51D+3L4Kr3M8C5G7AyB7DIFe23XgTwvN4zjvJNIia
+aT98/wAzbWfrkrnb19qXVPAnhe88Ww3lxpETzTHzJPmYK7c8lQcH8uaNe8C+GNR8TWt3daRE8s5B
+lIZlD49VBAP5V2kUaRRrHGoRFACqowAB0Ap1GB6UUUYorz34m+FtDvYl1OfT0a8J2mZWZSwA4zgj
+P41f+HvhfRNJ0w3llp8cdxMNryFmckcHHzE4GfSv/9k=
+
+--_004_VI1PR02MB302191A8173D6BFC226C387B98AF0VI1PR02MB3021eurp_--

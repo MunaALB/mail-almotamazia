@@ -1,0 +1,1601 @@
+Return-Path: <almotamisa@yahoo.com>
+Delivered-To: info@almotamaiza.ly
+Received: from business71.web-hosting.com
+	by business71.web-hosting.com with LMTP
+	id QDXdIKrvhGHAyjoAQZTD9Q
+	(envelope-from <almotamisa@yahoo.com>)
+	for <info@almotamaiza.ly>; Fri, 05 Nov 2021 04:47:38 -0400
+Return-path: <almotamisa@yahoo.com>
+Envelope-to: info@almotamaiza.ly
+Delivery-date: Fri, 05 Nov 2021 04:47:38 -0400
+Received: from sonic308-56.consmr.mail.ne1.yahoo.com ([66.163.187.31]:45204)
+	by business71.web-hosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.94.2)
+	(envelope-from <almotamisa@yahoo.com>)
+	id 1miusn-00GE1A-6N
+	for info@almotamaiza.ly; Fri, 05 Nov 2021 04:47:38 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1636102009; bh=pv8fld1jvLRkHi8lcI4sK2pp6MDY0k2nW+6jKItRY0k=; h=Subject:From:In-Reply-To:Date:Cc:References:To:From:Subject:Reply-To; b=Lk7tN5DoQwoWN/Kk2j0EH9BLaku1fhoLIK4bpO1N7YVJNeMwGsFwKRupn7UnF552RMPRy6Cbv49TZBSUMAWAMl/iU+ZFpgvYg6SInbByR6r+3gfooi90QlSGiBXl7s7JE4OS4R83GHVvfNnmZtvwERmRYr4fPSEFKYDxZ3oNoawubPAHyCZwDFR3p/uF9WpyvvsPtbgBGW7ZN59gBmEDzv2hNyne6RVfdrlBRi+QV4xcrh7fjf4O3c32Ug3+WAO0UJF/DInuy9Wlk4OaQ1R8ZKaCov/Y6AZAVX2FfeAaGk5sikxg/L3qJ8AgD8oOpoe+4LRGqVxro3NgcP19CzsQ1A==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1636102009; bh=WGxAV0XbWcNsUIfd294/sLCTGMv817gCUjkYQN51ya+=; h=X-Sonic-MF:Subject:From:Date:To:From:Subject; b=iixUcp2t2qwJYjbD0FDwn8WSIJg3FE/ftp8b0KqKLb9ml6xTkGczvha6xbzSbITlJwUQIRsmXKCv28NzknSlWMZ6h+ZRB4rwsLX41fTGeUbpvqKadiKvMMG92AtfYcPQYLQ5XYTjCovMACUN0HMH0fRPrsuZvvDAckxGzZuVclTPE79hf1NKPbnRE9Yo+enXSJjB2S4qrAVxwInslZ11QCKXCefEPg09NmrP+qcsK/z7IVEq2ssnpIbPR+NPOpeGpRsvzJBhoIBXP0GOj/LMoWkLd0WM7Ym5Oe1XVC3Mj7GBKXuK1p46R4fUyy1YwpDGnuNfjindrMHtRrcTIyT3Pw==
+X-YMail-OSG: uCf4QEQVM1k2I1agH0_QdaVROFoBmGLyyuMZ0uQpAJuYoCWD9b2eBZ2h8gjnp8g
+ TB9QzvBOFg6wYjKG0nKpzZnKzMvvrfpRa6EyhGz7NKv0WGNYPMiJSOiDSGoClpo6BK94n.V15SLO
+ nXNZU0tgsbQ0LMc0reMqQ_PjrciuZn2a973Bvn7mO47Yw_KdHuXNhCA.8hfb8gryv4KTFMJGasgr
+ OKOCjI8BeRAW.JB8bpVE9s9_6Ar0Oo0zxtwHM6RcnSPu3diKuMsuHTQSKQbaaw1hBg3PW223SxSI
+ huYvW.IAtp3L1sPyIp1A4L6HTbkBmy1WLPjvm7kFzUzGdvB8HS5O5Tc8EG6_Ym0KAWAGGkmHgV4h
+ pNBtWFloi5Myly7I1TAthht.HO8mMNwsxajVXnJp1V.D3g72VCNy3t5BH8OCGGBxXA0dvQsTSALj
+ XLKkVvg2VbIqzWoL6CquazxKAQBS6Svs0faDN.lUJSTChp4ndBdsDOZ_hF4OMdAW0skJVriLlrN2
+ uO27Km6b0m7Qi3fCihNbFTehEw.wFAbkI82.ykSchkZVdVzDizrww_TQxbt7C.fX9cdes1GUvZxM
+ Ub3bTS3bLErAoBbplITAmzRZzc2f1jtB0mxEhDUnt2AjDU82msQlEsMG1IiYYTyXlKjqny4lX_sq
+ C.GFYhhEt5h.OdgEKfZiZ6Uwrhm.QEwsk6pSC2aT6D8XuM9l6VquTCJuXZVoVVPHe91osIO9RoZu
+ wnqnE1J0KQFxvfsjPzuwFlrqg2Btgp4Zb2lAycIhlMOnVEKhNpx76jgiyS52ncTQ0dt8uaJmYEfa
+ b5UG6aNZ80qLHgT03EGuMOXQmE_0miCnGMWq9cOdBx45qpkxE1HwXpcB3tvHN1V78kuSkCp.AJAh
+ 8rmxNQX9a8bMC4k0Go.8zHaxeHh1YLmv7iHQOo6dLG_HpNX5kWrA6pr3ymzDyCKLfybs7LFx24by
+ ha4Qcv8sIl7Hs_Ge_5zQg3e8iwjnwW8F.xtoJPqVghfEREaZ9WEyo9__G3cz0_26zkuYY38n5s.o
+ hbvn8UmJmycJrncRTsNBUVhdXyfAbYXMSY9JI8zF7O2_09v42OM8rrSm0M7JTw8uEZ91VKVgawlB
+ T3KzOn.1Y74CwesnEzOz63IQaMxBcp8Nz6w1VoWQGq7DBpVOtZpN7z_RemKfHXOni0GQ4t1GIdVF
+ RcUkC94rJPCVm9.hmc4DmShiMMg8M0T4.St0NyoQvoqZ0Fj2xo8BPNJMtoOUYvKL63SHf56Pw8MF
+ d25BUonkmBUr8PRAtLktDdJWZj2rOpgc5VA5UQMBWbYLnbL9ooQj6zCFhDp.59PPYk24Uz8GEs7w
+ _zqTmcZ06hADzexYOem_vhRRuTztYa5eqYhwJ_kwa7Ee6PixMFVS3HakLksTKuw5stWXw.fMIfVO
+ WCJsQtat6ovwO94RiSKS02OjvIF4s5R9q9ico0fskX_L8DBqFTAbaTkr0pKyy2CRC9bgZhl9AYtj
+ ViUJh7Ep4_T8pgHg2JgtG.iLHIUzKmwEIU2Lm8iyNO3.9b1lCVvghzZmYotOHT92g7hiBzHMnNin
+ QpMf20evsEnFP5Z3VY5KAKfk2hVerOFU6XLGI2Tcfzq3ZkdNxKHNBr3s3GX0XbVqYKytA_1d9dFE
+ S15yAA7fk5g9R0cICMFdIdIY5Ze_Y.WVLMuSmJ6RHq.rcHCe3GSIKclQ03QuVjaBgvT60LHVRYXq
+ luk5.dZXlpifFISEQpq_e51uKodyrvvJrzhdhgEjaTCPa6Hahrml6oL45GRAJhiYemMCd1836qgg
+ pFFMeoxacxJI4dARFlzOvWJ.Qc6dWYSc.3f9DenpWFAGRCbQX12B22Y.OqqOrnyfAZ7kYU1fjZVW
+ pSNM9PzkF4DOOwfv4dry7vwm_xOP.JWDR5zEOUoQ9.XoowyL.XyqH0ZmiDoNtm2yvbV1GKfMx8hh
+ q__mV1DN3btgoPo73oqpukS1OeadvLsoNs_Wnc885ikBeiBb_TMmJpoB2uNNVhajEAZEQzZZKqbN
+ D7x.4A9Okq.aa6ESRQuN54DspVe8xtPjBBPynUYwltcGit73zb87TSq4LKL9eNZ5fjlLCM_Z5ZPt
+ D251LrmQ9l9LHOEtJf5mlBw4ss1g3bbcwFCwtjvY0VrckRyD8We1OhdOOYWpjZoXfrM3iIS0wlwp
+ s14rZHJd4esOWTFjCdtKU8lyETveuOCYtPde5j7D7iRWqEZCJ_ybFsvLEF_mnSmYeGDXRbTVRZPk
+ yXE0nmrjnlH7vB2_DrYiYSsM_RiI92hACCxh0
+X-Sonic-MF: <almotamisa@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic308.consmr.mail.ne1.yahoo.com with HTTP; Fri, 5 Nov 2021 08:46:49 +0000
+Received: by kubenode524.mail-prod1.omega.ir2.yahoo.com (VZM Hermes SMTP Server) with ESMTPA ID ff16e7cc47666377b6dc41e0bca5dc3a;
+          Fri, 05 Nov 2021 08:46:43 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=Apple-Mail-DB2F39B9-86D0-4A56-8A18-9DCFF5B6ACA0
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (1.0)
+Subject: Re: SHIPPING DOCUMENTS OF YOUR ORDER OF HOBS OVENS  FROM ITALY - PI 16B/ PI 26
+From: Sedig Krer <almotamisa@yahoo.com>
+In-Reply-To: <AM6PR04MB4661297F3B4E5E945B131D30F98D9@AM6PR04MB4661.eurprd04.prod.outlook.com>
+Date: Fri, 5 Nov 2021 10:46:40 +0200
+Cc: Alessandro Khawatmi <a.khawatmi@hirux.com>,
+ Pierpaolo Truffelli <pierpaolo.truffelli@hirux.com>,
+ Radwan Khawatmi <r.khawatmi@hirux.com>,
+ Valentina Perini <valentina.perini@hirux.com>
+Message-Id: <597D18DB-E31B-4614-A3C3-A4C2AE7B1BB6@yahoo.com>
+References: <AM6PR04MB4661297F3B4E5E945B131D30F98D9@AM6PR04MB4661.eurprd04.prod.outlook.com>
+To: Lucia Mazzola <lucia.mazzola@hirux.com>
+X-Mailer: iPhone Mail (18H17)
+Content-Length: 53714
+X-Spam-Status: No, score=0.8
+X-Spam-Score: 8
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "business71.web-hosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Daer Lucia good morning Yes, we received the documents from
+    the DHL office My greetings 
+ Content analysis details:   (0.8 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [almotamisa[at]yahoo.com]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: orders.as]
+  0.5 SUBJ_ALL_CAPS          Subject is all capitals
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 MIME_QP_LONG_LINE      RAW: Quoted-printable line longer than 76
+                             chars
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.5 KAM_NUMSUBJECT         Subject ends in numbers excluding current years
+X-Spam-Flag: NO
+
+
+--Apple-Mail-DB2F39B9-86D0-4A56-8A18-9DCFF5B6ACA0
+Content-Type: text/plain;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Daer Lucia
+
+good morning
+Yes, we received the documents from
+the DHL office=20
+
+My greetings=20
+
+
+Sedig Krer
+Almotamiza International Company
+G M
+Mobile # +218913139615
+                       =20
+Tripoli - Libya
+Sent from my iPhone
+
+
+> On 04/11/2021, at 6:44 PM, Lucia Mazzola <lucia.mazzola@hirux.com> wrote:
+>=20
+> =EF=BB=BF
+> Dear Mr. Sedig.,
+> =20
+> please inform us if you received from Dhl ( AWB N. 8147740893) the origina=
+l shipping documents.
+> =20
+> BECAUSE DHL INFORMED US THAT YOU CAN COLLECT THE DOCUMENTS TO THE
+> FOLLOWING ADDRESS :
+> =20
+> EXPRESS LIBYASWANI ROAD,=20
+> KREMIA AREA,AL NAKHIL STREET, TRIPOLI.=20
+> =20
+> OR YOU CAN CONTACT THEM  BY TELEPHONE  TO THE FOLLOWING NUMBER   091949568=
+6 OR  0927103181.
+> =20
+> We are waiting your comments
+> Best regards
+> Hirux
+> Lucia
+> =20
+> =20
+> =20
+> =20
+> Da: Lucia Mazzola=20
+> Inviato: marted=C3=AC 26 ottobre 2021 12:19
+> A: 'Sedig Krer' <almotamisa@yahoo.com>
+> Cc: Alessandro Khawatmi <a.khawatmi@hirux.com>; Pierpaolo Truffelli <pierp=
+aolo.truffelli@hirux.com>; Radwan Khawatmi <r.khawatmi@hirux.com>; Valentina=
+ Perini <valentina.perini@hirux.com>
+> Oggetto: SHIPPING DOCUMENTS OF YOUR ORDER OF HOBS OVENS FROM ITALY - PI 16=
+B/ PI 26
+> =20
+> Dear Mr. Sedig,
+> =20
+> find attached copies of all original shipping documents that we are sendin=
+g by DHL AWB N. 8147740893.
+> =20
+> See below the shipping details:
+> =20
+> s/s ops  hamburg
+> ETD : 22/10/21
+> ETA:01/11/21
+> =20
+> Best regards
+> Hirux International S.p.a
+> Lucia Mazzola
+> =20
+> =20
+> Da: Sedig Krer <almotamisa@yahoo.com>=20
+> Inviato: gioved=C3=AC 30 settembre 2021 13:51
+> A: Valentina Perini <valentina.perini@hirux.com>
+> Cc: Alessandro Khawatmi <a.khawatmi@hirux.com>; Pierpaolo Truffelli <pierp=
+aolo.truffelli@hirux.com>; Radwan Khawatmi <r.khawatmi@hirux.com>; Lucia Maz=
+zola <lucia.mazzola@hirux.com>
+> Oggetto: Re: @1582 R: @1574 Balance payment of your first order - PI 16
+> =20
+> Daer Valentina
+> =20
+>  Good evening
+> It's okay to send documents via DHL with my name and phone number
+> =20
+> SAFA ALABDA COMPANY
+> ALSHT STREET
+> 0913139615
+> Sedig Krer
+> TRIPOLI =E2=80=93 LIBYA
+> =20
+> =20
+> Sedig Krer
+> Almotamiza International Company
+> G M
+> Mobile # +218913139615
+>  =20
+> Tripoli - Libya
+> Sent from my iPhone
+> =20
+> =20
+>=20
+> On 30/09/2021, at 11:15 AM, Valentina Perini <valentina.perini@hirux.com> w=
+rote:
+>=20
+> =EF=BB=BF
+> Dear Mr. Sedig
+> =20
+> In reference to the shipment of your built-in order, please confirm to us i=
+f we can send the original shipping documents by DHL at the following addres=
+s:
+> =20
+> SAFA ALABDA COMPANY
+> ALSHT STREET
+> TRIPOLI =E2=80=93 LIBYA
+> =20
+> Awaiting your kind reply
+> =20
+> Thank you and best regards
+> =20
+> Valentina Perini
+> Hirux International Spa
+> =20
+> Da: Sedig Krer <almotamisa@yahoo.com>=20
+> Inviato: marted=C3=AC 7 settembre 2021 16:46
+> A: Valentina Perini <valentina.perini@hirux.com>
+> Cc: Alessandro Khawatmi <a.khawatmi@hirux.com>; Pierpaolo Truffelli <pierp=
+aolo.truffelli@hirux.com>; Radwan Khawatmi <r.khawatmi@hirux.com>; Lucia Maz=
+zola <lucia.mazzola@hirux.com>
+> Oggetto: Re: @1582 R: @1574 Balance payment of your first order - PI 16
+> =20
+> Dear Valentina
+> =20
+>  Good evening
+> =20
+>  As for the documents you mentioned, it is sufficient. As for the name of t=
+he company in whose name the shipment will be carried out, it's
+> =20
+>  SAFA ALABDA COMPANY
+>  ALSHT STREET
+>  TRIPOLI - LIBYA
+> =20
+> Best Regards
+> =20
+> =20
+> Sedig Krer
+> Almotamiza International Company
+> G M
+> Mobile # +218913139615
+>        =20
+> Tripoli - Libya
+> Sent from my iPhone
+> =20
+> =20
+>=20
+> On 07/09/2021, at 5:04 PM, Sedig Krer <almotamisa@yahoo.com> wrote:
+>=20
+> =EF=BB=BF
+> <image.jpg>
+> =20
+>=20
+> <image.jpg>
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> Sedig Krer
+> Almotamiza International Company
+> G M
+> Mobile # +218913139615
+>           =20
+> Tripoli - Libya
+> Sent from my iPhone
+> =20
+> =20
+>=20
+> On 07/09/2021, at 4:43 PM, Valentina Perini <valentina.perini@hirux.com> w=
+rote:
+>=20
+> =EF=BB=BF
+> Dear Mr. Sedig
+> =20
+> Thank you for your update.
+> In reference to the shipment of your order, please note that we will provi=
+de you the following documents:
+> =20
+> Our commercial invoice
+> Packing list
+> Certificate of origin certified by the Chamber of Commerce in Italy
+> Bill of lading
+> =20
+> Please let us know if the above documents are enough or if you need some o=
+ther document.
+> Also, please let us know the complete name and address of your Company tha=
+t we have to indicate on our documents.
+> =20
+> Awaiting your kind feedback, best regards
+> =20
+> Valentina Perini
+> Hirux International Spa
+> =20
+> Da: Sedig Krer <almotamisa@yahoo.com>=20
+> Inviato: luned=C3=AC 6 settembre 2021 12:21
+> A: Valentina Perini <valentina.perini@hirux.com>
+> Cc: Alessandro Khawatmi <a.khawatmi@hirux.com>; Pierpaolo Truffelli <pierp=
+aolo.truffelli@hirux.com>; Radwan Khawatmi <r.khawatmi@hirux.com>
+> Oggetto: Re: @1582 R: @1574 Balance payment of your first order - PI 16
+> =20
+> Dear Valentina
+> =20
+>  Good evening
+>  Regarding the first shipment, we have started working on transferring the=
+ rest of the amount due and it will be in your account in the coming days, a=
+nd we are waiting for the arrival of the first shipment so that we can deter=
+mine our new orders.As for ceramic stoves, it is necessary to be with the re=
+st of the other models, and we are waiting for your offer regarding them.
+> =20
+>  My greetings
+> =20
+> Sedig Krer
+> Almotamiza International Company
+> G M
+> Mobile # +218913139615
+>               =20
+> Tripoli - Libya
+> Sent from my iPhone
+> =20
+>=20
+>=20
+>=20
+> On 06/09/2021, at 10:21 AM, Valentina Perini <valentina.perini@hirux.com> w=
+rote:
+>=20
+> =EF=BB=BF
+> Dear Mr. Sedig
+> =20
+> In reference to our below e-mail, we would highly appreciate to receive yo=
+ur confirmation.
+> At the same time, we would like to draw your attention and ask you to send=
+ us any of your orders regarding:
+> =20
+> Hobs (standard and vitroceramic)
+> Ovens (gas/gas and electric)
+> Hoods
+> =20
+> For January 2022 production program, as we will close the production progr=
+am at the end of this week.
+> It is highly recommended to follow these indications in order to have the g=
+oods in the right time.
+> Otherwise, if we receive (for example) your order in November 2021, and yo=
+ur request to ship it in January, it will be impossible.
+> All the production systems in the world have drastically changed, due to t=
+he new era of covid.
+> =20
+> Thank you and best regards
+> =20
+> Valentina Perini
+> Hirux International Spa
+> =20
+> Da: Valentina Perini=20
+> Inviato: venerd=C3=AC 3 settembre 2021 14:49
+> A: Sedig Krer <almotamisa@yahoo.com>
+> Cc: Alessandro Khawatmi <a.khawatmi@hirux.com>; Pierpaolo Truffelli <pierp=
+aolo.truffelli@hirux.com>; Radwan Khawatmi <r.khawatmi@hirux.com>
+> Oggetto: @1582 R: @1574 Balance payment of your first order - PI 16
+> =20
+> Our.ref@1582/21/RK/vp     =20
+> =20
+> Dear Mr. Sedig
+> =20
+> Your first order will be ready for shipping on 15/09.
+> Please find attached our PI 16 with the deduction of the advanced payment.=
+
+> Our official invoice will be issued after we load the goods.
+> =20
+> Best regards
+> =20
+> Valentina Perini
+> Hirux International Spa
+> =20
+> Da: Sedig Krer <almotamisa@yahoo.com>=20
+> Inviato: venerd=C3=AC 3 settembre 2021 09:45
+> A: Valentina Perini <valentina.perini@hirux.com>
+> Cc: Alessandro Khawatmi <a.khawatmi@hirux.com>; Pierpaolo Truffelli <pierp=
+aolo.truffelli@hirux.com>; Radwan Khawatmi <r.khawatmi@hirux.com>
+> Oggetto: Re: @1574 Balance payment of your first order - PI 16
+> =20
+> =20
+>=20
+> Dear Valentina
+> =20
+> Good morning
+> Have you finished manufacturing the frist order ?and If yes ... Please sen=
+d the new invoice and when it will be ready for shipping ?
+> Best regards
+> =20
+> =20
+> Sedig Krer
+> Almotamiza International Company
+> G M
+> Mobile # +218913139615
+>               =20
+> Tripoli - Libya
+> Sent from my iPhone
+> =20
+> =20
+>=20
+> On 02/09/2021, at 3:34 PM, Valentina Perini <valentina.perini@hirux.com> w=
+rote:
+>=20
+> =EF=BB=BF
+> Our.ref@1574/21/RK/vp     =20
+> =20
+> Dear Mr. Sedig
+> =20
+> Please send us the balance payment for our PI 16 as follows: 48.726 =E2=82=
+=AC
+> =20
+> Thank you very much for your kind cooperation, and please accept my best r=
+egards
+> =20
+> Valentina Perini
+> Hirux International Spa
+> <doc10315520210903150758.pdf>
+
+--Apple-Mail-DB2F39B9-86D0-4A56-8A18-9DCFF5B6ACA0
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto"><p class=3D"p1" style=3D"margin: 0px; font-=
+stretch: normal; font-size: 21px; line-height: normal; -webkit-text-size-adj=
+ust: auto;"><span class=3D"s1">Daer Lucia</span></p><p class=3D"p1" style=3D=
+"margin: 0px; font-stretch: normal; font-size: 21px; line-height: normal; -w=
+ebkit-text-size-adjust: auto;"><span class=3D"s1"><br></span></p><p class=3D=
+"p1" style=3D"margin: 0px; font-stretch: normal; font-size: 21px; line-heigh=
+t: normal; -webkit-text-size-adjust: auto;"><span class=3D"s1">good morning<=
+/span></p><p dir=3D"rtl" class=3D"p1" style=3D"margin: 0px; font-stretch: no=
+rmal; font-size: 21px; line-height: normal; -webkit-text-size-adjust: auto;"=
+>Yes, we received the documents from</p><p class=3D"p1" style=3D"margin: 0px=
+; font-stretch: normal; font-size: 21px; line-height: normal; -webkit-text-s=
+ize-adjust: auto;">the DHL office&nbsp;</p><p class=3D"p1" style=3D"margin: 0=
+px; font-stretch: normal; font-size: 21px; line-height: normal; -webkit-text=
+-size-adjust: auto;"><span class=3D"s1"><br></span></p><p class=3D"p1" style=
+=3D"margin: 0px; font-stretch: normal; font-size: 21px; line-height: normal;=
+ -webkit-text-size-adjust: auto;"><span class=3D"s1">My greetings&nbsp;</spa=
+n></p><p class=3D"p1" style=3D"margin: 0px; font-stretch: normal; font-size:=
+ 21px; line-height: normal; -webkit-text-size-adjust: auto;"><span class=3D"=
+s1"><br></span></p><br><div dir=3D"ltr"><div>Sedig Krer</div><div style=3D"d=
+irection: ltr;"><div style=3D"direction: ltr;"><span style=3D"background-col=
+or: rgba(255, 255, 255, 0);">Almotamiza International Company</span></div><d=
+iv style=3D"direction: ltr;">G M</div></div><div>Mobile #&nbsp;<span style=3D=
+"background-color: rgba(255, 255, 255, 0);">+218913139615</span></div><div>&=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<span style=3D"f=
+ont-size: 13pt;">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></div><div>Tripoli -=
+ Libya</div>Sent from my iPhone<div><div><br></div></div></div><div dir=3D"l=
+tr"><br><blockquote type=3D"cite">On 04/11/2021, at 6:44 PM, Lucia Mazzola &=
+lt;lucia.mazzola@hirux.com&gt; wrote:<br><br></blockquote></div><blockquote t=
+ype=3D"cite"><div dir=3D"ltr">=EF=BB=BF
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+p.p1, li.p1, div.p1
+	{mso-style-name:p1;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+p.p2, li.p2, div.p2
+	{mso-style-name:p2;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+span.s1
+	{mso-style-name:s1;}
+span.StileMessaggioDiPostaElettronica23
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 2.0cm 2.0cm 2.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+/* List Definitions */
+@list l0
+	{mso-list-id:149174244;
+	mso-list-template-ids:-823636208;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=B7;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=B7;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=B7;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=B7;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=B7;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=B7;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=B7;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=B7;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1
+	{mso-list-id:533231656;
+	mso-list-template-ids:-713399490;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=B7;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=B7;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=B7;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=B7;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=B7;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=B7;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=B7;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=B7;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l2
+	{mso-list-id:849415279;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1229290944 -1769067858 68157443 68157445 681=
+57441 68157443 68157445 68157441 68157443 68157445;}
+@list l2:level1
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:-;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-font-family:Calibri;}
+@list l2:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l2:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l2:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l2:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l2:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l2:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l2:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l2:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l3
+	{mso-list-id:898785362;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1499388266 -255585062 68157443 68157445 68157=
+441 68157443 68157445 68157441 68157443 68157445;}
+@list l3:level1
+	{mso-level-start-at:14;
+	mso-level-number-format:bullet;
+	mso-level-text:-;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-font-family:Calibri;}
+@list l3:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l3:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l3:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l3:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l3:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l3:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l3:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l3:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+
+
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:12.0pt;font-f=
+amily:&quot;Verdana&quot;,sans-serif;color:#0B5394">Dear Mr. Sedig.,<o:p></o=
+:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:12.0pt;font-f=
+amily:&quot;Verdana&quot;,sans-serif;color:#0B5394"><o:p>&nbsp;</o:p></span>=
+</p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:12.0pt;font-f=
+amily:&quot;Verdana&quot;,sans-serif;color:#0B5394">please inform us if you r=
+eceived from Dhl (
+</span><span lang=3D"EN-US">AWB N. 8147740893) </span><span lang=3D"EN-US" s=
+tyle=3D"font-size:12.0pt;font-family:&quot;Verdana&quot;,sans-serif;color:#0=
+B5394">the original shipping documents.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:12.0pt;font-f=
+amily:&quot;Verdana&quot;,sans-serif;color:#0B5394"><o:p>&nbsp;</o:p></span>=
+</p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:12.0pt;font-f=
+amily:&quot;Verdana&quot;,sans-serif;color:#0B5394">BECAUSE DHL INFORMED US T=
+HAT YOU CAN COLLECT THE DOCUMENTS TO THE<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:12.0pt;font-f=
+amily:&quot;Verdana&quot;,sans-serif;color:#0B5394">FOLLOWING ADDRESS :<o:p>=
+</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:12.0pt;font-f=
+amily:&quot;Verdana&quot;,sans-serif;color:#0B5394"><o:p>&nbsp;</o:p></span>=
+</p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:12.0pt;font-f=
+amily:&quot;Arial&quot;,sans-serif;color:black">EXPRESS LIBYASWANI ROAD,&nbs=
+p;</span><span lang=3D"EN-US" style=3D"font-size:12.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#0B5394"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:12.0pt;font-f=
+amily:&quot;Arial&quot;,sans-serif;color:black">KREMIA AREA,AL NAKHIL STREET=
+, TRIPOLI.&nbsp;</span><span lang=3D"EN-US" style=3D"font-size:12.0pt;font-f=
+amily:&quot;Verdana&quot;,sans-serif;color:#0B5394"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:12.0pt;font-f=
+amily:&quot;Verdana&quot;,sans-serif;color:#0B5394"><o:p>&nbsp;</o:p></span>=
+</p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:12.0pt;font-f=
+amily:&quot;Verdana&quot;,sans-serif;color:#0B5394">OR YOU CAN CONTACT THEM &=
+nbsp;BY TELEPHONE &nbsp;TO THE FOLLOWING NUMBER &nbsp;&nbsp;0919495686 OR &n=
+bsp;0927103181.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:12.0pt;font-f=
+amily:&quot;Verdana&quot;,sans-serif;color:#0B5394"><o:p>&nbsp;</o:p></span>=
+</p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:12.0pt;font-f=
+amily:&quot;Verdana&quot;,sans-serif;color:#0B5394">We are waiting your comm=
+ents<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:12.0pt;font-f=
+amily:&quot;Verdana&quot;,sans-serif;color:#0B5394">Best regards<o:p></o:p><=
+/span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:12.0pt;font-f=
+amily:&quot;Verdana&quot;,sans-serif;color:#0B5394">Hirux<o:p></o:p></span><=
+/p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:12.0pt;font-f=
+amily:&quot;Verdana&quot;,sans-serif;color:#0B5394">Lucia
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:12.0pt;font-f=
+amily:&quot;Verdana&quot;,sans-serif;color:#0B5394"><o:p>&nbsp;</o:p></span>=
+</p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:12.0pt"><o:p>=
+&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm 0=
+cm 0cm">
+<p class=3D"MsoNormal"><b><span style=3D"mso-fareast-language:IT">Da:</span>=
+</b><span style=3D"mso-fareast-language:IT"> Lucia Mazzola
+<br>
+<b>Inviato:</b> marted=C3=AC 26 ottobre 2021 12:19<br>
+<b>A:</b> 'Sedig Krer' &lt;almotamisa@yahoo.com&gt;<br>
+<b>Cc:</b> Alessandro Khawatmi &lt;a.khawatmi@hirux.com&gt;; Pierpaolo Truff=
+elli &lt;pierpaolo.truffelli@hirux.com&gt;; Radwan Khawatmi &lt;r.khawatmi@h=
+irux.com&gt;; Valentina Perini &lt;valentina.perini@hirux.com&gt;<br>
+<b>Oggetto:</b> SHIPPING DOCUMENTS OF YOUR ORDER OF HOBS OVENS FROM ITALY - P=
+I 16B/ PI 26<o:p></o:p></span></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US">Dear Mr. Sedig,<o:p></o:p></span=
+></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US">find attached copies of all orig=
+inal shipping documents that we are sending by DHL AWB N. 8147740893.<o:p></=
+o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US">See below the shipping details:<=
+o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US">s/s ops&nbsp; hamburg<o:p></o:p>=
+</span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US">ETD : 22/10/21<o:p></o:p></span>=
+</p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US">ETA:01/11/21 <o:p></o:p></span><=
+/p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US">Best regards<o:p></o:p></span></=
+p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US">Hirux International S.p.a<o:p></=
+o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US">Lucia Mazzola<o:p></o:p></span><=
+/p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm 0=
+cm 0cm">
+<p class=3D"MsoNormal"><b><span style=3D"mso-fareast-language:IT">Da:</span>=
+</b><span style=3D"mso-fareast-language:IT"> Sedig Krer &lt;<a href=3D"mailt=
+o:almotamisa@yahoo.com">almotamisa@yahoo.com</a>&gt;
+<br>
+<b>Inviato:</b> gioved=C3=AC 30 settembre 2021 13:51<br>
+<b>A:</b> Valentina Perini &lt;<a href=3D"mailto:valentina.perini@hirux.com"=
+>valentina.perini@hirux.com</a>&gt;<br>
+<b>Cc:</b> Alessandro Khawatmi &lt;<a href=3D"mailto:a.khawatmi@hirux.com">a=
+.khawatmi@hirux.com</a>&gt;; Pierpaolo Truffelli &lt;<a href=3D"mailto:pierp=
+aolo.truffelli@hirux.com">pierpaolo.truffelli@hirux.com</a>&gt;; Radwan Khaw=
+atmi &lt;<a href=3D"mailto:r.khawatmi@hirux.com">r.khawatmi@hirux.com</a>&gt=
+;;
+ Lucia Mazzola &lt;<a href=3D"mailto:lucia.mazzola@hirux.com">lucia.mazzola@=
+hirux.com</a>&gt;<br>
+<b>Oggetto:</b> Re: @1582 R: @1574 Balance payment of your first order - PI 1=
+6<o:p></o:p></span></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"p1" style=3D"margin:0cm"><span class=3D"s1"><span style=3D"font-=
+size:16.0pt">Daer Valentina</span></span><span style=3D"font-size:16.0pt;mso=
+-fareast-language:IT"><o:p></o:p></span></p>
+<p class=3D"p2" style=3D"margin:0cm;font-stretch: normal;min-height: 25.1px;=
+-webkit-text-size-adjust: auto">
+<o:p>&nbsp;</o:p></p>
+<p class=3D"p1" style=3D"margin:0cm;font-stretch: normal;-webkit-text-size-a=
+djust: auto">
+<span class=3D"s1"><span style=3D"font-size:16.0pt">&nbsp;Good evening</span=
+></span><span style=3D"font-size:16.0pt"><o:p></o:p></span></p>
+<p class=3D"p1" style=3D"margin:0cm;font-stretch: normal;-webkit-text-size-a=
+djust: auto">
+<span class=3D"s1"><span style=3D"font-size:16.0pt">It's okay to send docume=
+nts via DHL with my name and phone number</span></span><span style=3D"font-s=
+ize:16.0pt"><o:p></o:p></span></p>
+<p class=3D"p2" style=3D"margin:0cm;font-stretch: normal;min-height: 25.1px;=
+-webkit-text-size-adjust: auto">
+<o:p>&nbsp;</o:p></p>
+<p class=3D"p1" style=3D"margin:0cm;font-stretch: normal;-webkit-text-size-a=
+djust: auto">
+<span class=3D"s1"><span style=3D"font-size:16.0pt">SAFA ALABDA COMPANY</spa=
+n></span><span style=3D"font-size:16.0pt"><o:p></o:p></span></p>
+<p class=3D"p1" style=3D"margin:0cm;font-stretch: normal;-webkit-text-size-a=
+djust: auto">
+<span class=3D"s1"><span style=3D"font-size:16.0pt">ALSHT STREET</span></spa=
+n><span style=3D"font-size:16.0pt"><o:p></o:p></span></p>
+<p class=3D"p1" style=3D"margin:0cm;font-stretch: normal;-webkit-text-size-a=
+djust: auto">
+<span class=3D"s1"><span style=3D"font-size:16.0pt">0913139615</span></span>=
+<span style=3D"font-size:16.0pt"><o:p></o:p></span></p>
+<p class=3D"p1" style=3D"margin:0cm;font-stretch: normal;-webkit-text-size-a=
+djust: auto">
+<span class=3D"s1"><span style=3D"font-size:16.0pt">Sedig Krer</span></span>=
+<span style=3D"font-size:16.0pt"><o:p></o:p></span></p>
+<p class=3D"p1" style=3D"margin:0cm;font-stretch: normal;-webkit-text-size-a=
+djust: auto">
+<span class=3D"s1"><span style=3D"font-size:16.0pt">TRIPOLI =E2=80=93 LIBYA<=
+/span></span><span style=3D"font-size:16.0pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Sedig Krer<o:p></o:p></p>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal">Almotamiza International Company<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">G M<o:p></o:p></p>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal">Mobile #&nbsp;+218913139615<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">&nbsp;&nbsp;<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Tripoli - Libya<o:p></o:p></p>
+</div>
+<p class=3D"MsoNormal">Sent from my iPhone<o:p></o:p></p>
+<div>
+<div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><o:p>&nbsp;</o:p></p>
+<blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt">
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt">On 30/09/2021, at 11:1=
+5 AM, Valentina Perini &lt;<a href=3D"mailto:valentina.perini@hirux.com">val=
+entina.perini@hirux.com</a>&gt; wrote:<o:p></o:p></p>
+</blockquote>
+</div>
+<blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt">
+<div>
+<p class=3D"MsoNormal">=EF=BB=BF <span style=3D"mso-fareast-language:IT"><o:=
+p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;color:navy">Dear Mr. S=
+edig</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;color:navy">&nbsp;</s=
+pan><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">In reference to the shipment of your built-in order, please confirm to=
+ us if we can send the original shipping documents by DHL at the following a=
+ddress:</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">&nbsp;</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">SAFA ALABDA COMPANY</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">ALSHT STREET</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">TRIPOLI =E2=80=93 LIBYA</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">&nbsp;</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">Awaiting your kind reply</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">&nbsp;</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">Thank you and best regards</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">&nbsp;</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">Valentina Perini</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">Hirux International Spa</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">&nbsp;</span><o:p></o:p></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm 0=
+cm 0cm">
+<p class=3D"MsoNormal"><b><span style=3D"mso-fareast-language:IT">Da:</span>=
+</b><span style=3D"mso-fareast-language:IT"> Sedig Krer &lt;<a href=3D"mailt=
+o:almotamisa@yahoo.com">almotamisa@yahoo.com</a>&gt;
+<br>
+<b>Inviato:</b> marted=C3=AC 7 settembre 2021 16:46<br>
+<b>A:</b> Valentina Perini &lt;<a href=3D"mailto:valentina.perini@hirux.com"=
+>valentina.perini@hirux.com</a>&gt;<br>
+<b>Cc:</b> Alessandro Khawatmi &lt;<a href=3D"mailto:a.khawatmi@hirux.com">a=
+.khawatmi@hirux.com</a>&gt;; Pierpaolo Truffelli &lt;<a href=3D"mailto:pierp=
+aolo.truffelli@hirux.com">pierpaolo.truffelli@hirux.com</a>&gt;; Radwan Khaw=
+atmi &lt;<a href=3D"mailto:r.khawatmi@hirux.com">r.khawatmi@hirux.com</a>&gt=
+;;
+ Lucia Mazzola &lt;<a href=3D"mailto:lucia.mazzola@hirux.com">lucia.mazzola@=
+hirux.com</a>&gt;<br>
+<b>Oggetto:</b> Re: @1582 R: @1574 Balance payment of your first order - PI 1=
+6</span><o:p></o:p></p>
+</div>
+</div>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+<div>
+<p class=3D"MsoNormal">Dear Valentina<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">&nbsp;Good evening<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">&nbsp;As for the documents you mentioned, it is suffi=
+cient. As for the name of the company in whose name the shipment will be car=
+ried out, it's<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">&nbsp;SAFA ALABDA COMPANY<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">&nbsp;ALSHT STREET<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">&nbsp;TRIPOLI - LIBYA<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Best Regards<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+</div>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+<div>
+<div>
+<p class=3D"MsoNormal">Sedig Krer<o:p></o:p></p>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal">Almotamiza International Company<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">G M<o:p></o:p></p>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal">Mobile #&nbsp;+218913139615<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:13.0pt">&nbsp; &nbsp; &nbsp;=
+ &nbsp;&nbsp;</span><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Tripoli - Libya<o:p></o:p></p>
+</div>
+<p class=3D"MsoNormal">Sent from my iPhone<o:p></o:p></p>
+<div>
+<div>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+</div>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><o:p>&nbsp;</o:p></p>
+<blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt">
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt">On 07/09/2021, at 5:04=
+ PM, Sedig Krer &lt;<a href=3D"mailto:almotamisa@yahoo.com">almotamisa@yahoo=
+.com</a>&gt; wrote:<o:p></o:p></p>
+</blockquote>
+</div>
+<blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt">
+<div>
+<p class=3D"MsoNormal">=EF=BB=BF<o:p></o:p></p>
+<div>
+<p class=3D"MsoNormal">&lt;image.jpg&gt;<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><o:p>&nbsp;</o:p></p>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal">&lt;image.jpg&gt;<o:p></o:p></p>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><o:p>&nbsp;</o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><o:p>&nbsp;</o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><o:p>&nbsp;</o:p></p>
+<div>
+<div>
+<p class=3D"MsoNormal">Sedig Krer<o:p></o:p></p>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal">Almotamiza International Company<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">G M<o:p></o:p></p>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal">Mobile #&nbsp;+218913139615<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<o:p></o:p><=
+/p>
+</div>
+<div>
+<p class=3D"MsoNormal">Tripoli - Libya<o:p></o:p></p>
+</div>
+<p class=3D"MsoNormal">Sent from my iPhone<o:p></o:p></p>
+<div>
+<div>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+</div>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><o:p>&nbsp;</o:p></p>
+<blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt">
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt">On 07/09/2021, at 4:43=
+ PM, Valentina Perini &lt;<a href=3D"mailto:valentina.perini@hirux.com">vale=
+ntina.perini@hirux.com</a>&gt; wrote:<o:p></o:p></p>
+</blockquote>
+</div>
+<blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt">
+<div>
+<p class=3D"MsoNormal">=EF=BB=BF <o:p></o:p></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;color:navy">Dear Mr. S=
+edig</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;color:navy">&nbsp;</s=
+pan><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">Thank you for your update.</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">In reference to the shipment of your order, please note that we will p=
+rovide you the following documents:</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">&nbsp;</span><o:p></o:p></p>
+<ul style=3D"margin-top:0cm" type=3D"disc">
+<li class=3D"MsoListParagraph" style=3D"color:navy;margin-left:0cm;mso-list:=
+l2 level1 lfo3">
+<span lang=3D"EN-GB" style=3D"font-size:12.0pt">Our commercial invoice</span=
+><o:p></o:p></li><li class=3D"MsoListParagraph" style=3D"color:navy;margin-l=
+eft:0cm;mso-list:l2 level1 lfo3">
+<span lang=3D"EN-GB" style=3D"font-size:12.0pt">Packing list</span><o:p></o:=
+p></li><li class=3D"MsoListParagraph" style=3D"color:navy;margin-left:0cm;ms=
+o-list:l2 level1 lfo3">
+<span lang=3D"EN-GB" style=3D"font-size:12.0pt">Certificate of origin certif=
+ied by the Chamber of Commerce in Italy</span><o:p></o:p></li><li class=3D"M=
+soListParagraph" style=3D"color:navy;margin-left:0cm;mso-list:l2 level1 lfo3=
+">
+<span lang=3D"EN-GB" style=3D"font-size:12.0pt">Bill of lading</span><o:p></=
+o:p></li></ul>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">&nbsp;</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">Please let us know if the above documents are enough or if you need so=
+me other document.</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">Also, please let us know the complete name and address of your Company=
+ that we have to indicate on our documents.</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">&nbsp;</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">Awaiting your kind feedback, best regards</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">&nbsp;</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">Valentina Perini</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">Hirux International Spa</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">&nbsp;</span><o:p></o:p></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm 0=
+cm 0cm">
+<p class=3D"MsoNormal"><b><span style=3D"mso-fareast-language:IT">Da:</span>=
+</b><span style=3D"mso-fareast-language:IT"> Sedig Krer &lt;<a href=3D"mailt=
+o:almotamisa@yahoo.com">almotamisa@yahoo.com</a>&gt;
+<br>
+<b>Inviato:</b> luned=C3=AC 6 settembre 2021 12:21<br>
+<b>A:</b> Valentina Perini &lt;<a href=3D"mailto:valentina.perini@hirux.com"=
+>valentina.perini@hirux.com</a>&gt;<br>
+<b>Cc:</b> Alessandro Khawatmi &lt;<a href=3D"mailto:a.khawatmi@hirux.com">a=
+.khawatmi@hirux.com</a>&gt;; Pierpaolo Truffelli &lt;<a href=3D"mailto:pierp=
+aolo.truffelli@hirux.com">pierpaolo.truffelli@hirux.com</a>&gt;; Radwan Khaw=
+atmi &lt;<a href=3D"mailto:r.khawatmi@hirux.com">r.khawatmi@hirux.com</a>&gt=
+;<br>
+<b>Oggetto:</b> Re: @1582 R: @1574 Balance payment of your first order - PI 1=
+6</span><o:p></o:p></p>
+</div>
+</div>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+<div>
+<div>
+<p class=3D"MsoNormal">Dear Valentina<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">&nbsp;Good evening<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">&nbsp;Regarding the first shipment, we have started w=
+orking on transferring the rest of the amount due and it will be in your acc=
+ount in the coming days, and we are waiting for the arrival of the first shi=
+pment so that we can determine our new
+ orders.As for ceramic stoves, it is necessary to be with the rest of the ot=
+her models, and we are waiting for your offer regarding them.<o:p></o:p></p>=
+
+</div>
+<div>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">&nbsp;My greetings<o:p></o:p></p>
+</div>
+</div>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+<div>
+<div>
+<p class=3D"MsoNormal">Sedig Krer<o:p></o:p></p>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal">Almotamiza International Company<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">G M<o:p></o:p></p>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal">Mobile #&nbsp;+218913139615<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p;<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Tripoli - Libya<o:p></o:p></p>
+</div>
+<p class=3D"MsoNormal">Sent from my iPhone<o:p></o:p></p>
+<div>
+<div>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+</div>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><br>
+<br>
+<o:p></o:p></p>
+<blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt">
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt">On 06/09/2021, at 10:2=
+1 AM, Valentina Perini &lt;<a href=3D"mailto:valentina.perini@hirux.com">val=
+entina.perini@hirux.com</a>&gt; wrote:<o:p></o:p></p>
+</blockquote>
+</div>
+<blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt">
+<div>
+<p class=3D"MsoNormal">=EF=BB=BF <o:p></o:p></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;color:navy">Dear Mr. S=
+edig</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;color:navy">&nbsp;</s=
+pan><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">In reference to our below e-mail, we would highly appreciate to receiv=
+e your confirmation.</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">At the same time, we would like to draw your attention and ask you to s=
+end us any of your orders regarding:</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">&nbsp;</span><o:p></o:p></p>
+<ul style=3D"margin-top:0cm" type=3D"disc">
+<li class=3D"MsoListParagraph" style=3D"color:navy;margin-left:0cm;mso-list:=
+l3 level1 lfo6">
+<span lang=3D"EN-GB" style=3D"font-size:12.0pt">Hobs (standard and vitrocera=
+mic)</span><o:p></o:p></li><li class=3D"MsoListParagraph" style=3D"color:nav=
+y;margin-left:0cm;mso-list:l3 level1 lfo6">
+<span lang=3D"EN-GB" style=3D"font-size:12.0pt">Ovens (gas/gas and electric)=
+</span><o:p></o:p></li><li class=3D"MsoListParagraph" style=3D"color:navy;ma=
+rgin-left:0cm;mso-list:l3 level1 lfo6">
+<span lang=3D"EN-GB" style=3D"font-size:12.0pt">Hoods</span><o:p></o:p></li>=
+</ul>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">&nbsp;</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">For January 2022 production program, as we will close the production p=
+rogram at the end of this week.</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">It is highly recommended to follow these indications in order to have t=
+he goods in the right time.</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">Otherwise, if we receive (for example) your order in November 2021, an=
+d your request to ship it in January, it will be impossible.</span><o:p></o:=
+p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">All the production systems in the world have drastically changed, due t=
+o the new era of covid.</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">&nbsp;</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">Thank you and best regards</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">&nbsp;</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">Valentina Perini</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">Hirux International Spa</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">&nbsp;</span><o:p></o:p></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm 0=
+cm 0cm">
+<p class=3D"MsoNormal"><b><span style=3D"mso-fareast-language:IT">Da:</span>=
+</b><span style=3D"mso-fareast-language:IT"> Valentina Perini
+<br>
+<b>Inviato:</b> venerd=C3=AC 3 settembre 2021 14:49<br>
+<b>A:</b> Sedig Krer &lt;<a href=3D"mailto:almotamisa@yahoo.com">almotamisa@=
+yahoo.com</a>&gt;<br>
+<b>Cc:</b> Alessandro Khawatmi &lt;<a href=3D"mailto:a.khawatmi@hirux.com">a=
+.khawatmi@hirux.com</a>&gt;; Pierpaolo Truffelli &lt;<a href=3D"mailto:pierp=
+aolo.truffelli@hirux.com">pierpaolo.truffelli@hirux.com</a>&gt;; Radwan Khaw=
+atmi &lt;<a href=3D"mailto:r.khawatmi@hirux.com">r.khawatmi@hirux.com</a>&gt=
+;<br>
+<b>Oggetto:</b> @1582 R: @1574 Balance payment of your first order - PI 16</=
+span><o:p></o:p></p>
+</div>
+</div>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy"><a href=3D"mailto:Our.ref@1582/21/RK/vp">Our.ref@1582/21/RK/vp</a>&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">&nbsp;</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">Dear Mr. Sedig</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">&nbsp;</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">Your first order will be ready for shipping on 15/09.</span><o:p></o:p=
+></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">Please find attached our PI 16 with the deduction of the advanced paym=
+ent.</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">Our official invoice will be issued after we load the goods.</span><o:=
+p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">&nbsp;</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">Best regards</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">&nbsp;</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">Valentina Perini</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">Hirux International Spa</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">&nbsp;</span><o:p></o:p></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm 0=
+cm 0cm">
+<p class=3D"MsoNormal"><b><span style=3D"mso-fareast-language:IT">Da:</span>=
+</b><span style=3D"mso-fareast-language:IT"> Sedig Krer &lt;<a href=3D"mailt=
+o:almotamisa@yahoo.com">almotamisa@yahoo.com</a>&gt;
+<br>
+<b>Inviato:</b> venerd=C3=AC 3 settembre 2021 09:45<br>
+<b>A:</b> Valentina Perini &lt;<a href=3D"mailto:valentina.perini@hirux.com"=
+>valentina.perini@hirux.com</a>&gt;<br>
+<b>Cc:</b> Alessandro Khawatmi &lt;<a href=3D"mailto:a.khawatmi@hirux.com">a=
+.khawatmi@hirux.com</a>&gt;; Pierpaolo Truffelli &lt;<a href=3D"mailto:pierp=
+aolo.truffelli@hirux.com">pierpaolo.truffelli@hirux.com</a>&gt;; Radwan Khaw=
+atmi &lt;<a href=3D"mailto:r.khawatmi@hirux.com">r.khawatmi@hirux.com</a>&gt=
+;<br>
+<b>Oggetto:</b> Re: @1574 Balance payment of your first order - PI 16</span>=
+<o:p></o:p></p>
+</div>
+</div>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><span style=3D"mso-far=
+east-language:IT">&nbsp;</span><o:p></o:p></p>
+<p class=3D"p1" style=3D"margin:0cm"><span class=3D"s1">Dear Valentina</span=
+><o:p></o:p></p>
+<p class=3D"p1" style=3D"margin:0cm;font-stretch: normal;-webkit-text-size-a=
+djust: auto">
+&nbsp;<o:p></o:p></p>
+<p class=3D"p1" style=3D"margin:0cm;font-stretch: normal;-webkit-text-size-a=
+djust: auto">
+<span class=3D"s1">Good morning</span><o:p></o:p></p>
+<p class=3D"p1" style=3D"margin:0cm;font-stretch: normal;-webkit-text-size-a=
+djust: auto">
+<span class=3D"s1">Have you finished manufacturing the frist order ?and If y=
+es ... Please send the new invoice and when it will be ready for shipping ?<=
+/span><o:p></o:p></p>
+<p class=3D"p1" style=3D"margin:0cm;font-stretch: normal;-webkit-text-size-a=
+djust: auto">
+<span class=3D"s1">Best regards</span><o:p></o:p></p>
+<div>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+</div>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+<div>
+<div>
+<p class=3D"MsoNormal">Sedig Krer<o:p></o:p></p>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal">Almotamiza International Company<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">G M<o:p></o:p></p>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal">Mobile #&nbsp;+218913139615<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:13.0pt">&nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Tripoli - Libya<o:p></o:p></p>
+</div>
+<p class=3D"MsoNormal">Sent from my iPhone<o:p></o:p></p>
+<div>
+<div>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+</div>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt">&nbsp;<o:p></o:p></p>
+<blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt">
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt">On 02/09/2021, at 3:34=
+ PM, Valentina Perini &lt;<a href=3D"mailto:valentina.perini@hirux.com">vale=
+ntina.perini@hirux.com</a>&gt; wrote:<o:p></o:p></p>
+</blockquote>
+</div>
+<blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt">
+<div>
+<p class=3D"MsoNormal">=EF=BB=BF <o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy"><a href=3D"mailto:Our.ref@1574/21/RK/vp">Our.ref@1574/21/RK/vp</a>&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">&nbsp;</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">Dear Mr. Sedig</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">&nbsp;</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">Please send us the balance payment for our PI 16 as follows: 48.726 =E2=
+=82=AC</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">&nbsp;</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">Thank you very much for your kind cooperation, and please accept my be=
+st regards</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">&nbsp;</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">Valentina Perini</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">Hirux International Spa</span><o:p></o:p></p>
+</div>
+</blockquote>
+<div>
+<p class=3D"MsoNormal"><span style=3D"mso-fareast-language:IT">&lt;doc103155=
+20210903150758.pdf&gt;</span><o:p></o:p></p>
+</div>
+</div>
+</blockquote>
+</div>
+</blockquote>
+</div>
+</div>
+</blockquote>
+</div>
+</blockquote>
+</div>
+
+
+</div></blockquote></body></html>=
+
+--Apple-Mail-DB2F39B9-86D0-4A56-8A18-9DCFF5B6ACA0--

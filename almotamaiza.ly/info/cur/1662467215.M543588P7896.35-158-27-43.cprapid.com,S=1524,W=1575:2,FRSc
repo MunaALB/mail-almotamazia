@@ -1,0 +1,51 @@
+Return-Path: <majdi.fajr@digix.ly>
+Delivered-To: info@almotamaiza.ly
+Received: from 35-158-27-43.cprapid.com
+	by 35-158-27-43.cprapid.com with LMTP
+	id MJ85H488F2PYHgAALyatdA
+	(envelope-from <majdi.fajr@digix.ly>)
+	for <info@almotamaiza.ly>; Tue, 06 Sep 2022 14:26:55 +0200
+Return-path: <majdi.fajr@digix.ly>
+Envelope-to: info@almotamaiza.ly
+Delivery-date: Tue, 06 Sep 2022 14:26:55 +0200
+Received: from [156.38.49.20] (port=3974 helo=[10.165.194.20])
+	by 35-158-27-43.cprapid.com with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.95)
+	(envelope-from <majdi.fajr@digix.ly>)
+	id 1oVXfM-00024B-HP
+	for info@almotamaiza.ly;
+	Tue, 06 Sep 2022 14:26:55 +0200
+Date: Tue, 6 Sep 2022 14:26:45 +0200
+From: Majdi Fajr <majdi.fajr@digix.ly>
+To: "=?utf-8?Q?info=40almotamaiza.ly?=" <info@almotamaiza.ly>
+Message-ID: <5a276e56-f4d6-41da-85d2-49053d173a75@Spark>
+Subject: Test
+X-Readdle-Message-ID: 5a276e56-f4d6-41da-85d2-49053d173a75@Spark
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="63173c8a_6b8b4567_249"
+
+--63173c8a_6b8b4567_249
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+Hello
+
+--63173c8a_6b8b4567_249
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+<html xmlns=3D=22http://www.w3.org/1999/xhtml=22>
+<head>
+<title></title>
+</head>
+<body>
+<div name=3D=22messageBodySection=22>
+<div dir=3D=22auto=22>Hello</div>
+</div>
+</body>
+</html>
+
+--63173c8a_6b8b4567_249--
+

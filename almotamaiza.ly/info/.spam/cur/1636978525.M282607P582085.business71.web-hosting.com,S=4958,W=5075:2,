@@ -1,0 +1,117 @@
+Return-Path: <ty2@a.gfjq.xyz>
+Delivered-To: info+spam@almotamaiza.ly
+Received: from business71.web-hosting.com
+	by business71.web-hosting.com with LMTP
+	id yCcKEF1PkmHF4QgAQZTD9Q
+	(envelope-from <ty2@a.gfjq.xyz>)
+	for <info+spam@almotamaiza.ly>; Mon, 15 Nov 2021 07:15:25 -0500
+Return-path: <ty2@a.gfjq.xyz>
+Envelope-to: info@almotamaiza.ly
+Delivery-date: Mon, 15 Nov 2021 07:15:25 -0500
+Received: from [118.107.41.61] (port=34102 helo=a.gfjq.xyz)
+	by business71.web-hosting.com with esmtp (Exim 4.94.2)
+	(envelope-from <ty2@a.gfjq.xyz>)
+	id 1mmatK-002USp-Ih
+	for info@almotamaiza.ly; Mon, 15 Nov 2021 07:15:25 -0500
+Received: from PC-201802190613 (unknown [60.177.122.236])
+	by a.gfjq.xyz (Postfix) with ESMTPA id 0984C1986E4
+	for <info@almotamaiza.ly>; Mon, 15 Nov 2021 20:11:05 +0800 (HKT)
+From: =?UTF-8?Q?ailex?= <862508684@qq.com>
+Reply-To: 862508684@qq.com
+To: info@almotamaiza.ly
+Date: Mon, 15 Nov 2021 20:13:42 +0800
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="Mark=_297655414148827707757"
+X-Mailer: Foxmail 7, 2,53,  22[cn]
+Message-ID: <11BDDC760B0F140D2E2EB8B217164@PC-201802190613>
+X-Spam-Status: Yes, score=9.8
+X-Spam-Score: 98
+X-Spam-Bar: +++++++++
+X-Spam-Report: Spam detection software, running on the system "business71.web-hosting.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Dear Sir, Glad to know you are on the market of the air fryers.
+    Located in Zhejiang province in China, covering an area of 30,000 square
+   meters,we produce air fryers with good quality and competitive price.Our [...]
+    
+ Content analysis details:   (9.8 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  1.7 DEAR_SOMETHING         BODY: Contains 'Dear (something)'
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: cnouran.com]
+  1.3 RCVD_IN_VALIDITY_RPBL  RBL: Relay in Validity RPBL,
+                             https://senderscore.org/blocklistlookup/
+                             [118.107.41.61 listed in bl.score.senderscore.com]
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [862508684[at]qq.com]
+  0.2 FREEMAIL_REPLYTO_END_DIGIT Reply-To freemail username ends in
+                             digit
+                             [862508684[at]qq.com]
+  1.0 KAM_LAZY_DOMAIN_SECURITY Sending domain does not have any
+                             anti-forgery methods
+  0.0 FROM_SUSPICIOUS_NTLD   From abused NTLD
+  2.0 FROM_SUSPICIOUS_NTLD_FP From abused NTLD
+  0.2 FREEMAIL_FORGED_FROMDOMAIN 2nd level domains in From and
+                             EnvelopeFrom freemail headers are
+                             different
+  2.0 RDNS_NONE              Delivered to internal network by a host with no rDNS
+  0.0 SPOOFED_FREEMAIL_NO_RDNS From SPOOFED_FREEMAIL and no rDNS
+  1.1 SPOOFED_FREEMAIL       No description available.
+X-Spam-Flag: YES
+Subject:  ***SPAM***  =?UTF-8?Q?Air_Fryers_We_Sell?=
+
+This is a multi-part message in MIME format.
+
+--Mark=_297655414148827707757
+Content-Type: multipart/related; type="multipart/alternative";
+	boundary="Mark=_297655414148827707982"
+
+
+--Mark=_297655414148827707982
+Content-Type: multipart/alternative; boundary="Mark=_29765541414882770738"
+
+
+--Mark=_29765541414882770738
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Sir,
+
+Glad to know you are on the market of the air fryers.
+Located in Zhejiang province in China, covering an area of 30,000 squar=
+e meters,we produce air fryers with good quality and competitive price.=
+Our air fryers have the features of 2020 new design adjustable thermost=
+at control,non-stick cooking surface,detachable oil container,overheat =
+protecion with light indicator,which are in good taste of your market. =
+The current annual output of air fryers scale of more than 1 million, a=
+nd annual output of air fryers are up to more than 4 million
+If any interest ,please contact me for  further information.We are sure=
+ your inquiry or requirements will get prompt attention. 
+Hope to establish a cooperation relationship with you !
+
+Best Regards,
+
+
+ailex
+
+
+Hangzhou Lature internet Technology Co., Ltd
+
+E: sales@lature.cn   
+T: +86-150 6812 0343
+www.cnouran.com
+
+--Mark=_29765541414882770738--
+
+--Mark=_297655414148827707982--
+
+--Mark=_297655414148827707757--

@@ -1,0 +1,93 @@
+Return-Path: <sedigkrer@gmail.com>
+Delivered-To: s.krer@almotamaiza.ly
+Received: from 35-158-27-43.cprapid.com
+	by 35-158-27-43.cprapid.com with LMTP
+	id Apu/JGKgaGKDNQAALyatdA
+	(envelope-from <sedigkrer@gmail.com>)
+	for <s.krer@almotamaiza.ly>; Wed, 27 Apr 2022 03:46:10 +0200
+Return-path: <sedigkrer@gmail.com>
+Envelope-to: s.krer@almotamaiza.ly
+Delivery-date: Wed, 27 Apr 2022 03:46:10 +0200
+Received: from mail-yb1-f180.google.com ([209.85.219.180]:41901)
+	by 35-158-27-43.cprapid.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.95)
+	(envelope-from <sedigkrer@gmail.com>)
+	id 1njWkq-0003Y9-SQ
+	for s.krer@almotamaiza.ly;
+	Wed, 27 Apr 2022 03:46:10 +0200
+Received: by mail-yb1-f180.google.com with SMTP id s30so812533ybi.8
+        for <s.krer@almotamaiza.ly>; Tue, 26 Apr 2022 18:45:48 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=+PXj2dWUZdG2FuxLCJE+HD88V5uVzca7Mf19TI73c0Y=;
+        b=kGw4nD2jor15EIhaykQNe0k2Rh1ENDz6BsTaKAHThOg7864cA6UKzilwrjwlyGJRxn
+         STLR561lgHctAGwQKG+nD3rJpx2CskCQn99WUqVxWwwm/QJAQKVMgQX/in986ShqYZ58
+         D6ayZ1vqJ5otgdXYmQsoPuQ48ea6nYDvqvIKN2NKtp8l3tm6Qbp4AC0MpGRxGD9/DESh
+         KPYu/fMVR1XJMMjJ+vwubRdGjIUOGzjzDABWtQ9eHxpl0hhoNrNG4L3Yy8TlvViY1EpO
+         cSODHQzM3v06yyRvrQiztKIy7h+VXIrEGdsBGSPEOVr6LX1MFKNruRXGGRuiJ2mWRhRJ
+         9sZw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=+PXj2dWUZdG2FuxLCJE+HD88V5uVzca7Mf19TI73c0Y=;
+        b=5U+YUJ/dw269G5r2dZILi0SlRvekbXhZmtialCMSPfGIX7HV5KBgWVU4TNLPWb92Mq
+         gUA54nJ+W/N4ZVOfPlMmdM8MeiD0IppRKdoolUk+LqfdzCogLwQRn93Bg8nW7otSYO3n
+         dYSjI7gJ0pzaMEcuVHbii6zVydEWmZEAa8V79UeBwB6VkhS/ZW36wWHfWr4hRLvq+7WA
+         7DHsrZeFKp80UtPYVbRHiEQfAc60yLWe/SszJi1/xQaY5Szl7UZeCZsGoV62C7857ElO
+         VPVetRZ1iowAIHJi7nwWUzpsJSZ/gGhY7dcYxemHpU6nR5bEwdXtMJe/gukE5Hondyek
+         TZlg==
+X-Gm-Message-State: AOAM5308czsDgYIybASYUnrRJqe1sAHCLeiTCJJ1HE6E9wbEM0LrmjZx
+	i3fZSMzv57veiBUfkktG585+x9Wn3wIUZZh693ScoLCo
+X-Google-Smtp-Source: ABdhPJzP7zFIuoKIjVLpVhRSj41D/y4WZlw7AKrOtkFL1WzCf8wj7+VIVABZg+NgSsRmajyN4Tn3bvIDbNjJd4b+HLU=
+X-Received: by 2002:a25:424f:0:b0:645:7bfc:3293 with SMTP id
+ p76-20020a25424f000000b006457bfc3293mr22243173yba.108.1651023927387; Tue, 26
+ Apr 2022 18:45:27 -0700 (PDT)
+MIME-Version: 1.0
+From: Sedig Krer <sedigkrer@gmail.com>
+Date: Wed, 27 Apr 2022 03:45:16 +0200
+Message-ID: <CAHhJ92drSkhtfBu_WMeZzgDfkP9bjJGbRrp3qU0G24+hcDbfFQ@mail.gmail.com>
+Subject: 
+To: s.krer@almotamaiza.ly
+Content-Type: multipart/alternative; boundary="000000000000b52b1c05dd98f6e0"
+X-Spam-Status: No, score=3.4
+X-Spam-Score: 34
+X-Spam-Bar: +++
+X-Ham-Report: Spam detection software, running on the system "35-158-27-43.cprapid.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi Hi 
+ Content analysis details:   (3.4 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.2 KAM_BLANKSUBJECT       Message has a blank Subject
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [sedigkrer[at]gmail.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  2.0 PYZOR_CHECK            Listed in Pyzor
+                             (https://pyzor.readthedocs.io/en/latest/)
+  1.4 FSL_BULK_SIG           Bulk signature with no Unsubscribe
+X-Spam-Flag: NO
+
+--000000000000b52b1c05dd98f6e0
+Content-Type: text/plain; charset="UTF-8"
+
+Hi
+
+--000000000000b52b1c05dd98f6e0
+Content-Type: text/html; charset="UTF-8"
+
+Hi
+
+--000000000000b52b1c05dd98f6e0--

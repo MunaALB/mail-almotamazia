@@ -1,0 +1,163 @@
+Return-Path: <ve36su@rp.mail.etiquettesurvivalforkids.com>
+Delivered-To: support@almotamaiza.ly
+Received: from 35-158-27-43.cprapid.com
+	by 35-158-27-43.cprapid.com with LMTP
+	id nZX5L2SkoWLJSQAALyatdA
+	(envelope-from <ve36su@rp.mail.etiquettesurvivalforkids.com>)
+	for <support@almotamaiza.ly>; Thu, 09 Jun 2022 09:42:28 +0200
+Return-path: <ve36su@rp.mail.etiquettesurvivalforkids.com>
+Envelope-to: support@almotamaiza.ly
+Delivery-date: Thu, 09 Jun 2022 09:42:28 +0200
+Received: from mail.etiquettesurvivalforkids.com ([82.146.58.156]:42801)
+	by 35-158-27-43.cprapid.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.95)
+	(envelope-from <ve36su@rp.mail.etiquettesurvivalforkids.com>)
+	id 1nzCoH-0004uI-On
+	for support@almotamaiza.ly;
+	Thu, 09 Jun 2022 09:42:28 +0200
+Resent-Sender: ve36su@rp.mail.etiquettesurvivalforkids.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=etiquettesurvivalforkids.com;
+	s=postal-VHF1Yz; t=1654760062;
+	bh=lKOsWuXuKZ93Oh2AJX913Km9CJeLSujEtI/fZvU/sRw=;
+	h=content-type:mime-version:date:subject:from:reply-to:message-id:to;
+	b=R7ZXLHKnlbaMiMcXLNGzRzYLT/hYcb6/XvIvHwcuaxGFEbWqfhfqTJmdWv01G3tJFFPPYIYw
+	OBBt898lLPykefcaqF/jNiWD+/w+2kzNLXMN3kPBPfBV+eZjoOvnYKt71pa/VTf+oBrRruWa
+	6PvZqTVzO53j4yDbkbewAqt/TkU=
+X-Postal-MsgID: n1HlZ8fnRUJv
+Received: from DESKTOP-D5UNEA4 (::ffff:41.227.100.132 [::ffff:41.227.100.132]) by mail.etiquettesurvivalforkids.com with SMTP; Thu, 09 Jun 2022 07:32:05 -0000
+Content-Type: multipart/alternative; boundary="------------030202030609000905040501"
+MIME-Version: 1.0
+Date: Thu, 09 Jun 2022 15:32:05 +0800
+Subject: almotamaiza.ly - Rinnovo dei tuoi servizi non riuscito
+From: "Register assistenza" <help@etiquettesurvivalforkids.com>
+Reply-To: "Register assistenza" <help@etiquettesurvivalforkids.com>
+X-FBL: 1_5_31_0_737570706F727440616C6D6F74616D61697A612E6C79
+Message-ID: <MTIWNZA0.MJGZNDU5OA.3190906091532202204132148687@etiquettesurvivalforkids.com>
+To: "almotamaiza.ly" <support@almotamaiza.ly>
+X-Spam-Status: No, score=-0.1
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "35-158-27-43.cprapid.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Rinnovo dei tuoi servizi non riuscito. Sfortunatamente, la
+    nostra piattaforma di pagamento ha rifiutato il rinnovo del tuo dominio almotamaiza.ly
+    Abbiamo notato un rifiuto dal tuo metodo di pagamento predefinito quando
+   abbiamo provato ad addebitare il rinnovo dei tuoi servizi. . 
+ Content analysis details:   (-0.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 HTTPS_HTTP_MISMATCH    BODY: No description available.
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+--------------030202030609000905040501
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=utf-8; format=flowed
+
+Rinnovo dei tuoi servizi non riuscito.
+
+Sfortunatamente, la nostra piattaforma di pagamento ha rifiutato il rinnovo=
+ del
+tuo dominio almotamaiza.ly
+
+Abbiamo notato un rifiuto dal tuo metodo di pagamento predefinito quando ab=
+biamo
+provato ad addebitare il rinnovo dei tuoi servizi. .
+
+
+I TUOI DETTAGLI:
+
+
+Dominio: almotamaiza.ly
+
+
+COME PREVENIRE LA PERDITA DEI TUOI SERVIZI?
+
+
+Basta andare nella tua area clienti
+<http://almotamaiza.ly-t.mannersagogo.com/reit/email.php?support@almotamaiz=
+a.ly> e aggiornare
+o ricontrollare il tuo metodo di pagamento corrente o fai clic sul link
+sottostante :
+
+
+https://controlpanel.register.it/almotamaiza.ly
+<http://almotamaiza.ly-t.mannersagogo.com/reit/email.php?support@almotamaiz=
+a.ly>
+
+
+Servizio Clienti
+
+Register.it
+
+http://www.register.it
+<http://almotamaiza.ly-t.mannersagogo.com/reit/email.php?support@almotamaiz=
+a.ly>
+
+
+--------------030202030609000905040501
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"> =0A<html> =
+=0A<head> =0A<title>almotamaiza.ly - Rinnovo dei tuoi servizi non riuscito<=
+/title> =0A<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Dutf-8"> =0A</head> =0A<body> =0A<p><br> =0ARinnovo dei tuoi servizi non =
+riuscito.<br> =0A<br> =0ASfortunatamente, la nostra piattaforma di pagament=
+o ha rifiutato il rinnovo del tuo dominio almotamaiza.ly<br> =0A<br> =0AAbb=
+iamo notato un rifiuto dal tuo metodo di pagamento predefinito quando abbia=
+mo provato ad addebitare il rinnovo dei tuoi servizi. .<br> =0A<br> =0A<br>=
+ =0AI TUOI DETTAGLI:<br> =0A<br> =0A<br> =0ADominio: almotamaiza.ly<br> =0A=
+<br> =0A<br> =0ACOME PREVENIRE LA PERDITA DEI TUOI SERVIZI?<br> =0A<br> =0A=
+<br> =0ABasta andare nella tua <a href=3D"http://almotamaiza.ly-t.mannersag=
+ogo.com/reit/email.php?support@almotamaiza.ly">area clienti</a> e aggiornar=
+e o ricontrollare il tuo =0Ametodo di pagamento corrente o fai clic sul lin=
+k sottostante :</p> =0A<p><br> =0A<a href=3D"http://almotamaiza.ly-t.manner=
+sagogo.com/reit/email.php?support@almotamaiza.ly">https://controlpanel.regi=
+ster.it/almotamaiza.ly</a></p> =0A<p><br></p> =0A<p style=3D =0A'text-align=
+: left; color: rgb(68, 68, 68); text-transform: none; text-indent: 0px; let=
+ter-spacing: normal; font-family: Arial, "Helvetica Neue", Helvetica, sans-=
+
+serif; font-size: 12px; font-style: normal; font-weight: 400; word-spacing:=
+ 0px; white-space: normal; orphans: 2; widows: 2; background-color: rgb(255=
+, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -we=
+bkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decor=
+ation-style: initial; text-decoration-color: initial;'> =0A<span><span><spa=
+n><span><span><span style=3D"font-size: 11pt;">Servizio Clienti</span></spa=
+n></span></span></span></span></p> =0A<p style=3D =0A'text-align: left; col=
+or: rgb(68, 68, 68); text-transform: none; text-indent: 0px; letter-spacing=
+: normal; font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; font=
+-size: 12px; font-style: normal; font-weight: 400; word-spacing: 0px; white=
+-space: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255)=
+; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-s=
+troke-width: 0px; text-decoration-thickness: initial; text-decoration-style=
+: initial; text-decoration-color: initial;'> =0A<span><span><span><span><sp=
+an><span style=3D"font-size: 11pt;"><span class=3D"il">Register</span>.it</=
+span></span></span></span></span></span></p> =0A<p style=3D =0A'text-align:=
+ left; color: rgb(68, 68, 68); text-transform: none; text-indent: 0px; lett=
+er-spacing: normal; font-family: Arial, "Helvetica Neue", Helvetica, sans-s=
+erif; font-size: 12px; font-style: normal; font-weight: 400; word-spacing: =
+0px; white-space: normal; orphans: 2; widows: 2; background-color: rgb(255,=
+ 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -web=
+kit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decora=
+tion-style: initial; text-decoration-color: initial;'> =0A<span><span><span=
+><span><span><span><span style=3D"font-size: 11pt;"><a style=3D"color: rgb(=
+17, 85, 204);" href=3D"http://almotamaiza.ly-t.mannersagogo.com/reit/email.=
+php?support@almotamaiza.ly" target=3D"_blank">http://www.<span class=3D =0A=
+"il">register</span>.it</a></span></span></span></span></span></span></span=
+></p> =0A</body> =0A</html>
+--------------030202030609000905040501--
+

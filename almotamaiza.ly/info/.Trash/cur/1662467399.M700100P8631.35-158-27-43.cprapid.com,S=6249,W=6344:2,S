@@ -1,0 +1,95 @@
+Return-Path: <almotamisa@yahoo.com>
+Delivered-To: info@almotamaiza.ly
+Received: from 35-158-27-43.cprapid.com
+	by 35-158-27-43.cprapid.com with LMTP
+	id Jk5rKUc9F2O3IQAALyatdA
+	(envelope-from <almotamisa@yahoo.com>)
+	for <info@almotamaiza.ly>; Tue, 06 Sep 2022 14:29:59 +0200
+Return-path: <almotamisa@yahoo.com>
+Envelope-to: info@almotamaiza.ly
+Delivery-date: Tue, 06 Sep 2022 14:29:59 +0200
+Received: from sonic303-21.consmr.mail.ne1.yahoo.com ([66.163.188.147]:46537)
+	by 35-158-27-43.cprapid.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.95)
+	(envelope-from <almotamisa@yahoo.com>)
+	id 1oVXhq-00025J-Kl
+	for info@almotamaiza.ly;
+	Tue, 06 Sep 2022 14:29:59 +0200
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1662467327; bh=ZP1mUf3UXpYOBYBBF/IW+8pfbr36yLyxFs/fAKK+GvA=; h=From:Date:To:References:From:Subject:Reply-To; b=ge2T1cbCh5AljOs15TaGcDlBuyT/HSbBQ3zINPwPEGIlnrMYzM1cO46FIdlLpw1J+vSXP84kyeUAvwCH6s/tiuUVaK00ktNZW0DZR0fSw3shsPhnZEOiQEcSLbme2k23jb5IFnEFyl0WEHtvQ+dFDKACqtPDKl21J76/rnWVqVWGSyB6htRNfaE1iLXQdnU3frcgdLN2MjyBFSdnqniPWmJDAwAMkEGBAqwqyL5VGst32BC6uHeuWHhp/eJhnAnp0xNboR+fVyPn3sfwf/qHldKqJFaZjQ7WTWgmo3MKXgNictf5e9oF+6A9Uip7WarvpFcvoRRXNXlYgjRHqojuBA==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1662467327; bh=9Ujy/YUvv4O8sKk9WJxkK7E50r1XD233y/um2i+iwKm=; h=X-Sonic-MF:From:Date:To:From:Subject; b=cS9Ss/fItEzJ8R8MTAOX1h69NfAEBHRWk1fpxsahl74hXGtvIYtX76VmyJ62yNcQoNjuw3cVw/TQIPoLHZhevd62bFvtRqHUaJic5QTf5ywQD2QqVbpcmbgFRyjiSCQKGUF8iemDVswhdyKhVd3WEhOCVgem8tDuCwpR+hiaSv4nPVsSK+513qmt4ojAemSFFTBVsw2mZJz85EEIwG6smnP465fllmS2D797wc5Ta1XaKLP337oBUFLaIAtaA9oqA/w1s+bb6CNemWqI6x1eZNpPnX9+nVb8HYwP/z7RDFREdbCT93LQuFZJJjvxtY+u28qWENLrdF4UvkUbmv1+pQ==
+X-YMail-OSG: thme2ccVM1mrs62fu4DVwjaGrr1gmX0kJbZ82sg4WwiBilIQhzUWO9QAxs4X.Ut
+ .sRMRNYaMK8io3d1s_ezIFwYWVTB32WEoSvWW4wlZ04Q8Q8545Exx81gwOe1Y81iPrl.sUdKE7rr
+ 6VpCUi5RytRNjvesMW4XQs2SeCBLB17LF1No2s0GeetOb3Nutq9ByBGWtfXy6VzR6EHoElWtX.cj
+ EdDtJBsX4J8G1xrLgyIB4QUcZeaehdKem6PQp.BjI3.7pasGHGDlMhh_1oQGWvOZ2DqZYqaP37MC
+ JsvmeDf9NCFNp_TDQvRnqO2AqgfElqKUYcA5w3xVl4vAHuMpQuDLvc_1xlp2OdaS3RkO9BHfmMW1
+ Fi5u2LY5yc4f.2TE.RIoQHcPzBnfe1ZKN65DgmX2jHEv7CY89PhJivQGZ4kJ8utOII_w6p8sRXM2
+ 1VpZ0o4twWAkq5.6lorpkaBz6Z9zzQAWq2AEAXVF5oSSlcQgw1jf5mEJ55VD2k7zGVeOagF.2eJr
+ WfGHgks2NM726Diyyk8_0HXdTCRukuIOxaATJVIMo2.gMYi5Xouu9Q81_V9L7SzLlYr2c9OEX02Q
+ 0NkOTzvLO_pJB96v7hA3H3n93NAF6tqMP3saEIpv6ls3XRjnq4F.BHCmMxmkwdOIgW4T6nm0qIL6
+ 5GelWbzTJxMpFu3amRU.SFypikLNQ0CBaIMQ58244IMdNXqRsm.5xtScyE5ATrRQU2pOqJbPfsOf
+ UfuZlwwont3Cxx0OeS4a.JBJc5zRyNX1MPCGOBaDhVD__HbQbEHhiAT3I4J.Akv3mG3gSLZWrEkT
+ 6iAjljuuFKZSBBM2RwxufGT_dh8AFk78fMt0zFBeFFzwDX8jRjab5ZiqZ2SYXd0jU03IKaFbTpev
+ 3rMAdhHS4iGHW0ACrblA9fiWaLISSqbhEVUIz0PzTM_INAUnVD6aMF2Dk4PKdu0mrVsXNioFpT2g
+ _WEWh65OQtIJqh_7nAUDdqyePG9RnMm9LVtUusitBEUY9xmnzRqzBkxCiEOeTuCBRq.PXCcCL6Fg
+ ZUp6VjN6jKf4kT2Di0.90xtTW8Bltg4VvD8whrZta_ge8YraRSuSpo69I97m0lTDfogERs3gb765
+ hnE.ruBAW7t4rljRpmtjS7qZo0FYnkI7tyJwN7mOiNdXmtBpF4mosDFDG46ly8M9OkgK6kvUXL.U
+ eoKs2U2akxB_17ACI3bO_6iJp3st50k.s4yGz_DI8QnyXI9AersiIKSRq.eiXvyW7iY3CE5T72IW
+ TRsH_w.LHdQ3xEvw27FD3ZBbjjbZXuQhAIhcsTsh1DfTUnA1l5HSdd6eLZ4ZimUvJWRF0fKCjivf
+ A.63et4WFs1TizveCe2ftxzqxnjvMUsBPRzJwwWGHURBzs3zzpsOB1OTZOfhm0HCvfrsgchOwu1H
+ 3gqilzR528UJ2160t6TaW7QZ31WBjfWh0SvwMh_U5gmUIQWkpvIfOmKTUIF.EZXevG_vgritjfQq
+ OjYi.H04WzS4DcGtswY0aV_rTdPezClYudoh7n8YfygHqA.xbC0OReLPyWibh9mvRBhOQucXHlMd
+ qoPw9vW6PrLm9_4dzJG8uUw6TnJ6dc_GJbypNYMdw0mXVzb9PeOoklGippM.A_tGNMK3HpFcUgiT
+ CS3fInUWSlK8izAiUSalK0g05xOIRlIml0lLhgCsEjTILPCSBdK1MIhGetVp0k1HtfQzf6QwBDlp
+ tcROdKuUx1s1ywO6ixOTdXYEkVeZYkKNmiZt05_cCTPBiwdkamaYPALLcb827NHMYXNYZKedGkYR
+ EXeblZmEA8eeagh8DntZDoR9DQvvLZPipf83.yI_WX7VreswbWgIzEfCAiZL74C3JW_rohPY_zsQ
+ 3yM1jyc2afbXSih1cXQ9uiFuBOcPw3xvzdCEIgoaiI_WCrknWxfGEcNEUk3YI9ua1JYZWl7jBm74
+ Qa1jJqZrv.11uX5jYMhbzfd8d.mizDvCOPFKn7oZE5wF0LNApu3EfZO9L2gSgfpruA12vqeFewM4
+ tLxSogvZ9026tXyEBg2GDp6COJApz9K4hPNiWrb47KlhE4Okerf0LMeSaizzBhLSH1aFK3R3Ssxk
+ NK9Nye1ncSY_laoq5OHFJ6QlCAKiTSTfUU.6FYRRuqkTR2Mqg7.VjMis98soIRy.l_OTtYUyiiGq
+ 7VnavXaA30lgR0MWweEs5Mw7sHSrnXBts2oyZoAK6oy4LAFe_VYClEjoJSAJGvcW.OH89BoQ2rtm
+ xQ9SdTL7coBH.7_D3jHFIJe9H9YP6XYzDeHmGoBHqB1VosXE-
+X-Sonic-MF: <almotamisa@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic303.consmr.mail.ne1.yahoo.com with HTTP; Tue, 6 Sep 2022 12:28:47 +0000
+Received: by hermes--canary-production-ir2-85867b7b87-4tf9v (Yahoo Inc. Hermes SMTP Server) with ESMTPA ID e476b8796754bb64522fa6e8ea8dd68d;
+          Tue, 06 Sep 2022 12:28:40 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=Apple-Mail-6CAC5D0D-1537-4798-B1AD-466A0A88A1E3
+Content-Transfer-Encoding: 7bit
+From: Sedig Krer <almotamisa@yahoo.com>
+Mime-Version: 1.0 (1.0)
+Date: Tue, 6 Sep 2022 14:28:38 +0200
+Message-Id: <3C5BC107-27D1-48B7-8046-CAF8065F6F9E@yahoo.com>
+To: info@almotamaiza.ly
+X-Mailer: iPhone Mail (19G82)
+References: <3C5BC107-27D1-48B7-8046-CAF8065F6F9E.ref@yahoo.com>
+Content-Length: 1236
+X-Spam-Status: No, score=
+X-Spam-Score: 
+X-Spam-Bar: 
+X-Ham-Report: 
+X-Spam-Flag: NO
+
+
+--Apple-Mail-6CAC5D0D-1537-4798-B1AD-466A0A88A1E3
+Content-Type: text/plain;
+	charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Hi
+
+Sedig Krer
+Almotamiza International Company
+G M
+Mobile # +218913139615
+                +218918884889 
+               
+Tripoli - Libya
+Sent from my iPhone
+
+
+--Apple-Mail-6CAC5D0D-1537-4798-B1AD-466A0A88A1E3
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html><head><meta http-equiv="content-type" content="text/html; charset=utf-8"></head><body dir="auto">Hi<br><br><div dir="ltr"><div>Sedig Krer</div><div style="direction: ltr;"><div style="direction: ltr;"><span style="background-color: rgba(255, 255, 255, 0);">Almotamiza International Company</span></div><div style="direction: ltr;">G M</div></div><div>Mobile #&nbsp;<span style="background-color: rgba(255, 255, 255, 0);">+218913139615</span></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; +<span style="font-size: 13pt;">218918884889&nbsp;</span></div><div><span style="font-size: 13pt;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></div><div>Tripoli - Libya</div>Sent from my iPhone<div><div><br></div></div></div></body></html>
+--Apple-Mail-6CAC5D0D-1537-4798-B1AD-466A0A88A1E3--

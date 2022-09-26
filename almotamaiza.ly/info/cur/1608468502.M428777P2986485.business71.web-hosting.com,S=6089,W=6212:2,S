@@ -1,0 +1,123 @@
+Return-Path: <010701768030dc17-8f51bf1e-8685-470f-a77f-7c483a8bd154-000000@eu-central-1.amazonses.com>
+Delivered-To: info@almotamaiza.ly
+Received: from business71.web-hosting.com
+	by business71.web-hosting.com with LMTP
+	id iNnGGBZI31/1kS0AQZTD9Q
+	(envelope-from <010701768030dc17-8f51bf1e-8685-470f-a77f-7c483a8bd154-000000@eu-central-1.amazonses.com>)
+	for <info@almotamaiza.ly>; Sun, 20 Dec 2020 07:48:22 -0500
+Return-path: <010701768030dc17-8f51bf1e-8685-470f-a77f-7c483a8bd154-000000@eu-central-1.amazonses.com>
+Envelope-to: info@almotamaiza.ly
+Delivery-date: Sun, 20 Dec 2020 07:48:22 -0500
+Received: from b224-13.smtp-out.eu-central-1.amazonses.com ([69.169.224.13]:41337)
+	by business71.web-hosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+	(Exim 4.93)
+	(envelope-from <010701768030dc17-8f51bf1e-8685-470f-a77f-7c483a8bd154-000000@eu-central-1.amazonses.com>)
+	id 1kqy8G-00CWfM-NT
+	for info@almotamaiza.ly; Sun, 20 Dec 2020 07:48:22 -0500
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=yqg4obmxnmrymjnnfnzurqlcaoocdltd; d=digix.ly; t=1608468454;
+	h=Date:From:To:Message-ID:References:Subject:MIME-Version:Content-Type;
+	bh=D3ArCBetGRq7ARN70nGp1EgayUAShJHkskK0GPW39/k=;
+	b=RqMgXPZHJZD99HFGs2gHxQkRjuRjZ6sYBz50RrDdTc+OF1R3Pem8mJOclWTNvdZ4
+	0lM2beMSxV8RGPGcBBkb6Ofc8Ly/1bTLExy57P+X9rCnQGCNYVGRbA0YBL1U5c+WSUA
+	CFavnAZboVOUzoHeALPpoij6togV1lpT5q/3T5Vg=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=qftdzk2dqsatjnlrq4r5brjbihpfcrsh; d=amazonses.com; t=1608468454;
+	h=Date:From:To:Message-ID:References:Subject:MIME-Version:Content-Type:Feedback-ID;
+	bh=D3ArCBetGRq7ARN70nGp1EgayUAShJHkskK0GPW39/k=;
+	b=Odz9axwuZUmrRywyk575V4XlaJ+SQjBGQJWf00ozcEi/nAvFHh+w+ihB1PxSDiFs
+	GQhY5TtGSKvDTPOzwjoOsRhG9JDbzinpkMcyjBlHV0I94E2VxQ+LWst2I/3KGXUbSdq
+	nrvyeVA6q4nanpQe+7cRcoPzZZNOFXjdhO/1FqvA=
+Date: Sun, 20 Dec 2020 12:47:34 +0000
+From: lazord@digix.ly
+To: almotamisa@yahoo.com, info@almotamaiza.ly
+Message-ID: <010701768030dc17-8f51bf1e-8685-470f-a77f-7c483a8bd154-000000@eu-central-1.amazonses.com>
+References: <abe4b94f-2f49-4b6b-b48f-9f69b3b2532e@Spark>
+Subject: SMEGPIX Cloud info
+X-Readdle-Message-ID: 9270117b-60aa-4bd6-9eaf-83e559a38b3a@Spark
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="5fdf47dc_6b68079a_549"
+X-SES-Outgoing: 2020.12.20-69.169.224.13
+Feedback-ID: 1.eu-central-1.XBsvOUY1KQbsFuSD2yIaq0vlLUXJMbRuKTQq4i4FkSs=:AmazonSES
+X-Spam-Status: No, score=0.1
+X-Spam-Score: 1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "business71.web-hosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Dear Sedig Krer, Greetings full of cordiality and respect,
+    hope this email finds you well. According to your request to get the login
+    requirements for smegpix cloud database, use those informations: Username
+    : Lazord1 Password : Aqswde123$ 
+ Content analysis details:   (0.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: digix.ly]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+X-Spam-Flag: NO
+
+--5fdf47dc_6b68079a_549
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+Dear Sedig Krer,
+Greetings full of cordiality and respect, hope this email finds you well.
+
+According to your request to get the login requirements for smegpix cloud database, use those informations:
+
+Username : Lazord1
+Password : Aqswde123$
+
+Best Regards,
+DigiX Team.
+
+--5fdf47dc_6b68079a_549
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+<html xmlns=3D=22http://www.w3.org/1999/xhtml=22>
+<head>
+<title></title>
+</head>
+<body>
+<div name=3D=22messageBodySection=22>
+<div dir=3D=22auto=22>Dear Sedig Krer,<br />
+<span style=3D=22font-family:Helvetica Neue;font-size: 13px=22>Greetings =
+full of cordiality and respect, hope this email finds you well.</span><sp=
+an style=3D=22font-size: 13px=22><br /></span><span style=3D=22font-size:=
+ 13px=22><br /></span><span style=3D=22font-family:Helvetica Neue;font-si=
+ze: 13px=22>According to your request to get the login requirements for s=
+megpix cloud database, use those informations:</span><span style=3D=22fon=
+t-size: 13px=22><br /></span><span style=3D=22font-size: 13px=22><br /></=
+span><span style=3D=22font-family:Helvetica Neue;font-size: 13px=22>Usern=
+ame : Lazord1</span><span style=3D=22font-size: 13px=22><br /></span><spa=
+n style=3D=22font-family:Helvetica Neue;font-size: 13px=22>Password : Aqs=
+wde123=24</span><span style=3D=22font-size: 13px=22><br /></span><span st=
+yle=3D=22font-size: 13px=22><br /></span><span style=3D=22font-family:Hel=
+vetica Neue;font-size: 13px=22>Best Regards,</span><span style=3D=22font-=
+size: 13px=22><br /></span><span style=3D=22font-family:Helvetica Neue;fo=
+nt-size: 13px=22>DigiX Team.</span></div>
+</div>
+</body>
+</html>
+
+--5fdf47dc_6b68079a_549--
+

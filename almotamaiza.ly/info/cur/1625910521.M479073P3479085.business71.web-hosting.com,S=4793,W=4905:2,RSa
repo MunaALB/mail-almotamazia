@@ -1,0 +1,112 @@
+Return-Path: <0107017a8fd0e51e-a759d765-136b-4d8c-a212-88afef5e50d0-000000@eu-central-1.amazonses.com>
+Delivered-To: info@almotamaiza.ly
+Received: from business71.web-hosting.com
+	by business71.web-hosting.com with LMTP
+	id cFWhG/ls6WAtFjUAQZTD9Q
+	(envelope-from <0107017a8fd0e51e-a759d765-136b-4d8c-a212-88afef5e50d0-000000@eu-central-1.amazonses.com>)
+	for <info@almotamaiza.ly>; Sat, 10 Jul 2021 05:48:41 -0400
+Return-path: <0107017a8fd0e51e-a759d765-136b-4d8c-a212-88afef5e50d0-000000@eu-central-1.amazonses.com>
+Envelope-to: info@almotamaiza.ly
+Delivery-date: Sat, 10 Jul 2021 05:48:41 -0400
+Received: from b224-13.smtp-out.eu-central-1.amazonses.com ([69.169.224.13]:50715)
+	by business71.web-hosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+	(Exim 4.94.2)
+	(envelope-from <0107017a8fd0e51e-a759d765-136b-4d8c-a212-88afef5e50d0-000000@eu-central-1.amazonses.com>)
+	id 1m29b7-00Ecfw-RW
+	for info@almotamaiza.ly; Sat, 10 Jul 2021 05:48:41 -0400
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=yqg4obmxnmrymjnnfnzurqlcaoocdltd; d=digix.ly; t=1625910470;
+	h=Date:From:To:Message-ID:References:Subject:MIME-Version:Content-Type;
+	bh=qNRu2e3Evsu7eKevuhyryPjtgROMncFGB0Yr+5gdyPA=;
+	b=JM1WTtQ8/OgBY4djphHbX/YSXqzr8l95R72RiyyxHH2Kw6oOOYWZjNXAaIcZM2Cq
+	cjrh7wAFSKI2p62phuEAqucUlJltbfk+gTF2LVO8D+2s+UxdBV2Rzd2WPxl6aOXfJhC
+	wnHMytgz1Uz/hNx/AXvRrzK+CAcOXP8d7siixU1k=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=qftdzk2dqsatjnlrq4r5brjbihpfcrsh; d=amazonses.com; t=1625910470;
+	h=Date:From:To:Message-ID:References:Subject:MIME-Version:Content-Type:Feedback-ID;
+	bh=qNRu2e3Evsu7eKevuhyryPjtgROMncFGB0Yr+5gdyPA=;
+	b=AXKg2ddTizMgdG4GdSOTKJ9CqNpzyq6m/DMtindERFATLGIlVCqVb0jAD0WWpj3q
+	WnTWH8WwhzUnUN4zdXKDnTpuj20EUneCjqPXlaHlaTYb5ElrG52ecxinI02XhvHkKHk
+	Vc/A9dy6FE8GHiCBPdOwWPwa0247gVA7XVxR2puc=
+Date: Sat, 10 Jul 2021 09:47:49 +0000
+From: Majdi Fajr <majdi.fajr@digix.ly>
+To: "=?utf-8?Q?info=40almotamaiza.ly?=" <info@almotamaiza.ly>
+Message-ID: <0107017a8fd0e51e-a759d765-136b-4d8c-a212-88afef5e50d0-000000@eu-central-1.amazonses.com>
+References: <d7fb3036-619d-4a57-be05-8a2b50c11c8b@Spark>
+Subject: Test Email
+X-Readdle-Message-ID: 8e5a1122-a522-444c-be85-a2f39d14644a@Spark
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="60e96cb7_1befd79f_226"
+Feedback-ID: 1.eu-central-1.XBsvOUY1KQbsFuSD2yIaq0vlLUXJMbRuKTQq4i4FkSs=:AmazonSES
+X-SES-Outgoing: 2021.07.10-69.169.224.13
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "business71.web-hosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Dear Mr. Seddeg Good morning, Did you receive the email ? 
+ Content analysis details:   (-0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: digix.ly]
+  0.0 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+X-Spam-Flag: NO
+
+--60e96cb7_1befd79f_226
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+Dear Mr. Seddeg
+
+Good morning,
+
+Did you receive the email ?
+
+Reply on my email please
+
+Thanks
+
+--60e96cb7_1befd79f_226
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+<html xmlns=3D=22http://www.w3.org/1999/xhtml=22>
+<head>
+<title></title>
+</head>
+<body>
+<div name=3D=22messageBodySection=22>
+<div dir=3D=22auto=22>Dear Mr. Seddeg<br />
+<br />
+Good morning,<br />
+<br />
+Did you receive the email =3F&=23160;<br />
+<br />
+Reply on my email please<br />
+<br />
+Thanks</div>
+</div>
+</body>
+</html>
+
+--60e96cb7_1befd79f_226--
+

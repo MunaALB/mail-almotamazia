@@ -1,0 +1,290 @@
+Return-Path: <hirux@hirux.com>
+Delivered-To: info@almotamaiza.ly
+Received: from 35-158-27-43.cprapid.com
+	by 35-158-27-43.cprapid.com with LMTP
+	id V1M1BFzNhGKKXQAALyatdA
+	(envelope-from <hirux@hirux.com>)
+	for <info@almotamaiza.ly>; Wed, 18 May 2022 12:41:32 +0200
+Return-path: <hirux@hirux.com>
+Envelope-to: info@almotamaiza.ly
+Delivery-date: Wed, 18 May 2022 12:41:32 +0200
+Received: from mail-eopbgr60084.outbound.protection.outlook.com ([40.107.6.84]:45476 helo=EUR04-DB3-obe.outbound.protection.outlook.com)
+	by 35-158-27-43.cprapid.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.95)
+	(envelope-from <hirux@hirux.com>)
+	id 1nrFU5-00047k-5p
+	for info@almotamaiza.ly;
+	Wed, 18 May 2022 10:56:47 +0200
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=U0joueZ8IFK8bGB1Y+ac5kt4MCfGp5C4Xb0qysf4OIanyFbIkSAST35qTOAuVPrJv9rTz9Q3cZpaO9du+ARXHklBa7Mk5BoCFOKvp5DTHFpzKVQyg4EQkUHAaR6f/M1DUhZQ7daclfn0Kh9t0haibJlDmakFz2i8mGvrZVqM0t9/YHALfci6p0K0ONKn2FqM/OCgo+zx6JaiuiXHQWn9P8dZakOU5jBm3jftXMj9zwp+Z/lK1Z6LvcIvXdVM1CEVYQVXz8kxGlZlhYHMIiPuci1w90BG8IIZ/s7M78Rfosezy6L8e8AsSDgmzDwlpaj3H9OnnOJ/PS95+qT2qP3jGQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=duAWlePBSZXfK0L+90eHPJKnUmEuWEvW9M6ukl7j2yc=;
+ b=a5D+X+o9NMfyZWW3BVhiLnS4D6f8eeGE5LuJX6S7y+QUFGHBeLy53ZzXCYklGH1bWYvvo+FDpgsLAC1/Zpr9/+cFImuH1j/UTm2dFkZXnFBIGlN1ClCstpTWRDoh0HaJJjF50J+UC6MKYkXOBijhA6y145OAqFmJ8vPJrHGnIrpTMiPf0J03zBRNC7Ac5PoEAkeJtuU6/PKSAgw+b3qdazvxY8P2dLiSoLljNcGJ6e+oNEpjZRhQxFWrdqO/27IF7Z8YlUl5sCvD7ZL1gj0nTldGuAohkxjuDKdxRZIbfJc8+ycvEsmj1HX0KQtz5oCbiZU8hyMD8e9t/oRSBwgLlQ==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=hirux.com; dmarc=pass action=none header.from=hirux.com;
+ dkim=pass header.d=hirux.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hirux.onmicrosoft.com;
+ s=selector2-hirux-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=duAWlePBSZXfK0L+90eHPJKnUmEuWEvW9M6ukl7j2yc=;
+ b=lZS0+tLcytR2Gq87yJi+F7nV9FMgOss8GUpPFMq2ngTONfo7EuYtrnJAmes/SVA3yKecEWr3IeW9+tfUbWUKJW3dnVn8Z5lLh0sIq4/zZqzTgctijTFqkQCp7vPRHwZk9/dxK3BY4boBpx5z/tHly0cHnmjCcj/ER5V45KwXFKE=
+Received: from AM0PR04MB5026.eurprd04.prod.outlook.com (2603:10a6:208:c9::15)
+ by DB8PR04MB5756.eurprd04.prod.outlook.com (2603:10a6:10:ab::10) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5273.14; Wed, 18 May
+ 2022 08:56:03 +0000
+Received: from AM0PR04MB5026.eurprd04.prod.outlook.com
+ ([fe80::39ef:898b:6a2c:4270]) by AM0PR04MB5026.eurprd04.prod.outlook.com
+ ([fe80::39ef:898b:6a2c:4270%3]) with mapi id 15.20.5273.014; Wed, 18 May 2022
+ 08:56:03 +0000
+From: Hirux International <hirux@hirux.com>
+To: "almotamisa@yahoo.com" <almotamisa@yahoo.com>, "info@almotamaiza.ly"
+	<info@almotamaiza.ly>
+CC: Radwan Khawatmi <r.khawatmi@hirux.com>, Alessandro Khawatmi
+	<a.khawatmi@hirux.com>, Pierpaolo Truffelli <pierpaolo.truffelli@hirux.com>,
+	Valentina Perini <valentina.perini@hirux.com>
+Subject: PRICE INCREASE
+Thread-Topic: PRICE INCREASE
+Thread-Index: Adhqk+UMuNOQN9jARKiHbM5LHQ2j+wAAQUkg
+Disposition-Notification-To: Hirux International <hirux@hirux.com>
+Date: Wed, 18 May 2022 08:56:03 +0000
+Message-ID:
+ <AM0PR04MB5026290FC99AAB966A326AC2B5D19@AM0PR04MB5026.eurprd04.prod.outlook.com>
+References:
+ <AM0PR04MB50267FDB84A16D112FE0E483B5D19@AM0PR04MB5026.eurprd04.prod.outlook.com>
+In-Reply-To:
+ <AM0PR04MB50267FDB84A16D112FE0E483B5D19@AM0PR04MB5026.eurprd04.prod.outlook.com>
+Accept-Language: it-IT, en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=hirux.com;
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 6ce7dfc3-1634-427e-5644-08da38ac3cde
+x-ms-traffictypediagnostic: DB8PR04MB5756:EE_
+x-microsoft-antispam-prvs:
+ <DB8PR04MB57561A20FD9CD7207463F19FB5D19@DB8PR04MB5756.eurprd04.prod.outlook.com>
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ LP1a7EGgA/Osm4DN2hIJKLUNF+kRmOKH2iWhRFRE7ZlmZHV2jt0TF8wZqeXRziFv0I3WTEDDvfYZJaCYqSUnDwFDj9AKHLWffZVhmHAMFT/d1iPGGKYX2qitBfIpWpMrgfu2Gox9by9cUwSM6glMcqA7S7S9vJWxI8ukpzCRs4ebLoXfTPYmsWRWQMXP/o+qH5SdRIDAsTsWu9Yc606ezC8beazm+h4RY0fqvurI9LBfKg8BYzhS5yKZ7AL0q4v//Gh/nDzQu1cTFZmBgbDpACsnKuq5iZq36Ty5wQLAXlX/pTL71YHpDTbn/vCIWUe7Ul8FVGKL4uiPXT47Y/rGYnt3SGGEBa68ftt9oTVG88ey1Qky9goI0lURaOeCA18EAO2ldLwDPrakagobC3UTQndB+xS8lrSqIH+x5MpDEAt/E0f8nYF04ZUSa9ezYylQ16GXeu0xb+KqN/Ip+gbD46fJjIt0YD/47UHwlM3/1R4QTHPRCFhlNYJbGvedNikSHdKkcIhnatYXBaGyZqFrunBISiSNRvLqlACzHtmV/I2NZwX19kaH3TnPptjlHctOyThycrBSOA7W1oLa4v7bp5MnnRQjhUf6JQl1zAaUb+wEFRkMnuuxVNyBkRMGUu/fz7524sbLAQCv6xggX6NpvxfykzvqIF7LNBVoJYP5mvEk+hOYPj8zkhvvkcelg+CVftan/sowc2C+DRyTzoxqcQ==
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:AM0PR04MB5026.eurprd04.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230001)(396003)(366004)(39830400003)(136003)(346002)(376002)(84040400005)(110136005)(6506007)(316002)(4744005)(3480700007)(41300700001)(54906003)(38100700002)(122000001)(38070700005)(55016003)(5660300002)(33656002)(66556008)(7696005)(86362001)(107886003)(9686003)(52536014)(508600001)(2906002)(8936002)(186003)(76116006)(2940100002)(66476007)(71200400001)(26005)(64756008)(8676002)(66946007)(66446008)(4326008)(83380400001)(7116003);DIR:OUT;SFP:1101;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?us-ascii?Q?MVweSPpfyuMJZu7kxL5MKw12o4yBisfUyiQLgckZnlFzXHcld2a+YkkiVb3z?=
+ =?us-ascii?Q?Q0+YEZ13WOH3OPeaoH7z26yxn0o7KEmDWy+SBTTMAtm/36Rtv3UqSZVZuVu6?=
+ =?us-ascii?Q?IhpUm6uC4Q2lAsimxIqDvgWLzmlbzGgTe3iK8zyAM3gH6XwptedPOAvsFX/h?=
+ =?us-ascii?Q?Htp0WKyTACMdZEeA+D+jQ2Md9MMYbRhK1nSUdLty1omNghfUHZj3usno1jDj?=
+ =?us-ascii?Q?UEmu1FBO67m64dWcWdQaOzys5m9tmxdaRHqY8MVvnau/BbFu8YwYs/LfR7om?=
+ =?us-ascii?Q?KzdpXZD1Bdrilr0yar3dgzRVzc/Yuoif0kbEhjdllVOibZN66R3EOIEORrzF?=
+ =?us-ascii?Q?cUb2kT3AKGOVCNyUcVlx4GITdy7KuU5pIuQwax03TfoqzSwJa8zUAtCgS7vO?=
+ =?us-ascii?Q?TXvJCr+ZYFFB7nOGNhzimf6xrRqcnORTNkj/mWUCgMoX2dHUf6//58I/vPu5?=
+ =?us-ascii?Q?d2KJesnJzo+6AGOSrfbNB4M8Mw7iHv9zddVl8WPyycByi/FnNjnDGPng4JfU?=
+ =?us-ascii?Q?pdz+iTP+Lu0c0ZJaUBX39g48OCYKqeSDfQZ9niE0GvLqTSjgWVebHbJM576S?=
+ =?us-ascii?Q?ywG4sLoFADo4/lnca1ntxSkNIjXpTFuUrpluik1qml7SutnTxv/bj1usd2lF?=
+ =?us-ascii?Q?z6kxun3twnzK58OzF7sbh24wIpA6KWO8mUcUtffIkbv5rg6ET6te28bw8KK9?=
+ =?us-ascii?Q?ZO3npHi0fEVvicwFkHs+B0jQ02rZqKp8zqLpYOhoSrVSAea78hVnsL1/E+Gh?=
+ =?us-ascii?Q?5pNtzqxN2BDw1Qgs6tJQbfcFWnJuKEkv8KsBA2K41jQBCXm5WjPmsYd2lbh7?=
+ =?us-ascii?Q?ZCtCEmuLn7Rsufs0f8NjCoSbTJ0P9fnntF67yh9Kb31Hifc8nGYZZan1FQgc?=
+ =?us-ascii?Q?ie9txgtgagAJHtlws6x/35ooGJ9JhgHcYG1eT4aikldaB7AKG73QuOrJHuiB?=
+ =?us-ascii?Q?D6rYu+7aRPo9/BS0HHqZVoV9WGeGjK7Uafunxz3gPX4l5vq2oQVdVcK7ooE9?=
+ =?us-ascii?Q?Ury0YHMro7AYQxO8oaGK+NtuZ4POTXxuK2F5IlCaESpT/nTr8zmZ2XJUZY+U?=
+ =?us-ascii?Q?NenOM1X0O8RsgDYXD+gwMPDCoJC1kokcCZT+wXvSKvbTs7DTUQQk8vaN3jRK?=
+ =?us-ascii?Q?+NccyIsjmNPXj+nRSBTGVTduJxA7Ll8VJusHXFPwdO48ANFXzcb5CwN4nyh0?=
+ =?us-ascii?Q?Oqw+2iiaSTgrD6L7frwPi4TWWLShu1h6Ku7hAv6FmxsRHkBGyG3gwAHcDtiF?=
+ =?us-ascii?Q?Mo4pvOPuYP3oCesR1hRZQJBHy89qtF+ouLFV/ZrmT6kNgQwgNCqmpC/ky5Sp?=
+ =?us-ascii?Q?OVczEhlj/t3hv3DFOxxNNgvlY8wdl7EIerPhtDR4RBzEr/+5AOujEiQ0DbEh?=
+ =?us-ascii?Q?VYVDoZozFBCrAwxjDEUqR4yI27QHfnqs6a5LzN7fuP35ychjqnnLx9gDmggz?=
+ =?us-ascii?Q?YnK94JTrb47AVk1hcC/VaHfdEM0QD5LcrDkf3yYlCI6gzFgjJLVnS/i40hQp?=
+ =?us-ascii?Q?QcwqpC1xLGGxDTuREkVIkbGkJGkRpsvDpnAJjjSX8q/5ZK++lMyhH96pJ1Y7?=
+ =?us-ascii?Q?fGfXG3CaS9XhR888Yj/g7AApTqBMibUd+26PW8CPtoCzORljsI3eGsy3FZfq?=
+ =?us-ascii?Q?jVqaKttwQRwt+WF9WsVcwolm2PLS5zIuIGUKf+zVg6Nw2abDNr8pNVnlj/I6?=
+ =?us-ascii?Q?wbNclFdOCZxj6j/+x/4Q3Lt+fHOI0xyidFnopd9BGgOxW9hg?=
+Content-Type: multipart/alternative;
+	boundary="_000_AM0PR04MB5026290FC99AAB966A326AC2B5D19AM0PR04MB5026eurp_"
+MIME-Version: 1.0
+X-OriginatorOrg: hirux.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: AM0PR04MB5026.eurprd04.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 6ce7dfc3-1634-427e-5644-08da38ac3cde
+X-MS-Exchange-CrossTenant-originalarrivaltime: 18 May 2022 08:56:03.2768
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 8a7d7d3d-bff5-4007-8880-22f521570ee0
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: T5qHpfuxPb0cn58ajrkVXYvHrGYSiX5x+tYD3CdtKsHb3UyTkHx2rdMIQXhhhqYS
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DB8PR04MB5756
+X-Spam-Status: No, score=0.5
+X-Spam-Score: 5
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "35-158-27-43.cprapid.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Dear Mr. Sedig, in the last four months, we tried to keep
+   the cost of production under control to avoid increasing our prices, but unfortunately
+    due to the well-known continuous price increase of row materials, compo [...]
+    
+ Content analysis details:   (0.5 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.5 SUBJ_ALL_CAPS          Subject is all capitals
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+--_000_AM0PR04MB5026290FC99AAB966A326AC2B5D19AM0PR04MB5026eurp_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Mr. Sedig,
+
+in the last four months, we tried to keep the cost of production under cont=
+rol to avoid increasing our prices, but unfortunately due to the well-known=
+ continuous price increase of row materials, components, energy for product=
+ion, and transport, obligated us to increase our price list starting from J=
+une 1st, 2022, on +10%.
+Just to show our deep support, Thomson group will bear half of the above an=
+d we will increase your price list only of 5%.
+
+For your information, below you can find the announced price increase, from=
+ May 2022, of some international groups:
+Electrolux             +12%
+SMEG                   +15%
+Candy/Haier        +11%
+Bompani              +12%
+Bertazzoni           +10%
+Glem-Gas             +9%
+
+We count on your understanding and support.
+
+Best regards,
+Dr R. Khawatmi
+President
+HIRUX INTERNATIONAL SPA- Thomson MeNa
+
+
+--_000_AM0PR04MB5026290FC99AAB966A326AC2B5D19AM0PR04MB5026eurp_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"New Century Schoolbook";
+	panose-1:2 4 6 3 5 5 5 2 3 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+span.EmailStyle19
+	{mso-style-type:personal-reply;
+	font-family:"New Century Schoolbook",serif;
+	color:#222A35;
+	font-weight:normal;
+	font-style:normal;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 2.0cm 2.0cm 2.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"IT" link=3D"#0563C1" vlink=3D"#954F72" style=3D"word-wrap:bre=
+ak-word">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;color:#222A35">Dear =
+</span><span style=3D"font-size:10.0pt;color:#222A35">Mr. Sedig</span><span=
+ style=3D"font-size:10.0pt;color:#222A35">,<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;color:#222A35"><o:p>=
+&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:10.0pt;color=
+:#222A35">in the last four months, we tried to keep the cost of production =
+under control to avoid increasing our prices, but unfortunately due to the =
+well-known continuous price increase of
+ row materials, components, energy for production, and transport, obligated=
+ us to increase our price list starting from June 1<sup>st</sup>, 2022, on =
++10%.
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:10.0pt;color=
+:#222A35">Just to show our deep support, Thomson group will bear half of th=
+e above and we will increase your price list only of 5%.<o:p></o:p></span><=
+/p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:10.0pt;color=
+:#222A35"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:10.0pt;color=
+:#222A35">For your information, below you can find the announced price incr=
+ease, from May 2022, of some international groups:<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:10.0pt;color=
+:#222A35">Electrolux &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp; +12%<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:10.0pt;color=
+:#222A35">SMEG &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +15%<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;color:#222A35">Candy=
+/Haier&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +11%<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;color:#222A35">Bompa=
+ni&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp; +12%<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;color:#222A35">Berta=
+zzoni&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +10%<o:p>=
+</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;color:#222A35">Glem-=
+Gas&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+ +9%<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;color:#222A35"><o:p>=
+&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:10.0pt;color=
+:#222A35">We count on your understanding and support.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:10.0pt;color=
+:#222A35"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:10.0pt;color=
+:#222A35">Best regards,<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><b><i><span lang=3D"EN-US" style=3D"color:#222A35;ms=
+o-fareast-language:IT">Dr R. Khawatmi<o:p></o:p></span></i></b></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"color:#222A35;mso-fare=
+ast-language:IT">President<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"color:#222A35;mso-fare=
+ast-language:IT">HIRUX INTERNATIONAL SPA- Thomson MeNa<o:p></o:p></span></p=
+>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+</div>
+</body>
+</html>
+
+--_000_AM0PR04MB5026290FC99AAB966A326AC2B5D19AM0PR04MB5026eurp_--

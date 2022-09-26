@@ -1,0 +1,245 @@
+Return-Path: <pm_bounces@postmark-retpath.readdle.com>
+Delivered-To: sales@almotamaiza.ly
+Received: from business71.web-hosting.com
+	by business71.web-hosting.com with LMTP
+	id OKIUFoaFz18KUj0AQZTD9Q
+	(envelope-from <pm_bounces@postmark-retpath.readdle.com>)
+	for <sales@almotamaiza.ly>; Tue, 08 Dec 2020 08:54:14 -0500
+Return-path: <pm_bounces@postmark-retpath.readdle.com>
+Envelope-to: sales@almotamaiza.ly
+Delivery-date: Tue, 08 Dec 2020 08:54:14 -0500
+Received: from mta210a-ord.mtasv.net ([104.245.209.210]:48026)
+	by business71.web-hosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.93)
+	(envelope-from <pm_bounces@postmark-retpath.readdle.com>)
+	id 1kmdRQ-00GrSI-L6
+	for sales@almotamaiza.ly; Tue, 08 Dec 2020 08:54:14 -0500
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=20170201131539pm; d=readdle.com;
+ h=From:Date:Subject:Message-Id:To:MIME-Version:Content-Type:Content-Transfer-Encoding; i=spark@readdle.com;
+ bh=oObF+0Xtn323neS7YcvbHc4jhUk=;
+ b=hXoXLuU+Vn4N5VBvOEwNe6tpgrEhVbiEPPEqXc/Q2wwYUVrxQvO5p+Sb/MWaQs+F1/CJg66HWvFx
+   nfn7iSYPrSp88HNaJtcHdotUDoVcDLb932adXdpfdgAY0PV+arQSSYjKID6NvtOi3VaEw3vY/Bmj
+   PZK16pKd5WvbykIvKzk=
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=pm; d=pm.mtasv.net;
+ h=From:Date:Subject:Message-Id:To:MIME-Version:Content-Type:Content-Transfer-Encoding;
+ bh=oObF+0Xtn323neS7YcvbHc4jhUk=;
+ b=qfQc3HLwPV+t85eWaoc/x1upv0MYTtR3PfxEnG9cgYZDixLrHpedM1KICzKoOV4sr3yKZeotR22Y
+   Wqjs2fK2Xyx5YoC4rvxZfHFxU3JrE5Ah88Faz86arLsemXCCE6B4Q6GcsyjACPU7cGUF6NRDV9uQ
+   MKMuS1ua73/G+vwUOjc=
+Received: by mta210a-ord.mtasv.net id hpu2o027tk44 for <sales@almotamaiza.ly>; Tue, 8 Dec 2020 08:53:27 -0500 (envelope-from <pm_bounces@postmark-retpath.readdle.com>)
+X-PM-IP: 104.245.209.210
+X-IADB-IP: 104.245.209.210
+X-IADB-IP-REVERSE: 210.209.245.104
+From: Spark <spark@readdle.com>
+Date: Tue, 08 Dec 2020 08:53:27 -0500
+Subject: New email account login in Spark
+Message-Id: <6c9a7a99-dfe8-4366-977d-357bff4cb4ff@mtasv.net>
+To: sales@almotamaiza.ly
+Auto-Submitted: auto-generated
+Feedback-ID: s2706952-_:s2706952:a133135:postmark
+X-Complaints-To: abuse@postmarkapp.com
+X-PM-Message-Id: 6c9a7a99-dfe8-4366-977d-357bff4cb4ff
+X-PM-RCPT: |bTB8MTMzMTM1fDI3MDY5NTJ8c2FsZXNAYWxtb3RhbWFpemEubHk=|
+X-PM-Message-Options: v1;9Hcc_PIAriBnYBOfaIwCcyIPcaJJ4QcTBG0Vjf0upsLoV9VuOGPwXfMLnnfN30wWe04G1TNC_uxxKVNUNPExmPuhEYZrS1JXal8-OD-DjjZEoN993sv5YaE2R6XvCl6o
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Spam-Status: No, score=1.2
+X-Spam-Score: 12
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "business71.web-hosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Spark Mail Your email address - sales@almotamaiza.ly - was
+    used to login in Spark. , iOS 14.2 Libya 41.254.65.119 
+ Content analysis details:   (1.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: storage.googleapis.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  1.3 KAM_STORAGE_GOOGLE     URI: Google Storage API being abused by
+                             spammers
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+X-Spam-Flag: NO
+
+<!DOCTYPE html><html><head>
+    <title>Spark Mail</title>
+
+    <meta content=3D"width=3Ddevice-width, initial-scale=3D1.0" name=3D=
+"viewport"/>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html,charset=3Du=
+tf-8"/>
+
+
+   =20
+
+<style type=3D"text/css">
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #191c23 !important;
+    color: #fff !important;
+  }
+  h4 {
+    color: #fff !important;
+  }
+  p {
+    color: #ebebeb !important;
+  }
+  hr {
+    background-color: #393d47 !important;
+  }
+  .username {
+    color: #75acff !important;
+  }
+  .content-block {
+    border-color: #34373F !important;
+  }
+  #header-icon {
+    background: #191c23 !important;
+  }
+  .quote-container {
+    border-color: #393d47 !important;
+  }
+  .quote-container>table {
+    background-color: #24272e !important;
+    border-bottom: 1px solid #393d47 !important;
+  }
+  .quote-email-details, .content-text-small {
+    color: #d5dade !important;
+  }
+  .chat-sender {
+    color: #fff !important;
+  }
+  .chat-message {
+    background-color: #24272e !important;
+    color: #d5dade !important;
+  }
+  table.chat-message {
+    border: solid 1px rgb(64,64,64) !important;
+  }
+}
+@media only screen and (min-device-width : 320px) and (max-device-widt=
+h : 480px) {
+  .wrapper {
+    margin: 0 !important;
+    width: auto !important;
+  }
+  .content-block {
+    padding: 0 25px !important;
+    border-right: 0px !important;
+    border-left: 0px !important;
+    border-radius: 0 !important;
+  }
+  .footer {
+    padding: 0;
+  }
+  h4 {
+    width: 100% !important;
+  }
+}
+@media only screen and (min-device-width : 320px) and (max-device-widt=
+h : 568px) and (device-aspect-ratio: 40/71);
+@media only screen and (min-device-width : 374px) and (max-device-widt=
+h : 376px);
+@media only screen and (min-device-width : 413px) and (max-device-widt=
+h : 415px);
+@media only screen and (min-device-width : 768px) and (max-device-widt=
+h : 1024px);
+@media only screen {
+  a {
+    color: rgb(62,129,222);
+  }
+}
+</style></head>
+<body style=3D"background: #fff; color: #3c3c3c; font-family: -apple-s=
+ystem, BlinkMacSystemFont, Helvetica, Arial, sans-serif; line-height: =
+28px; margin: 0; padding: 0; text-align: center;">
+
+<!--[if mso]><table width=3D"602" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0" align=3D"center"><tr><td><![endif]-->
+<div class=3D"wrapper" style=3D"margin: 0 auto; min-width: min-content=
+; padding-top: 40px; text-align: center; width: 602px;" align=3D"cente=
+r">
+    <div class=3D"content-block" style=3D"border: 1px solid rgba(0, 0,=
+ 0, 0.1); border-radius: 4px; margin: 0 auto; max-width: 100%; padding=
+: 0 50px; text-align: center;" align=3D"center">
+
+       <img id=3D"header-icon" src=3D"https://app.smartmailcloud.com/a=
+ssets/emails/spark-tr.png" border=3D"0" width=3D"80" height=3D"80" alt=
+=3D"" style=3D"background: #fff; display: inline-block; margin: -40px =
+auto 22px; padding: 0;"/>
+
+       =20
+<h4 style=3D"color: #323232; font-size: 18px; font-weight: 400; line-h=
+eight: 24px; margin: 0 auto 15px; text-align: center; width: 90%;" ali=
+gn=3D"center">Your email address - <b>sales@almotamaiza.ly</b> - was u=
+sed to login in Spark.</h4>
+
+<hr style=3D"background-color: rgba(0, 0, 0, 0.1); border: none; heigh=
+t: 1px; margin: 20px auto;"/>
+
+<table>
+    <tbody>
+    <tr>
+        <td align=3D"left" width=3D"60">
+            <img id=3D"icon-device" style=3D"display: block; margin: 0=
+; padding: 0;" src=3D"https://storage.googleapis.com/spark-assets/asse=
+ts/emails/device-iphone8_2x.png" border=3D"0" width=3D"60" height=3D"6=
+0" alt=3D""/>
+        </td>
+        <td align=3D"right">
+            <p id=3D"text-device-name" class=3D"content-text-small" st=
+yle=3D"color: rgb(52, 54, 58); font-size: 16px; font-weight: 500; line=
+-height: 24px; margin: 0; padding: 2px 30px 0 0; text-align: left;" al=
+ign=3D"left">
+                <b>, iOS 14.2</b>
+                <br/>Libya 41.254.65.119
+            </p>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<hr style=3D"background-color: rgba(0, 0, 0, 0.1); border: none; heigh=
+t: 1px; margin: 20px auto;"/>
+
+
+<p style=3D"color: rgb(52, 54, 58); font-size: 16px; line-height: 21px=
+; text-align: left;" align=3D"left">Created with love,<br/>Spark team<=
+/p>
+
+
+
+
+        <p class=3D"copyrights" style=3D"-webkit-text-size-adjust: non=
+e; color: rgb(176,176,176); font-size: 10px; line-height: 14px; margin=
+: 0; padding: 32px 0 16px; text-align: center;" align=3D"center">
+            Need help? Email <a href=3D"mailto:
+insight@readdle.com
+" style=3D"color: rgb(62,129,222); text-decoration: none;">
+insight@readdle.com
+</a>.<br/>
+            =C2=A9 2020 Readdle Inc. 795 Folsom St, San Francisco, CA =
+94107
+        </p>
+    </div>
+</div>
+<!--[if mso]></td></tr></table><![endif]-->
+
+
+
+</body></html>

@@ -1,0 +1,855 @@
+Return-Path: <TheReaddleTeam-cklkin1tjdtctyuj1d@cmail19.com>
+Delivered-To: sales@almotamaiza.ly
+Received: from business71.web-hosting.com
+	by business71.web-hosting.com with LMTP
+	id qHXeEg5N0l84shEAQZTD9Q
+	(envelope-from <TheReaddleTeam-cklkin1tjdtctyuj1d@cmail19.com>)
+	for <sales@almotamaiza.ly>; Thu, 10 Dec 2020 11:30:06 -0500
+Return-path: <TheReaddleTeam-cklkin1tjdtctyuj1d@cmail19.com>
+Envelope-to: sales@almotamaiza.ly
+Delivery-date: Thu, 10 Dec 2020 11:30:06 -0500
+Received: from mx197.a.outbound.createsend.com ([203.55.21.197]:55377)
+	by business71.web-hosting.com with esmtp (Exim 4.93)
+	(envelope-from <TheReaddleTeam-cklkin1tjdtctyuj1d@cmail19.com>)
+	id 1knOp8-005Ak3-VB
+	for sales@almotamaiza.ly; Thu, 10 Dec 2020 11:30:06 -0500
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=cm; d=readdlenews.com;
+ h=Subject:From:To:Reply-To:Date:MIME-Version:Content-Type:List-Unsubscribe:Message-ID; i=team@readdlenews.com;
+ bh=17/uh2Y/anH0Lekw6PC23Wwq23g=;
+ b=CX/u69/J0iGkZpeia6IoPB6fn/vdRFZ6OIIM4nbUmIiI2+3vupJROz49+0dc49JGWJyJuVM0EOq8
+   s+KcFCmdjx6IZLIX1dtVe/bZ1yCc6jD0h6piCYppg+j8ZjTTKnFgy735gBp1Rnk0gVysRMzgvkRM
+   MJ75wKbfqG1f2v7PscA=
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=cs2013; d=cmail2.com;
+ h=Subject:From:To:Reply-To:Date:MIME-Version:Content-Type:List-Unsubscribe:Message-ID;
+ bh=17/uh2Y/anH0Lekw6PC23Wwq23g=;
+ b=Bf+TVein8A/+O3na2PLZf6e2msakXBgGNufuqtRe4yBCMJuqj/UxWEdMhI1M1dv1fG5KLmaEXi+w
+   rYnX04ouZ5kouf52Zh0lUFTrICQODxAD0+Yv+ImvNvsqu0czQN38Rtzw+CVFRNRErX17x6MMTq2Z
+   xmAY8nGf+/cfbgpCmUs=
+Subject: =?utf-8?Q?=f0=9f=8e=89_Meet_the_all-new_Scanner_Pro_by_Readdle!?=
+From: "The Readdle Team" <team@readdlenews.com> 
+To: "sales@almotamaiza.ly" <sales@almotamaiza.ly>
+Reply-To: team@readdlenews.com
+Date: Fri, 11 Dec 2020 03:19:49 +1100
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_9460f850-ff5f-4849-83c6-5da5b8e79f0a_"; charset=utf-8
+X-Mailer: Create Send
+X-Complaints-To: abuse@cmail19.com
+X-Feedback-ID: CA1-d-cklkin:LI1-d-nikyky:CL1-d-jjkikr:createSEND
+List-Unsubscribe: <http://unsub.cmail19.com/t/d-u-cklkin-tjdtctyuj/>,
+ <mailto:unsubscribe-cklkin2tjdtctyuj2d-242DB0C7@cmail19.com?subject=Unsubscribe>
+Message-ID: <cm.0319499911073.cklkin.tjdtctyuj.d@cmail19.com>
+X-Spam-Status: No, score=0.2
+X-Spam-Score: 2
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "business71.web-hosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  The best scanning app for iPhone and iPad The new Scanner
+   Pro is here! Enjoy the best-in-class quality document scanning, organize papers
+    with ease, and share them anywhere. If you have other Readdle apps, you’ll
+    definitely love Scanner Pro [...] 
+ Content analysis details:   (0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: cmail19.com]
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+X-Spam-Flag: NO
+
+--_9460f850-ff5f-4849-83c6-5da5b8e79f0a_
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+The best scanning app for iPhone and iPad
+
+The new Scanner Pro is here! Enjoy the best-in-class quality document sca=
+nning, organize papers with ease, and share them anywhere. If you have ot=
+her Readdle apps, you=E2=80=99ll definitely love Scanner Pro!
+
+Free download [https://apps.apple.com/app/apple-store/id333710667?pt=3D1=
+2834&ct=3Dscanner8-email-all-users&mt=3D8]
+
+Take high-quality scans in seconds
+
+Just point your camera at a paper, and Scanner Pro instantly creates a qu=
+ality scan. It automatically detects borders, removes shadows, and fixes =
+distortion, so all your documents look clean and professional.
+
+Keep your documents organized
+
+Achieve peace of mind with all the important documents always at hand. Ea=
+sily create folders, sort your scans, and automatically back them up in a=
+ cloud.
+
+Save time with smart workflows
+
+Need to rename a receipt, email it to your accountant, and then save it i=
+n the cloud? Set up smart workflows and perform all these actions with a =
+single tap!
+
+Turn scans into texts with Text Vision
+
+Convert any scan into a text, so you can read, select, and export it to o=
+ther apps. Scanner Pro uses smart OCR technology and recognizes the text =
+in 26 languages.
+
+Search through the text of your scans
+
+Quickly find any document and look for words in the texts of your scans, =
+not just their titles.
+
+Free Download [https://apps.apple.com/app/apple-store/id333710667?pt=3D1=
+2834&ct=3Dscanner8-email-all-users&mt=3D8]
+
+Check  this blog post [https://readdle.com/blog/scanner-pro-8?utm_campai=
+gn=3Dscanner8-email-current-users&utm_medium=3Demail&utm_source=3DNewslet=
+ter] to explore the new Scanner Pro.
+
+This is just the beginning, and there are more exciting updates to come i=
+n 2021!  Read a letter from our co-founder [https://readdle.com/blog/sca=
+nner-pro-8-alex-letter?utm_source=3DNewsletter&utm_medium=3Demail&utm_cam=
+paign=3Dscanner8-email-all-users] to learn more.
+
+With =E2=9D=A4=EF=B8=8F,
+
+The Readdle Team
+
+Need some help? Mail to  [rdsupport@readdle.com]
+
+If you don't want to receive this type of emails anymore, you can  unsubs=
+cribe https://readdle.cmail19.com/t/d-u-cklkin-tjdtctyuj-i/. =C2=
+=A9 2020 Readdle Inc. 795 Folsom str., San Francisco, CA 94107
+
+--_9460f850-ff5f-4849-83c6-5da5b8e79f0a_
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://ww=
+w.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang=3D"en" xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:s=
+chemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:off=
+ice">
+    <head>
+    <title>WhatsNew Scanner Pro 8.0 All en</title>
+    <meta content=3D"width=3Ddevice-width; initial-scale=3D1.0;" name=3D"=
+viewport" />
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8">
+    <!--[if mso]>
+    <style type=3D"text/css">
+    p {font-family: sans-serif !important;}
+    </style>
+    <![endif]-->
+    <style type=3D"text/css">
+        u + #body {
+        width: 100vw !important;
+    }
+        @media (prefers-color-scheme: dark) {
+            body { background: #191c23 !important; color: #fff !important=
+; }
+            .layout { background: #191c23 !important; }
+            .main { background: #202430 !important; }
+            p { color: #ebebeb !important; }
+            .logo { content: url(http://i1.cmail19.com/ei/d/9F/A2B/AD2/00=
+1052/csimport/e3d8f563ac1d4dc28cda9445853cdb86_0.png); width: 89px; heigh=
+t: auto; margin: 0; padding: 16px 0 22px; }
+            hr { background-color: #3f5265 !important; }=20
+    }
+        /* iPhone 4 */
+        @media only screen and (min-device-width : 320px) and (max-device=
+-width : 480px) {
+            #body { background: #ffffff; }=20
+            .gmailfix { display:none; display:none!important; }
+            .wrapper { padding: 0 !important; width: 100% !important; }
+            .icon-scanner { width: 130px !important; }
+            .content-block { width: 100% !important; margin: 0 !important=
+; padding: 0 !important; }
+            .h1 { padding: 8px 20px 0 !important; font-size: 28px !import=
+ant; line-height: 35px !important; }
+            .subtitle { padding: 14px 30px 4px !important; font-size: 22p=
+x !important; font-weight: 500 !important; }
+            .table-divider { display: table !important; padding: 0 20px 2=
+0px !important; }
+            .content-img { margin: 0 auto !important;}
+            .content-title { padding: 18px 20px 0 !important; font-size: =
+26px !important; text-align: center !important; }
+            .content-text { padding: 10px 20px 20px !important; text-alig=
+n: center !important; font-size: 18px !important; line-height: 27px !impo=
+rtant; }
+            .content-img { padding: 0 !important; width: 75% !important; =
+}
+            #text-0 { padding-bottom: 0 !important; }
+            #img-1 { padding-top: 12px !important; }
+            #text-last-1 { padding: 20px 20px 0 !important; }
+            .footer { padding: 20px 40px 30px !important; }
+            #text-sign { padding: 20px 20px 20px !important; }
+            .logo { display: none !important; }
+            #logo-spark { width: 66% !important; }
+        }
+        /* iPhone 5 */
+        @media only screen and (min-device-width : 320px) and (max-device=
+-width : 568px) and (device-aspect-ratio: 40/71) {
+            .wrapper { padding: 0 !important; }
+        }
+        /* iPhone 6 */
+        @media only screen and (min-device-width : 374px) and (max-device=
+-width : 376px) {
+            .copyrights { padding: 30px !important; }
+        }
+        /* iPhone 6 Plus */
+        @media only screen and (min-device-width : 413px) and (max-device=
+-width : 415px) {
+            .copyrights { padding: 30px !important; }
+           =20
+        }
+         /* iPad styles */
+        @media only screen and (min-device-width : 768px) and (max-device=
+-width : 1024px) {
+           =20
+        }
+    </style>
+<!--[if gte mso 9]>
+<xml>
+  <o:OfficeDocumentSettings>
+    <o:AllowPNG/>
+    <o:PixelsPerInch>96</o:PixelsPerInch>
+ </o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+</head>
+<body id=3D"body" style=3D"mso-line-height-rule: exactly; font-family: 'H=
+elveticaNeue', 'Helvetica Neue', 'TeXGyreHerosRegular', Helvetica, Tahoma=
+, Geneva, Arial, sans-serif; margin: 0; padding: 0; font-size: 18px; font=
+-weight: 400; font-stretch: normal; color: #474c59; background: #fafafa; =
+text-rendering: optimizeLegibility;">
+<table class=3D"layout" bgcolor=3D"#fafafa" border=3D"0" cellspacing=3D"0=
+" cellpadding=3D"0" align=3D"center">
+    <tr>
+        <td>
+            <table class=3D"wrapper" width=3D"640" border=3D"0" cellspaci=
+ng=3D"0" cellpadding=3D"0" align=3D"center" style=3D"width: 640px; max-wi=
+dth: 640px; margin: 0 auto; padding: 0 20px 0;mso-padding-alt: 0 20px 0; =
+text-align: center;">
+                <tbody>
+                        <tr>
+                            <td>
+                                 <img class=3D"gmailfix" width=3D"600" st=
+yle=3D"display: block; height: 1px; margin: 0; padding: 0; " src=3D"http:=
+//i2.cmail19.com/ei/d/9F/A2B/AD2/001052/csimport/9dd958fcc6c148b989a2c392=
+a00e9035_1.png" border=3D"0" />
+                                <table width=3D"100%" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0" style=3D"padding: 0;">
+                                    <tbody>
+                                        <tr>
+                                            <td id=3D"logo-readdle" class=
+=3D"logo" style=3D"mso-padding-alt: 12px 20px 18px;">
+                                                <img alt=3D"Readdle" widt=
+h=3D"89" style=3D"display: block; height: auto; margin: 0; padding: 16px =
+2px 22px; mso-padding-alt: 16px 0px 22px; color: #0d0d0d; font-size: 24px=
+; font-weight: bold;" src=3D"http://i3.cmail19.com/ei/d/9F/A2B/AD2/001052=
+/csimport/5c328e6221a14a92b35a0d96ee2eac76_2.png" border=3D"0" />
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <table class=3D"content-block main" id=3D=
+"main-content" bgcolor=3D"#ffffff" width=3D"600" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" align=3D"center" style=3D"margin: 0; padding: 0;=
+ text-align: center; color: #5c6474;">
+                                    <tbody>
+                                        <tr>                             =
+  =20
+                                            <td align=3D"center" style=3D=
+"mso-padding-alt: 20px 30px 0;">
+                                               =20
+                                                <img alt=3D"Scanner Pro i=
+con" class=3D"icon-scanner" width=3D"130" style=3D"display: block; width:=
+ 130px; height: auto; padding-top: 36px;" src=3D"http://i4.cmail19.com/ei=
+/d/9F/A2B/AD2/001052/csimport/083def69c8354d25ba08f2438499d40c_3.png" bor=
+der=3D"0" />
+                                                <p id=3D"title" class=3D"=
+h1" style=3D"mso-padding-alt: 0 30px; margin: 0; padding: 12px 20px 0; fo=
+nt-size: 28px; color: #474d59; line-height: 36px; font-weight: 600; text-=
+align: center;">
+                                                Introducing the all-new S=
+canner=C2=A0Pro!          </p>
+                                                <!--[if mso]><table clas=
+s=3D"spacing" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0" align=3D"center" style=3D"margin: 0; padding: 0; text-align: center; =
+font-size: 16px; line-height: 20px;"><tr><td>=C2=A0</td></tr></table><![=
+endif]-->
+                                                <p id=3D"subtitle" class=3D=
+"subtitle" style=3D"margin: 0; padding: 8px 20px 0; color: #484a5d; font-=
+size: 22px; line-height: 28px; font-weight: 600; text-align: center;">
+                                                     The best scanning ap=
+p for iPhone and iPad  </p>
+                                                <p id=3D"text-0" class=3D=
+"content-text" style=3D"margin: 0; padding: 7px 50px 0; color: #6f778b; f=
+ont-size: 18px; line-height: 28px; text-align: center;">
+                                                    The new Scanner=C2=A0=
+Pro is here! Enjoy the best-in-class quality document scanning, organize =
+papers with ease, and share them anywhere. If you have other Readdle apps=
+, you=E2=80=99ll definitely love Scanner=C2=A0Pro!                       =
+</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <table align=3D"center" w=
+idth=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"p=
+adding: 26px 30px 30px;">
+                                                    <tr>
+                                                        <td valign=3D"mid=
+dle">
+                                                            <hr style=3D"=
+margin: 0; padding: 0; border: none; width: 100%; height: 1px; background=
+-color: #d5dbe1;" />
+                                                        </td>
+                                                        <td id=3D"btn" st=
+yle=3D"width: 280px;" align=3D"center" valign=3D"top">
+                                                            <div class=3D=
+"button" style=3D"padding: 0"><!--[if mso]>
+                                                      <v:roundrect xmlns:=
+v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schemas-microsoft-com:=
+office:word" href=3D"https://readdle.cmail19.com/t/d-l-cklkin-=
+tjdtctyuj-r/" style=3D"height:44px;v-text-anchor:middle;width:260px;" arcsi=
+ze=3D"100%" stroke=3D"f" fillcolor=3D"#17c629">
+                                                        <w:anchorlock/>
+                                                        <center>
+                                                      <![endif]-->
+                                                          <a href=3D"http=
+s://readdle.cmail19.com/t/d-l-cklkin-tjdtctyuj-y/"
+                                                    style=3D"background-c=
+olor:#17c629;border-radius:22px;color:#ffffff;display:inline-block; verti=
+cal-align: middle; font-family:'Open Sans', 'Helvetica Neue',sans-serif;f=
+ont-size:16px;font-weight:600;line-height:44px;text-align:center;text-dec=
+oration:none;width:260px;-webkit-text-size-adjust:none;">Free download</a=
+>
+                                                      <!--[if mso]>
+                                                        </center>
+                                                      </v:roundrect>
+                                                    <![endif]--></div>
+                                                        </td>
+                                                        <td valign=3D"mid=
+dle">
+                                                            <hr style=3D"=
+margin: 0; padding: 0; border: none; width: 100%; height: 1px; background=
+-color: #d5dbe1;" />
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <table class=3D"content-b=
+lock" width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                                                    <tr>
+                                                        <td>
+                                                            <table class=3D=
+"content-block" width=3D"50%" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0" align=3D"right">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <=
+td align=3D"right" style=3D"text-align: center;" >
+                                                                         =
+   <!--[if mso]>
+                                                                         =
+   <table class=3D"spacing" width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0" align=3D"center" style=3D"margin: 0; padding: 0; text-=
+align: center; font-size: 16px; line-height: 16px;"><tr><td>=C2=A0</td></=
+tr></table>
+                                                                         =
+   <![endif]-->
+                                                                         =
+   <img id=3D"img-1" class=3D"content-img" width=3D"220" alt=3D"" style=3D=
+"display: inline-block; width: 220px; height: auto; padding: 0 10px 36px =
+0; margin: 0; " src=3D"http://i5.cmail19.com/ei/d/9F/A2B/AD2/001052/csimp=
+ort/a50bfdf09ea34f08b2d2d5908a4e486f_4.png" border=3D"0" />
+                                                                        <=
+/td>
+                                                                    </tr>=
+
+                                                                </tbody>
+                                                            </table>
+                                                            <table class=3D=
+"content-block" width=3D"48%" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0" align=3D"left">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <=
+td style=3D"mso-padding-alt: 0 0 0 30px;">
+                                                                         =
+   <p id=3D"title-1" class=3D"content-title" style=3D"font-family: 'Helve=
+ticaNeueMedium', 'HelveticaNeue-Medium', 'Helvetica Neue Medium', 'TeXGyr=
+eHerosRegular', Helvetica, Tahoma, Geneva, Arial, sans-serif; margin: 0; =
+padding: 26px 0 0 30px; color: #474d59; font-size: 26px; font-weight: 600=
+; line-height: 33px; text-align: left;">
+                                                                         =
+       Take high-quality scans in seconds                          </p>
+                                                                         =
+   <p id=3D"text-1" class=3D"content-text" style=3D"margin: 0; padding: 1=
+2px 0 76px 30px; color: #6f778b; font-size: 18px; line-height: 28px; text=
+-align: left;">
+                                                                         =
+       Just point your camera at a paper, and Scanner=C2=A0Pro instantly =
+creates a quality scan. It automatically detects borders, removes shadows=
+, and fixes distortion, so all your documents look clean and professional=
+=2E                       </p>
+                                                                        <=
+/td>
+                                                                    </tr>=
+
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <table class=3D"table-div=
+ider" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" sty=
+le=3D"display: none; margin: 10px 0 20px">
+                                                    <tbody>
+                                                        <tr><td align=3D"=
+center"><hr class=3D"divider" style=3D"margin: 0; padding: 0; border: non=
+e; width: 100%; height: 1px; background-color: #d5dbe1;" /></td></tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style=3D"mso-padding-alt:=
+30px 0 0;">
+                                                <table class=3D"content-b=
+lock" width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"padding-bottom: 20px">
+                                                    <tr>
+                                                        <td>
+                                                            <table class=3D=
+"content-block" width=3D"47%" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0" align=3D"left">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <=
+td align=3D"left" style=3D"text-align: center;">
+                                                                         =
+   <img id=3D"img-2" class=3D"content-img" width=3D"220" alt=3D"" style=3D=
+"display: inline-block; width: 220px; height: auto; padding: 0 0 8px; mar=
+gin: 0; " src=3D"http://i6.cmail19.com/ei/d/9F/A2B/AD2/001052/csimport/a1=
+d048cba3584e0788e10843b712acd4_5.png" border=3D"0" />
+                                                                        <=
+/td>
+                                                                    </tr>=
+
+                                                                </tbody>
+                                                            </table>
+                                                            <table class=3D=
+"content-block" width=3D"50%" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0" align=3D"right">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <=
+td style=3D"mso-padding-alt: 0 40px 0 0;"><!--[if mso]>
+                                                                         =
+   <table class=3D"spacing" width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0" align=3D"center" style=3D"margin: 0; padding: 0; text-=
+align: center; font-size: 16px; line-height: 16px;"><tr><td>=C2=A0</td></=
+tr></table>
+                                                                         =
+   <![endif]-->
+                                                                         =
+   <p  id=3D"title-2" class=3D"content-title" style=3D"font-family: 'Helv=
+eticaNeueMedium', 'HelveticaNeue-Medium', 'Helvetica Neue Medium', 'TeXGy=
+reHerosRegular', Helvetica, Tahoma, Geneva, Arial, sans-serif; margin: 0;=
+ padding: 50px 30px 0 0; color: #474d59; font-size: 26px; font-weight: 60=
+0; line-height: 33px; text-align: left;">
+                                                                         =
+       Keep your documents organized                          </p>
+                                                                         =
+   <p id=3D"text-2" class=3D"content-text" style=3D"margin: 0; padding: 1=
+2px 30px 64px 0; color: #6f778b; font-size: 18px; line-height: 28px; text=
+-align: left;">
+                                                                         =
+       Achieve peace of mind with all the important documents always at h=
+and. Easily create folders, sort your scans, and automatically back them =
+up in a cloud.                            </p>
+                                                                        <=
+/td>
+                                                                    </tr>=
+
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <table class=3D"table-div=
+ider" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" sty=
+le=3D"display: none; margin: 10px 0 20px">
+                                                    <tbody>
+                                                        <tr><td align=3D"=
+center"><hr class=3D"divider" style=3D"margin: 0; padding: 0; border: non=
+e; width: 100%; height: 1px; background-color: #d5dbe1;" /></td></tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <table class=3D"content-b=
+lock" width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                                                    <tr>
+                                                        <td>
+                                                            <table class=3D=
+"content-block" width=3D"48%" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0" align=3D"right">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <=
+td align=3D"right" style=3D"text-align: center;" >
+                                                                         =
+   <!--[if mso]>
+                                                                         =
+   <table class=3D"spacing" width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0" align=3D"center" style=3D"margin: 0; padding: 0; text-=
+align: center; font-size: 16px; line-height: 16px;"><tr><td>=C2=A0</td></=
+tr></table>
+                                                                         =
+   <![endif]-->
+                                                                         =
+   <img id=3D"img-3" class=3D"content-img" width=3D"230" alt=3D"" style=3D=
+"display: inline-block; width: 230px; height: auto; padding: 0 10px 30px =
+0; margin: 0; " src=3D"http://i7.cmail19.com/ei/d/9F/A2B/AD2/001052/csimp=
+ort/64cb9bc0a12246a79f75246e0874c53b_6.png" border=3D"0" />
+                                                                        <=
+/td>
+                                                                    </tr>=
+
+                                                                </tbody>
+                                                            </table>
+                                                            <table class=3D=
+"content-block" width=3D"50%" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0" align=3D"left">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <=
+td style=3D"mso-padding-alt: 0 0 0 30px;">
+                                                                         =
+   <p id=3D"title-3" class=3D"content-title" style=3D"font-family: 'Helve=
+ticaNeueMedium', 'HelveticaNeue-Medium', 'Helvetica Neue Medium', 'TeXGyr=
+eHerosRegular', Helvetica, Tahoma, Geneva, Arial, sans-serif; margin: 0; =
+padding: 36px 0 0 30px; color: #474d59; font-size: 26px; font-weight: 600=
+; line-height: 33px; text-align: left;">
+                                                                         =
+       Save time with smart workflows                          </p>
+                                                                         =
+   <p id=3D"text-3" class=3D"content-text" style=3D"margin: 0; padding: 1=
+2px 0 76px 30px; color: #6f778b; font-size: 18px; line-height: 28px; text=
+-align: left;">
+                                                                         =
+       Need to rename a receipt, email it to your accountant, and then sa=
+ve it in the cloud? Set up smart workflows and perform all these actions =
+with a single tap!                       </p>
+                                                                        <=
+/td>
+                                                                    </tr>=
+
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <table class=3D"table-div=
+ider" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" sty=
+le=3D"display: none; margin: 10px 0 20px">
+                                                    <tbody>
+                                                        <tr><td align=3D"=
+center"><hr class=3D"divider" style=3D"margin: 0; padding: 0; border: non=
+e; width: 100%; height: 1px; background-color: #d5dbe1;" /></td></tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style=3D"mso-padding-alt:=
+30px 0 0;">
+                                                <table class=3D"content-b=
+lock" width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                                                    <tr>
+                                                        <td>
+                                                            <table class=3D=
+"content-block" width=3D"47%" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0" align=3D"left">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <=
+td align=3D"left" style=3D"text-align: center;">
+                                                                         =
+   <img id=3D"img-4" class=3D"content-img" width=3D"246" alt=3D"" style=3D=
+"display: inline-block; width: 246px; height: auto; padding: 0; margin: 0=
+; " src=3D"http://i8.cmail19.com/ei/d/9F/A2B/AD2/001052/csimport/18ecfd73=
+98b8490291b739e64e287dce_7.png" border=3D"0" />
+                                                                        <=
+/td>
+                                                                    </tr>=
+
+                                                                </tbody>
+                                                            </table>
+                                                            <table class=3D=
+"content-block" width=3D"50%" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0" align=3D"right">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <=
+td style=3D"mso-padding-alt: 0 40px 0 0;"><!--[if mso]>
+                                                                         =
+   <table class=3D"spacing" width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0" align=3D"center" style=3D"margin: 0; padding: 0; text-=
+align: center; font-size: 16px; line-height: 16px;"><tr><td>=C2=A0</td></=
+tr></table>
+                                                                         =
+   <![endif]-->
+                                                                         =
+   <p  id=3D"title-4" class=3D"content-title" style=3D"font-family: 'Helv=
+eticaNeueMedium', 'HelveticaNeue-Medium', 'Helvetica Neue Medium', 'TeXGy=
+reHerosRegular', Helvetica, Tahoma, Geneva, Arial, sans-serif; margin: 0;=
+ padding: 40px 30px 0 0; color: #474d59; font-size: 26px; font-weight: 60=
+0; line-height: 33px; text-align: left;">
+                                                                         =
+       Turn scans into texts with Text Vision                          </=
+p>
+                                                                         =
+   <p id=3D"text-4" class=3D"content-text" style=3D"margin: 0; padding: 1=
+2px 30px 60px 0; color: #6f778b; font-size: 18px; line-height: 28px; text=
+-align: left;">
+                                                                         =
+       Convert any scan into a text, so you can read, select, and export =
+it to other apps. Scanner=C2=A0Pro uses smart OCR technology and recogniz=
+es the text in 26 languages.                            </p>
+                                                                        <=
+/td>
+                                                                    </tr>=
+
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <table class=3D"table-div=
+ider" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" sty=
+le=3D"display: none; margin: 10px 0 20px">
+                                                    <tbody>
+                                                        <tr><td align=3D"=
+center"><hr class=3D"divider" style=3D"margin: 0; padding: 0; border: non=
+e; width: 100%; height: 1px; background-color: #d5dbe1;" /></td></tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <table class=3D"content-b=
+lock" width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                                                    <tr>
+                                                        <td>
+                                                            <table class=3D=
+"content-block" width=3D"48%" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0" align=3D"right">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <=
+td align=3D"right" style=3D"text-align: center;" >
+                                                                         =
+   <!--[if mso]>
+                                                                         =
+   <table class=3D"spacing" width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0" align=3D"center" style=3D"margin: 0; padding: 0; text-=
+align: center; font-size: 16px; line-height: 16px;"><tr><td>=C2=A0</td></=
+tr></table>
+                                                                         =
+   <![endif]-->
+                                                                         =
+   <img id=3D"img-5" class=3D"content-img" width=3D"220" alt=3D"" style=3D=
+"display: inline-block; width: 220px; height: auto; padding: 0 10px 16px =
+0; margin: 0; " src=3D"http://i9.cmail19.com/ei/d/9F/A2B/AD2/001052/csimp=
+ort/b95e724d03c349cda4fd10b710a01a96_8.png" border=3D"0" />
+                                                                        <=
+/td>
+                                                                    </tr>=
+
+                                                                </tbody>
+                                                            </table>
+                                                            <table class=3D=
+"content-block" width=3D"50%" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0" align=3D"left">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <=
+td style=3D"mso-padding-alt: 0 0 0 30px;">
+                                                                         =
+   <p id=3D"title-5" class=3D"content-title" style=3D"font-family: 'Helve=
+ticaNeueMedium', 'HelveticaNeue-Medium', 'Helvetica Neue Medium', 'TeXGyr=
+eHerosRegular', Helvetica, Tahoma, Geneva, Arial, sans-serif; margin: 0; =
+padding: 80px 0 0 30px; color: #474d59; font-size: 26px; font-weight: 600=
+; line-height: 33px; text-align: left;">
+                                                                         =
+       Search through the text of your scans                          </p=
+>
+                                                                         =
+   <p id=3D"text-5" class=3D"content-text" style=3D"margin: 0; padding: 1=
+2px 0 76px 30px; color: #6f778b; font-size: 18px; line-height: 28px; text=
+-align: left;">
+                                                                         =
+       Quickly find any document and look for words in the texts of your =
+scans, not just their titles.                        </p>
+                                                                        <=
+/td>
+                                                                    </tr>=
+
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <table align=3D"center" w=
+idth=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"p=
+adding: 16px 30px 48px;">
+                                                    <tr>
+                                                        <td id=3D"btn" st=
+yle=3D"width: 280px;" align=3D"center" valign=3D"top">
+                                                            <div class=3D=
+"button" style=3D"padding: 0"><!--[if mso]>
+                                                      <v:roundrect xmlns:=
+v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schemas-microsoft-com:=
+office:word" href=3D"https://readdle.cmail19.com/t/d-l-cklkin-=
+tjdtctyuj-j/" style=3D"height:44px;v-text-anchor:middle;width:260px;" arcsi=
+ze=3D"100%" stroke=3D"f" fillcolor=3D"#17c629">
+                                                        <w:anchorlock/>
+                                                        <center>
+                                                      <![endif]-->
+                                                          <a href=3D"http=
+s://readdle.cmail19.com/t/d-l-cklkin-tjdtctyuj-t/"
+                                                    style=3D"background-c=
+olor:#17c629;border-radius:22px;color:#ffffff;display:inline-block; verti=
+cal-align: middle; font-family:'Open Sans', 'Helvetica Neue',sans-serif;f=
+ont-size:16px;font-weight:600;line-height:44px;text-align:center;text-dec=
+oration:none;width:260px;-webkit-text-size-adjust:none;">Free Download</a=
+>
+                                                      <!--[if mso]>
+                                                        </center>
+                                                      </v:roundrect>
+                                                    <![endif]--></div>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"mso-padding-alt:0 30px 30px;">
+                                <p id=3D"text-last-1" class=3D"content-te=
+xt" style=3D"margin: 0; padding: 30px 30px 0; color: #61656f; font-size: =
+18px; line-height: 28px; text-align: center;">
+                                    Check <a href=3D"https://readdle.cmai=
+l19.com/t/d-l-cklkin-tjdtctyuj-d/" style=3D"text-decoration: non=
+e; color: #0292f3;"><b>this blog post</b></a> to explore the new Scanner=C2=
+=A0Pro.                             </p>
+                                <!--[if mso]>
+                                <table class=3D"spacing" width=3D"100%" b=
+order=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"center" style=3D=
+"margin: 0; padding: 0; text-align: center; font-size: 8px; line-height: =
+14px;"><tr><td>=C2=A0</td></tr></table>
+                                <![endif]-->
+                                <p id=3D"text-last-2" class=3D"content-te=
+xt" style=3D"margin: 0; padding: 14px 30px 0; color: #61656f; font-size: =
+18px; line-height: 28px; text-align: center;">
+                                    This is just the beginning, and there=
+ are more exciting updates to come in 2021! <a href=3D"https://readdle.cm=
+ail19.com/t/d-l-cklkin-tjdtctyuj-h/" style=3D"text-decoration: n=
+one; color: #0292f3;"><b>Read a letter from our co-founder</b></a> to lea=
+rn more.                            </p>
+                                <!--[if mso]>
+                                <table class=3D"spacing" width=3D"100%" b=
+order=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"center" style=3D=
+"margin: 0; padding: 0; text-align: center; font-size: 8px; line-height: =
+48px;"><tr><td>=C2=A0</td></tr></table>
+                                <![endif]-->
+                                <p id=3D"text-sign" style=3D"margin: 0; p=
+adding: 48px 30px 50px; color: #61656f; font-size: 18px; line-height: 28p=
+x; text-align: left;">
+                                    With =E2=9D=A4=EF=B8=8F,<br>
+The Readdle Team    </p>
+                                <!--[if mso]>
+                                <table class=3D"spacing" width=3D"100%" b=
+order=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"center" style=3D=
+"margin: 0; padding: 0; text-align: center; font-size: 16px; line-height:=
+ 30px;"><tr><td>=C2=A0</td></tr></table>
+                                <![endif]-->
+                                <p class=3D"footer" style=3D"font-size: 1=
+2px; color: #99a4bf; line-height: 18px; margin: 0; padding: 0 85px 30px; =
+text-align: center; -webkit-text-size-adjust: none;">
+                                    Need some help? Mail to <a style=3D"t=
+ext-decoration: none; color: #2f9aff;" href=3D"mailto:rdsupport@readdle.c=
+om">rdsupport@readdle.com</a><br>
+                                    If you don't want to receive this typ=
+e of emails anymore, you=C2=A0can=C2=A0<a href=3D"https://readdle.cmail19=
+=2Ecom/t/d-u-cklkin-tjdtctyuj-k/" style=3D"text-decoration: none; =
+color: #2f9aff;">unsubscribe</a>. =C2=A9=C2=A02020 Readdle Inc. 795 Folso=
+m str., San=C2=A0Francisco, CA 94107                                 </p>=
+
+                            </td>
+                        </tr>                           =20
+                </tbody>
+            </table>
+        </td>
+    </tr>
+</table>
+<img src=3D"https://readdle.cmail19.com/t/d-o-cklkin-tjdtctyuj/o=
+=2Egif" style=3D"visibility: hidden !important; display: block !important; =
+height:1px !important; width:1px !important; border: 0 !important; margin=
+: 0 !important; padding: 0 !important" width=3D"1" height=3D"1" border=3D=
+"0" alt=3D"" /></body>
+</html>=
+
+
+
+
+--_9460f850-ff5f-4849-83c6-5da5b8e79f0a_--

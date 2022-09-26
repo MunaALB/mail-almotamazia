@@ -1,0 +1,137 @@
+Return-Path: <010701766c0af64a-ca7c9052-59d6-4648-81e3-68bfdd8133b8-000000@eu-central-1.amazonses.com>
+Delivered-To: info@almotamaiza.ly
+Received: from business71.web-hosting.com
+	by business71.web-hosting.com with LMTP
+	id AN9BKqof2l/XHC8AQZTD9Q
+	(envelope-from <010701766c0af64a-ca7c9052-59d6-4648-81e3-68bfdd8133b8-000000@eu-central-1.amazonses.com>)
+	for <info@almotamaiza.ly>; Wed, 16 Dec 2020 09:54:34 -0500
+Return-path: <010701766c0af64a-ca7c9052-59d6-4648-81e3-68bfdd8133b8-000000@eu-central-1.amazonses.com>
+Envelope-to: info@almotamaiza.ly
+Delivery-date: Wed, 16 Dec 2020 09:54:34 -0500
+Received: from b224-17.smtp-out.eu-central-1.amazonses.com ([69.169.224.17]:42779)
+	by business71.web-hosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+	(Exim 4.93)
+	(envelope-from <010701766c0af64a-ca7c9052-59d6-4648-81e3-68bfdd8133b8-000000@eu-central-1.amazonses.com>)
+	id 1kpYCD-00D0Kc-0H
+	for info@almotamaiza.ly; Wed, 16 Dec 2020 09:54:34 -0500
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=yqg4obmxnmrymjnnfnzurqlcaoocdltd; d=digix.ly; t=1608130426;
+	h=Date:From:To:Cc:Message-ID:References:Subject:MIME-Version:Content-Type;
+	bh=WGmWLrkPbDIR93xSemeAykcqRqvfTiegrld7zX52E6s=;
+	b=SWfJRfISH37e7VO66mgvRTVBYw7Pg6qCGIuKp8p+pjQagGVH5ji+ypdZ8MWLRO4S
+	xtjc0ctbFujPixMe1vpXQG1I1SEsJfrfady/ohLnrV8LWsHVu54IN4css7n5li9k86b
+	cxv9hd38WELlJQhO/5vVogeZJRrEQAxKCS5vrkbc=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=qftdzk2dqsatjnlrq4r5brjbihpfcrsh; d=amazonses.com; t=1608130426;
+	h=Date:From:To:Cc:Message-ID:References:Subject:MIME-Version:Content-Type:Feedback-ID;
+	bh=WGmWLrkPbDIR93xSemeAykcqRqvfTiegrld7zX52E6s=;
+	b=fZbVeAdLDVdoahUF7bYmz9y+AFOfwAEm5Sm49snpTtIFD6o8of1fJ1RCqyros6Dp
+	BH6sSWHXtz+RvbJLs/Urjq7fnQexMLtCtW59YIaNW2nl59Dd/WiUUYrV0x6Wvi8BLM8
+	NKZknHta3vumejV/z12ZWfnuEGqpe9SITTR6pGKk=
+Date: Wed, 16 Dec 2020 14:53:46 +0000
+From: lazord@digix.ly
+To: smeg@smeg.it
+Cc: info@almotamaiza.ly, majdi.fajr@digix.ly, almotamisa@yahoo.com, 
+ rita.celeste@smeg.it, Augusto.Montanari@smeg.it
+Message-ID: <010701766c0af64a-ca7c9052-59d6-4648-81e3-68bfdd8133b8-000000@eu-central-1.amazonses.com>
+References: <771663e2-7b0f-49f7-9fc2-91125dd7eafb@Spark>
+Subject: Smeg.ly Domain Requirements.
+X-Readdle-Message-ID: 55107374-df74-4a7e-97f8-bf047e79142b@Spark
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="5fda1f68_3d1b58ba_12fde"
+X-SES-Outgoing: 2020.12.16-69.169.224.17
+Feedback-ID: 1.eu-central-1.XBsvOUY1KQbsFuSD2yIaq0vlLUXJMbRuKTQq4i4FkSs=:AmazonSES
+X-Spam-Status: No, score=1.8
+X-Spam-Score: 18
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "business71.web-hosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Dear Sir/Madam or to whom it may concern. Greetings full of
+    cordiality and respect, hope this email finds you well. Regarding to our
+   previous email, we are writing to reminds you about our request to get the
+    access to manage Smeg.ly domain in our server. 
+ Content analysis details:   (1.8 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  1.7 DEAR_SOMETHING         BODY: Contains 'Dear (something)'
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: smeg.ly]
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+X-Spam-Flag: NO
+
+--5fda1f68_3d1b58ba_12fde
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+Dear Sir/Madam or to whom it may concern.
+Greetings full of cordiality and respect, hope this email finds you well.
+
+Regarding to our previous email, we are writing to reminds you about our request to get the access to manage Smeg.ly domain in our server.
+
+We did sent you the record as a DNS Requirements.
+
+Therefore, we kindly asking to know more about the latest updates, please let us know if there is any other requirements that may be needed.
+
+Looking forward to hearing back from you.
+
+Best Regards,
+DigiX Team.
+
+--5fda1f68_3d1b58ba_12fde
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+<html xmlns=3D=22http://www.w3.org/1999/xhtml=22>
+<head>
+<title></title>
+</head>
+<body>
+<div name=3D=22messageBodySection=22>
+<div dir=3D=22auto=22><span style=3D=22font-family:Helvetica Neue;font-si=
+ze: 13px=22>Dear Sir/Madam or to whom it may concern.</span><span style=3D=
+=22font-size: 13px=22><br /></span><span style=3D=22font-family:Helvetica=
+ Neue;font-size: 13px=22>Greetings full of cordiality and respect, hope t=
+his email finds you well.</span><span style=3D=22font-size: 13px=22><br /=
+></span><span style=3D=22font-size: 13px=22><br /></span><span style=3D=22=
+font-family:Helvetica Neue;font-size: 13px=22>Regarding to our previous e=
+mail, we are writing to reminds you about our request to get the access t=
+o manage Smeg.ly domain in our server.</span><span style=3D=22font-size: =
+13px=22><br /></span><span style=3D=22font-size: 13px=22><br /></span><sp=
+an style=3D=22font-family:Helvetica Neue;font-size: 13px=22>We did sent y=
+ou the record as a DNS Requirements.</span><span style=3D=22font-size: 13=
+px=22><br /></span><span style=3D=22font-size: 13px=22><br /></span><span=
+ style=3D=22font-family:Helvetica Neue;font-size: 13px=22>Therefore, we k=
+indly asking to know more about the latest updates, please let us know if=
+ there is any other requirements that may be needed.</span><span style=3D=
+=22font-size: 13px=22><br /></span><span style=3D=22font-size: 13px=22><b=
+r /></span><span style=3D=22font-family:Helvetica Neue;font-size: 13px=22=
+>Looking forward to hearing back from you.</span><span style=3D=22font-si=
+ze: 13px=22><br /></span><span style=3D=22font-size: 13px=22><br /></span=
+><span style=3D=22font-family:Helvetica Neue;font-size: 13px=22>Best Rega=
+rds,</span><span style=3D=22font-size: 13px=22><br /></span><span style=3D=
+=22font-family:Helvetica Neue;font-size: 13px=22>DigiX Team.</span><span =
+style=3D=22font-size: 13px=22><br /></span></div>
+</div>
+</body>
+</html>
+
+--5fda1f68_3d1b58ba_12fde--
+

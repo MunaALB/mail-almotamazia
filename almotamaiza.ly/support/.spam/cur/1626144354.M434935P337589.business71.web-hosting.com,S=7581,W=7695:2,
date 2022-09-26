@@ -1,0 +1,114 @@
+Return-Path: <purchasing04@lcwjpro.xyz>
+Delivered-To: support+spam@almotamaiza.ly
+Received: from business71.web-hosting.com
+	by business71.web-hosting.com with LMTP
+	id eEBWGWL+7GC1JgUAQZTD9Q
+	(envelope-from <purchasing04@lcwjpro.xyz>)
+	for <support+spam@almotamaiza.ly>; Mon, 12 Jul 2021 22:45:54 -0400
+Return-path: <purchasing04@lcwjpro.xyz>
+Envelope-to: support@almotamaiza.ly
+Delivery-date: Mon, 12 Jul 2021 22:45:54 -0400
+Received: from [116.85.69.120] (port=51522 helo=server1.xunmaogs.com)
+	by business71.web-hosting.com with esmtp (Exim 4.94.2)
+	(envelope-from <purchasing04@lcwjpro.xyz>)
+	id 1m38Qf-001Q2S-W0
+	for support@almotamaiza.ly; Mon, 12 Jul 2021 22:45:54 -0400
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=liusheng; d=lcwjpro.xyz;
+ h=MIME-Version:Date:Content-Type:Content-Transfer-Encoding:From:Subject:To:Sender:Reply-To:Message-ID:In-Reply-To; i=purchasing04@lcwjpro.xyz;
+ bh=pe1KT+mmd7DMF8wKQP+3dddHyDg=;
+ b=ciwoUKKvwAV7rgwddGae3ZlsP9szYAuvxNWsGPv/NhnB11fHnZ/JMP/YjiNYV8K8oWPgAlIvRitw
+   HdXHelilq6PKpVu2a9yRkKzTsOAh5RsNbUV/2diJjJWlyPf+Ya4aJz+YhxtTuz1sVc6knYaybqUC
+   kS2PwyN+qRlyhWskG0s=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=liusheng; d=lcwjpro.xyz;
+ b=HrOgR0fVg2RylH6lhsbs74BAl50RHeonEOsDrKW6l99bEDvQR0ewxSy3dtixOoeBWTPn22mWRc/e
+   +AoQ766WWDbdH2EZNw7n/7sjqW3vnqOZ3rH4T+7GJssx1ePAk4Rk/B+7glWq+G4bjlJ5RJPUIlRG
+   GNfxZMdjp+OeX/dFMj8=;
+Received: from LAPTOP-CNBHGH95 (114.220.89.70) by server1.xunmaogs.com id htjv5s0e97cl for <support@almotamaiza.ly>; Tue, 13 Jul 2021 10:44:49 +0800 (envelope-from <purchasing04@lcwjpro.xyz>)
+MIME-Version: 1.0
+Date: Tue, 13 Jul 2021 10:44:47 +0800
+Content-Type: multipart/alternative; charset=UTF-8; boundary="4=_3gqgdKgpeJeIFgGzF7cqRldb1BIsUxt"
+Content-Transfer-Encoding: 8bit
+Content-Disposition: inline
+From: "adasun77@outlook.com" <adasun77@outlook.com>
+To: support@almotamaiza.ly
+Sender: purchasing04@lcwjpro.xyz
+Reply-To: adasun77@outlook.com
+Message-ID: <2021070013104400470754@lcwjpro.xyz>
+X-Mailer: Foxmail 6, 13, 102, 15 [cn]
+In-Reply-To: <2021070013104400470754@lcwjpro.xyz>
+X-Spam-Status: Yes, score=10.3
+X-Spam-Score: 103
+X-Spam-Bar: ++++++++++
+X-Spam-Report: Spam detection software, running on the system "business71.web-hosting.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Greetings, We are a manufacture of electric household products.
+    Below is our New Design Electric Wine Opener, are you interested ? 
+ Content analysis details:   (10.3 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: lcwjpro.xyz]
+  3.6 RCVD_IN_PBL            RBL: Received via a relay in Spamhaus PBL
+                             [116.85.69.120 listed in zen.spamhaus.org]
+  0.2 FREEMAIL_REPLYTO_END_DIGIT Reply-To freemail username ends in
+                             digit
+                             [adasun77[at]outlook.com]
+  2.0 PDS_OTHER_BAD_TLD      Untrustworthy TLDs
+                             [URI: lcwjpro.xyz (xyz)]
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [adasun77[at]outlook.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  1.3 HTML_IMAGE_ONLY_24     BODY: HTML: images with 2000-2400 bytes of
+                             words
+  0.0 HTML_IMAGE_RATIO_04    BODY: HTML has a low ratio of text to image
+                             area
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.5 FROM_SUSPICIOUS_NTLD   From abused NTLD
+  0.1 DKIM_INVALID           DKIM or DK signature exists, but is not valid
+  0.2 FREEMAIL_FORGED_FROMDOMAIN 2nd level domains in From and
+                             EnvelopeFrom freemail headers are
+                             different
+  2.0 RDNS_NONE              Delivered to internal network by a host with no rDNS
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Cute Electric Wine Opener
+
+This is a multi-part message in MIME format
+
+
+--4=_3gqgdKgpeJeIFgGzF7cqRldb1BIsUxt
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: Base64
+Content-Disposition: inline
+
+R3JlZXRpbmdzLA0KIA0KV2UgYXJlIGEgbWFudWZhY3R1cmUgb2YgZWxlY3RyaWMgaG91c2Vob2xk
+IHByb2R1Y3RzLiANCiANCkJlbG93IGlzIG91ciBOZXcgRGVzaWduIEVsZWN0cmljIFdpbmUgT3Bl
+bmVyLCBhcmUgeW91IGludGVyZXN0ZWQgPw0KIA0KIA0KQmVzdCBSZWdhcmRzIQ0KQWRhDQo=
+
+--4=_3gqgdKgpeJeIFgGzF7cqRldb1BIsUxt
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+Content-Disposition: inline
+
+<html><head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="GENERATOR" content="MSHTML 11.00.10570.1001"></head>
+<body>
+<p style="margin: 0pt;"><span 1.0000pt;&#39;="" roman";="" new="" "times="" calibri;="" "yes";="" 10.5pt;="" 宋体;="">Greetings,</span></p><p style="margin: 0pt;"><span 1.0000pt;&#39;="" roman";="" new="" "times="" calibri;="" "yes";="" 10.5pt;="" 宋体;="">&nbsp;</span></p><p style="margin: 0pt;"><span 1.0000pt;&#39;="" roman";="" new="" "times="" calibri;="" "yes";="" 10.5pt;="" 宋体;="">We are a manufacture of </span><b><span 1.0000pt;&#39;="" roman";="" new="" "times="" calibri;="" "yes";="" 10.5pt;="" 宋体;="" bold;="">electric household products. </span></b></p><p style="margin: 0pt;"><b><span 1.0000pt;&#39;="" roman";="" new="" "times="" calibri;="" "yes";="" 10.5pt;="" 宋体;="" bold;="">&nbsp;</span></b></p><p style="margin: 0pt;"><span 1.0000pt;&#39;="" roman";="" new="" "times="" calibri;="" "yes";="" 10.5pt;="" 宋体;="">Below is our New Design Electric Wine Opener, are you interested ?</span></p><p style="margin: 0pt;"><span roman";="" new="" "times="" calibri;="" "yes";="" 10.5pt;="" 宋体;&#39;="" 1.0000pt;="">&nbsp;</span></p><p style="margin: 0pt; text-align: left; mso-pagination: widow-orphan;"><span><img width="167" height="207" src="cid:imgd8f75a58.jpg"></span></p><p style="margin: 0pt;"><span roman";="" new="" "times="" calibri;="" "yes";="" 10.5pt;="" 宋体;&#39;="" 1.0000pt;="">&nbsp;</span></p><p style="margin: 0pt;"><span 1.0000pt;&#39;="" roman";="" new="" "times="" calibri;="" "yes";="" 10.5pt;="" 宋体;="">Best Regards!</span></p><p style="margin: 0pt;"><span 1.0000pt;&#39;="" roman";="" new="" "times="" calibri;="" "yes";="" 10.5pt;="" 宋体;="">Ada</span></p><p align="justify" style="background: rgb(204, 232, 207); margin: 0pt; text-align: justify; text-indent: 0pt; -ms-text-justify: inter-ideograph; mso-pagination: widow-orphan;"><br></p><p style="margin: 0pt;"><span 1.0000pt;&#39;="" roman";="" new="" "times="" calibri;="" "yes";="" 10.5pt;="" 宋体;=""><br></span></p>
+</Body></html>
+
+
+--4=_3gqgdKgpeJeIFgGzF7cqRldb1BIsUxt--
+

@@ -1,0 +1,525 @@
+Return-Path: <almotamisa@yahoo.com>
+Delivered-To: info@almotamaiza.ly
+Received: from business71.web-hosting.com
+	by business71.web-hosting.com with LMTP
+	id IFd3IAtTeWFAvRQAQZTD9Q
+	(envelope-from <almotamisa@yahoo.com>)
+	for <info@almotamaiza.ly>; Wed, 27 Oct 2021 09:24:27 -0400
+Return-path: <almotamisa@yahoo.com>
+Envelope-to: info@almotamaiza.ly
+Delivery-date: Wed, 27 Oct 2021 09:24:27 -0400
+Received: from sonic307-56.consmr.mail.ne1.yahoo.com ([66.163.190.31]:36499)
+	by business71.web-hosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.94.2)
+	(envelope-from <almotamisa@yahoo.com>)
+	id 1mfiuj-005jy9-DZ
+	for info@almotamaiza.ly; Wed, 27 Oct 2021 09:24:27 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1635341019; bh=wD3o2htCrimzf+Zj5Lnx4gw7Pseg2JhhClV5XQTMaes=; h=Subject:From:In-Reply-To:Date:Cc:References:To:From:Subject:Reply-To; b=jar1+rtoeoGVNdumerC/k42dk3LljyKhOE9955bC808HkJM2/V90SFmdWqSJcTlejIp+29HVzivJdnQJf4u/4ySZUp5iqB9jM6eiih7neI6pcTfDeI4/8VcIe1yBH4UXsCQV/i7Igp/cLEFFLXSwDAwlwNJPzblnezWyq1mAJzvgW90Kq9noXPX6LNAwXRm5wlYslEN/WZxB9m0tf5QqhlAcjzox0qpAHR03aSlKOLr4Ro6b8EP5AdQzAgty1G+EdISI7nsePLURKM/1gL4URi+L+cN7cBlnmt08WzXsVHDql6Y4SBTKXAKO+Y8bkffArP4uvZShUgzsyISfp35mVg==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1635341019; bh=9IO85nQmJl9aH+90Z9Qse+5rKtPR3SNQ9Vc5l9cuWcy=; h=X-Sonic-MF:Subject:From:Date:To:From:Subject; b=lYUuZyAZEbo9xSIi1O+aIeAr3z3NcdCleNzDCas+1r4cCxc9CTMbUvhBDa7jvB1NZArGxDRWmgPmrAt80KD9jBEvTDq34kGzQTQmbu7ogE7nE+RcryQciXjToBDOfOLDIXT6bHjEI+rwGOiLeqibZBAeHWdeD9QJ9c3qDNrbtk0WDTXBm3onXbNKxKO313AY4ebUicYiAiJKVeiZhIVpdmxM0zBVN3Is/HAuJ6YojfX+ObygOKCAMprfxT0ozb3MxThqzD5PSze9eF9hPvwuw/Od9E9WLQN9jVAzpGmADhCmshJbPI8e7HU4X9hUHDAZoI1F948kGCjLSln/H1UzRg==
+X-YMail-OSG: RzTAT.oVM1kElmLSRsEjx9YMj1nS1nHrROQni01iLuMErPGepgU3AFNSO_idrIL
+ VphsNjI1uBMFhnYMgpE1BtcbC9cYPQCHOd_SeNva4Jho02kxOeQAnyfqyi2oB8LF_dmGTggI5AIo
+ WCxYWxY_tcS_2u5kEma5xn3GnFMcHaJYg4CFw_OU2riiNSfKoS41nLemINRMmnkInydFNn38hyMa
+ 950dcbDhF5NQSstHZCEbwhNkHN7qzBYXeSdxcvztdKWSYi6KA7o2wEllmn0rvS3jnvTaGo7TmzQL
+ udn_8meHtDykbnH0i4UvqnItAXAmHAjzxA.0ShpYVsJ6D839zood2ADpBl3T0iTzx3X96mJ0OCCw
+ dKA8WW9iV7yyjD9nybjMEjd9N0C8sg.ISGPjd_9vEMT6Gro1U5a9l0L_SfbP6k1q2GYn2IH6sYt5
+ tl2GC2Yee8FWpR5Ec3wwi7HPo38hqfIonheYuE6mlaGTm75okNrhoGzbJdu8S0UFvoyn_lV8.vId
+ hkXtpEp2H7w5WwSxSEh.RzvPFmIgZn5lVSwS5G9qSKgl1Mi57JzKG6OQwAwodcTiRqZ8z47u38Q5
+ gqAYQxk8EZNRbaQs5261hmJ3oZXMc4rAT8N96G_JurQzQdOl4wgptCGykccugnEoP12mQM7QJ3fH
+ glaiK3ETpSZNCl3qJqfCFYwHWRjAbWHORsAQFsKsaK8OlnU5FsN8cNXSw3xXDhaV.qO_9d30MHe2
+ C3dXza7QwO9SfrePBjJJw26AoBRChR5ABvWySts0rmeJIN7jhQ_X1jCB.smVxr1W.WLMlxdXnQAv
+ lgiXrA7e9OevQmxZPRl6QWrchy0F0Ow8D8wxtWX60s5vqspQs4hiV0EYTMZ3kE0y3ojdGILKSHrr
+ C5lEScc7c6aX1he1e4klBDram6j23hi53T4lYfCkSUySaYvBu2a0P5RT0T8hH70ddKl2jzGjWMCt
+ 1vcYy4rKXo2d411SZjV..zKGRlBjw7mI.jkIDH.nGKl5jeJdSa5.Lc8q7ge5Dlzcd2ERBKsTguN4
+ RNK3PQW63Au1XQWeDUiPxmPvVW2fCDE7maAnW9FJiRkFQyJYrXwmHSy8GM21DghZfOTSgIFXGwIE
+ 1D7ECdBGDpTdAp.uCet0NbBTHlck3LuWyhN4xc5BjchTFBlpuPaOt5PdfT60g6f2a1L2brvmcPar
+ kPHLRJB7rDWWYME6hPsLNXJZFDlFmE_Vn23rUGnvdHgFZjuDZxH5WXXo9N.G.19CJOTvi2GYWYH1
+ M19VzjwBUTm76U_xP4umfwb42MnxpnUSTubBZqyNk9SIxhR8p0DCZL_PyrOrNQB3hsDuSwzbIEzw
+ sbfyvKVDV8DidE4KS3Kj7u6p4M0FAoiFI_T6r.lWOLc4gSaCWj3as2Lxxo2qLFlMcemlHYlHKF8t
+ oUMNZHTadDHp9M.G7gOXbmVTa_ev0H_kb3IocXz3kD3bfGJEhCAg.ACKrRhj7ub3pMWyXNpp8o1.
+ f5obX_j3X_9viIsGzSlI1PTI8xA39wvjEfZwEtsaFtCCwVQu6xbcHPjnjlVBl6KbmyzQDbZRGy84
+ InRYv5314p1n5jLsC5lSMxpcNLWSjZNQR_oYkAgyyoN4yJW44uUwkR2K6eGcVA7uAwBg_l.QC9_v
+ 3_cwNevchDu3wXyvIlfODX8I1tdfJnhHJogRGTrVsLYsW.Am2lByaUxmjZJVfoMnNEMJsbEtWmIh
+ Y8.VTOuMpb6EgJjfYm8QjJqQYNukKxY6NkeEX5AQWHS3_LRxoD3inj7rGg6aYSVpJw_7nv5gaQEB
+ 60vSvS8HNXl89g0lyATwNuuAKG1z2BdB_dm1ulWYIYJqafkVvx7sTUjl4Elt5v0DiubGq7Y5E43k
+ j4h.9.UcXb2v2uqc7q6l4Q6Z3GE6345zxoWe_aDqwf2dyi0oMSJq0g8fTKteTz8k28FZ17QftO1v
+ _.IsjGqDlxHm6C2H46h8MnqY3Vk25ixryS4aNqngagVEadJvhjS6J3EGMcwsa4bfd2NNL1LzA_bG
+ xnnzAKEXThziPv5Hl70VnUXq.V7otpYogNXOw6WkVDGmMAuLCRT_NkOsNUeeEVaXhYxpOdBDSnmK
+ xQWNHX1PQmVv6yHWNiUtT_qymicPDrpp1NmkoATEX299GVjkr.7HNLoldbm09XZPmYfSDw9zk5Km
+ aj5WRxJej1tsrf5yyiRdqJgB1VYGnS3_rOGgnOLZqwehFwjatV9qQNgfKnLvXrI.GxZIthgd0dbA
+ I9b7x0O5WRxXr51t_u259GdvZVqxjnp5SBuEYgBV6XOYNQXg-
+X-Sonic-MF: <almotamisa@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic307.consmr.mail.ne1.yahoo.com with HTTP; Wed, 27 Oct 2021 13:23:39 +0000
+Received: by kubenode533.mail-prod1.omega.ir2.yahoo.com (VZM Hermes SMTP Server) with ESMTPA ID 3500cb9e59e153cc69d5ec69151091ec;
+          Wed, 27 Oct 2021 13:23:35 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=Apple-Mail-07DF4916-9E90-42A6-9374-FEB57F19DC1B
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (1.0)
+Subject: Re: @1854 New line of Thomson ovens with side opening
+From: Sedig Krer <almotamisa@yahoo.com>
+In-Reply-To: <AM0PR04MB4580C3DB5B3C8E4E1DE522B58E859@AM0PR04MB4580.eurprd04.prod.outlook.com>
+Date: Wed, 27 Oct 2021 15:23:33 +0200
+Cc: Alessandro Khawatmi <a.khawatmi@hirux.com>,
+ Pierpaolo Truffelli <pierpaolo.truffelli@hirux.com>,
+ Radwan Khawatmi <r.khawatmi@hirux.com>
+Message-Id: <B75F8015-1761-4A78-823C-54FAE3DE1791@yahoo.com>
+References: <AM0PR04MB4580C3DB5B3C8E4E1DE522B58E859@AM0PR04MB4580.eurprd04.prod.outlook.com>
+To: Valentina Perini <valentina.perini@hirux.com>
+X-Mailer: iPhone Mail (18H17)
+Content-Length: 24611
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "business71.web-hosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Daer Valentina Good evening As for the chicken grill, please
+    cancel it from the ovens and keep the models as they are. As for the new
+   models of the ovens, it is possible to try one model, which is TO6EE4V2/S,
+    to kno [...] 
+ Content analysis details:   (-0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [almotamisa[at]yahoo.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 MIME_QP_LONG_LINE      RAW: Quoted-printable line longer than 76
+                             chars
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+X-Spam-Flag: NO
+
+
+--Apple-Mail-07DF4916-9E90-42A6-9374-FEB57F19DC1B
+Content-Type: text/plain;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Daer Valentina
+
+Good evening
+As for the chicken grill, please cancel it from the ovens and keep the model=
+s as they are. As for the new models of the ovens, it is possible to try one=
+ model, which is TO6EE4V2/S, to know the market demand
+
+Best Regards
+
+
+
+
+Sedig Krer
+Almotamiza International Company
+G M
+Mobile # +218913139615
+                    =20
+Tripoli - Libya
+Sent from my iPhone
+
+
+> On 27/10/2021, at 10:07 AM, Valentina Perini <valentina.perini@hirux.com> w=
+rote:
+>=20
+> =EF=BB=BF
+> Our.ref@1854/21/RK/vp     =20
+> =20
+> Dear Mr. Sedig
+> =20
+> Please find attached the 2022 new models of electric built in ovens with s=
+ide opening door (now it is very requested in all markets, instead of the do=
+or opening from the top).
+> This new door is very easy to use and to introduce the food inside.
+> We suggest sending you 1x20ft container as follows:
+> =20
+> TO6EE4V2/S                           PCS      40   unit price 166 =E2=82=AC=
+
+> Electric oven 60cm 5 functions with FAN with mechanical timer             =
+=20
+> stainless steel with side opening                =20
+>                       =20
+> TO6EE7/S                               PCS      37   unit price 208 =E2=82=
+=AC
+> Electric oven 60cm 7 functions with FAN with digital timer          =20
+> stainless steel with side opening                =20
+>                       =20
+> TO6EE10E/S                           PCS      29  unit price 220 =E2=82=AC=
+
+> Electric oven 60cm 10 functions with FAN with electronic display          =
+ =20
+> stainless steel with side opening                =20
+> =20
+> The delivery can be very quick.
+> Awaiting your confirmation.
+> =20
+> Best regards
+> =20
+> Valentina Perini
+> Hirux International Spa
+> =20
+> <THOMSON OVENS SIDE OPENING 27.10.2021.pptx>
+
+--Apple-Mail-07DF4916-9E90-42A6-9374-FEB57F19DC1B
+Content-Type: multipart/mixed;
+	boundary=Apple-Mail-9219B1FB-D141-4175-8EC7-FBC8286B5387
+Content-Transfer-Encoding: 7bit
+
+
+--Apple-Mail-9219B1FB-D141-4175-8EC7-FBC8286B5387
+Content-Type: text/html;
+	charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+<html><head><meta http-equiv="content-type" content="text/html; charset=us-ascii"></head><body dir="auto"><div>Daer Valentina</div><div><br></div><div>Good evening</div><div>As for the chicken grill, please cancel it from the ovens and keep the models as they are. As for the new models of the ovens, it is possible to try one model, which is TO6EE4V2/S, to know the market demand</div><div><br></div><div>Best Regards</div><div><br></div></body></html>
+--Apple-Mail-9219B1FB-D141-4175-8EC7-FBC8286B5387
+Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;
+	name=1635330942366878.xlsx;
+	x-apple-part-url=066635EA-750D-45A6-B963-C052D3530A64
+Content-Disposition: attachment;
+	filename=1635330942366878.xlsx
+Content-Transfer-Encoding: base64
+
+UEsDBBQABgAIAAAAIQCnlfmZhAEAABQGAAATAN0BW0NvbnRlbnRfVHlwZXNdLnhtbCCi2QEooAAC
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAMxUyW7CMBC9V+o/RL5WxEClqqoSOHQ5tkjQDzDxQCwS2/IMFP6+k1BQqdJI
+NBx6SZTFb5tnJ+NtWUQbCGicTcUg7osIbOa0sctUvM9eevciQlJWq8JZSMUOUIxH11fJbOcBI15t
+MRU5kX+QErMcSoWx82D5y8KFUhE/hqX0KlupJchhv38nM2cJLPWowhCj5AkWal1Q9Lzl13slc2NF
+9Lj/r6JKhfK+MJkiFio3Vv8g6bnFwmSgXbYuGTpGH0BpzAGoLGIfDDOGKRCxMRRylLyx6WA0RBMV
+6FWVzCC3hSR2APvrIGYPnUTUYDcVyu+ESLsCsDPVqd896IG5Id4ABZ5n7WuAMa+sZ4C58djC0J5d
+eyYfLqzmzq0unUrVhrhUxh50N5WAKzQJzqPkwnUWAFWjNeieZ0gIZOCYWRM3F7DyXtcWZX0bdtZw
+Wo0jflsGDTpu/4mO7rvyb3lgrgLoKfFJsrz4dv2O3TaXYzczF+D8gRz2cLW6oZGyPtNHnwAAAP//
+AwBQSwMEFAAGAAgAAAAhALVVMCP1AAAATAIAAAsAzgFfcmVscy8ucmVscyCiygEooAACAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIySz07DMAzG
+70i8Q+T76m5ICKGlu0xIuyFUHsAk7h+1jaMkQPf2hAOCSmPb0fbnzz9b3u7maVQfHGIvTsO6KEGx
+M2J712p4rZ9WD6BiImdpFMcajhxhV93ebF94pJSbYtf7qLKLixq6lPwjYjQdTxQL8exypZEwUcph
+aNGTGahl3JTlPYa/HlAtPNXBaggHeweqPvo8+bK3NE1veC/mfWKXToxAnhM7y3blQ2YLqc/bqJpC
+y0mDFfOc0xHJ+yJjA54m2lxP9P+2OHEiS4nQSODzPN+Kc0Dr64Eun2ip+L3OPOKnhOFNZPhhwcUP
+VF8AAAD//wMAUEsDBBQABgAIAAAAIQDeCf0oAgEAANQDAAAaAAgBeGwvX3JlbHMvd29ya2Jvb2su
+eG1sLnJlbHMgogQBKKAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+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
+
+--Apple-Mail-9219B1FB-D141-4175-8EC7-FBC8286B5387
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto"><div><font color=3D"#007aff"><span style=3D=
+"caret-color: rgb(0, 122, 255);"><br></span></font><div dir=3D"ltr"><div><br=
+></div><div>Sedig Krer</div><div style=3D"direction: ltr;"><div style=3D"dir=
+ection: ltr;"><span style=3D"background-color: rgba(255, 255, 255, 0);">Almo=
+tamiza International Company</span></div><div style=3D"direction: ltr;">G M<=
+/div></div><div>Mobile #&nbsp;<span style=3D"background-color: rgba(255, 255=
+, 255, 0);">+218913139615</span></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp;<span style=3D"font-size: 13pt;">&nbsp; &nbsp; &nbsp;&=
+nbsp;</span></div><div>Tripoli - Libya</div>Sent from my iPhone<div><div><br=
+></div></div></div><div dir=3D"ltr"><br><blockquote type=3D"cite">On 27/10/2=
+021, at 10:07 AM, Valentina Perini &lt;valentina.perini@hirux.com&gt; wrote:=
+<br><br></blockquote></div><blockquote type=3D"cite"><div dir=3D"ltr">=EF=BB=
+=BF
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+span.StileMessaggioDiPostaElettronica19
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:navy;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none none;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 2.0cm 2.0cm 2.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+
+
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;color:navy"><a href=3D=
+"mailto:Our.ref@185/21/RK/vp"><span lang=3D"EN-GB">Our.ref@185</span><span l=
+ang=3D"EN-GB" style=3D"color:navy">4</span><span lang=3D"EN-GB">/21/RK/vp</s=
+pan></a></span><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:navy">&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">Dear Mr. Sedig<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">Please find attached the 2022 new models of electric built in ovens wi=
+th side opening door (now it is very requested in all markets, instead of th=
+e door opening from the top).<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">This new door is very easy to use and to introduce the food inside.<o:=
+p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">We suggest sending you
+<b>1x20ft </b>container as follows:<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><b><span lang=3D"EN-GB" style=3D"font-size:12.0pt;col=
+or:navy">TO6EE4V2/S&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp; PCS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 40 &nbsp;&nbsp;unit pri=
+ce 166 =E2=82=AC<o:p></o:p></span></b></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">Electric oven 60cm 5 functions with FAN with mechanical timer&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">stainless steel with side opening&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><b><span lang=3D"EN-GB" style=3D"font-size:12.0pt;col=
+or:navy">TO6EE7/S&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PCS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3=
+7 &nbsp;&nbsp;unit price 208 =E2=82=AC<o:p></o:p></span></b></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">Electric oven 60cm 7 functions with FAN with digital timer&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">stainless steel with side opening&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><b><span lang=3D"EN-GB" style=3D"font-size:12.0pt;col=
+or:navy">TO6EE10E/S&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp; PCS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 29&nbsp; unit price 220=
+ =E2=82=AC<o:p></o:p></span></b></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">Electric oven 60cm 10 functions with FAN with electronic display&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">stainless steel with side opening&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">The delivery can be very quick.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">Awaiting your confirmation.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">Best regards<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">Valentina Perini<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy">Hirux International Spa<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB" style=3D"font-size:12.0pt;color:=
+navy"><o:p>&nbsp;</o:p></span></p>
+</div>
+
+
+<div>&lt;THOMSON OVENS SIDE OPENING 27.10.2021.pptx&gt;</div></div></blockqu=
+ote></div></body></html>=
+
+--Apple-Mail-9219B1FB-D141-4175-8EC7-FBC8286B5387--
+
+--Apple-Mail-07DF4916-9E90-42A6-9374-FEB57F19DC1B--

@@ -1,0 +1,117 @@
+Return-Path: <mk8@mk.micky-xtcr.top>
+Delivered-To: support+spam@almotamaiza.ly
+Received: from business71.web-hosting.com
+	by business71.web-hosting.com with LMTP
+	id eB0AELusnWA4BQ0AQZTD9Q
+	(envelope-from <mk8@mk.micky-xtcr.top>)
+	for <support+spam@almotamaiza.ly>; Thu, 13 May 2021 18:48:27 -0400
+Return-path: <mk8@mk.micky-xtcr.top>
+Envelope-to: support@almotamaiza.ly
+Delivery-date: Thu, 13 May 2021 18:48:27 -0400
+Received: from [43.226.152.243] (port=34501 helo=mk.micky-xtcr.top)
+	by business71.web-hosting.com with esmtp (Exim 4.94.2)
+	(envelope-from <mk8@mk.micky-xtcr.top>)
+	id 1lhK7x-003d98-EN
+	for support@almotamaiza.ly; Thu, 13 May 2021 18:48:27 -0400
+Received: from PC-20190224JXTE (125.92.223.183) by mk.micky-xtcr.top id hjmmba0e97cf for <support@almotamaiza.ly>; Fri, 14 May 2021 06:47:39 +0800 (envelope-from <mk8@mk.micky-xtcr.top>)
+From: "Jason" <jason_1479@126.com>
+To: support@almotamaiza.ly
+Content-Type: text/html; charset=UTF-8
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Sender: mk8@mk.micky-xtcr.top
+Reply-To: jason_1479@126.com
+Date: Fri, 14 May 2021 06:47:40 +0800
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.3790.4913
+Content-Disposition: inline
+X-Spam-Status: Yes, score=6.5
+X-Spam-Score: 65
+X-Spam-Bar: ++++++
+X-Spam-Report: Spam detection software, running on the system "business71.web-hosting.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Dear: We can help you reduce production costs and improve
+   product competitiveness. My name is jason and from ZHONGSHAN HONGLI WIRE&APPLIANCE
+    FACTORY CO.,LTD , 
+ Content analysis details:   (6.5 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: zshongli.com]
+  1.3 RCVD_IN_VALIDITY_RPBL  RBL: Relay in Validity RPBL,
+                             https://senderscore.org/blocklistlookup/
+                            [43.226.152.243 listed in bl.score.senderscore.com]
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+  0.2 FREEMAIL_REPLYTO_END_DIGIT Reply-To freemail username ends in
+                             digit
+                             [jason_1479[at]126.com]
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [jason_1479[at]126.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  2.0 RDNS_NONE              Delivered to internal network by a host with no rDNS
+  0.5 FROM_SUSPICIOUS_NTLD   From abused NTLD
+  1.0 KAM_LAZY_DOMAIN_SECURITY Sending domain does not have any
+                             anti-forgery methods
+  0.2 FREEMAIL_FORGED_FROMDOMAIN 2nd level domains in From and
+                             EnvelopeFrom freemail headers are
+                             different
+  0.0 SPOOFED_FREEMAIL_NO_RDNS From SPOOFED_FREEMAIL and no rDNS
+  0.8 SPOOFED_FREEMAIL       No description available.
+  0.0 TO_NO_BRKTS_MSFT       To: lacks brackets and supposed Microsoft tool
+X-Spam-Flag: YES
+Subject:  ***SPAM***  wire&power cords manufacturer
+
+PCFET0NUWVBFIEhUTUwgUFVCTElDICItLy9XM0MvL0RURCBIVE1MIDQuMCBUcmFuc2l0aW9uYWwv
+L0VOIj4NCjxIVE1MPjxIRUFEPg0KPE1FVEEgbmFtZT1HRU5FUkFUT1IgY29udGVudD0iTVNIVE1M
+IDExLjAwLjk2MDAuMTk1NzIiPjwvSEVBRD4NCjxCT0RZPg0KPFA+RGVhcjogPC9QPg0KPFA+PEJS
+PldlIGNhbiBoZWxwIHlvdSByZWR1Y2UgcHJvZHVjdGlvbiBjb3N0cyBhbmQgaW1wcm92ZSBwcm9k
+dWN0IGNvbXBldGl0aXZlbmVzcy48QlI+Jm5ic3A7IDwvUD4NCjxQPk15IG5hbWUgaXMgamFzb24g
+YW5kIGZyb20gWkhPTkdTSEFOIEhPTkdMSSBXSVJFJmFtcDtBUFBMSUFOQ0UgRkFDVE9SWSBDTy4s
+TFREICwgPC9QPg0KPFA+SeKAmW0gR2xhZCB0byBnZXQgeW91ciBjb250YWN0IGluZm9ybWF0aW9u
+IGZyb20gd2Vic2l0ZSBhbmQgc2VuZCBhIGVtYWlsIHRvIHlvdS48L1A+DQo8UD4mbmJzcDs8L1A+
+DQo8UD5XZSBhcmUgb25lIG9mIHRoZSBsZWFkaW5nIG1hbnVmYWN0dXJlcyBvZiB3aXJlJmFtcDtw
+b3dlciBjb3JkcyBpbiBDaGluYSAsYW5kIHdlIGhhdmUgbW9yZSB0aGFuIDMzeWVhcnPigJkgZXhw
+ZXJpZW5jZSBpbiB0aGlzIGJ1c2luZXNzLiZuYnNwOyBXZeKAmWQgbGlrZSB0byBlc3RhYmxpc2gg
+ZGlyZWN0IGJ1c2luZXNzIHJlbGF0aW9ucyB3aXRoIHlvdSBvbiA8L1A+DQo8UD50aGUgYmFzaXMg
+b2YgZXF1YWxpdHkgYW5kIG11dHVhbCBiZW5lZml0cy4gPC9QPg0KPFA+Jm5ic3A7PC9QPg0KPFA+
+V2UgaGF2ZSBhZHZhbmNlZCBmYWNpbGl0aWVzIGNvdmVyaW5nIGFuIGFyZWEgb2YgMzAsMDAwIHNx
+dWFyZSBtZXRlcnMgYW5kIGhpcmVkIG1vcmUgdGhhbiA1MDAgZW1wbG95ZWVzLDwvUD4NCjxQPiZu
+YnNwO2FuZCZuYnNwOyBoYXZlIHRoZSBjYXBhY2l0eSB0byBtYWtlIG1vcmUgdGhhbiA1IG1pbGxp
+b24gcGllY2VzIG9mIHBvd2VyIGNvcmRzIDwvUD4NCjxQPmV2ZXJ5IG1vbnRoLCBhbGxvd2luZyB1
+cyB0byBtZWV0IHlvdXIgYnVsayBvcmRlcnMgYW5kIG9mZmVyIGNvbXBldGl0aXZlIHByaWNlcy4g
+PC9QPg0KPFA+Jm5ic3A7PC9QPg0KPFA+T3VyIHByb2R1Y3RzIGhhdmUgYWNoaWV2ZWQgRVRML2NF
+VEwsIFZERSwgQVNUQSxTQVNPLExPQSwgS1RMLCBJTVEsIFNBQSwgUFNFLCBJUkFNLCBDQ0MsPC9Q
+Pg0KPFA+Jm5ic3A7K1MsIFRVViwgSU5NRVRSTywgU0lJIC5CSVMgSW50ZXJuYXRpb25hbCBTYWZl
+dHkgQXBwcm92YWxzLiBXZSBjYW4gc3VwcGx5IGFsbW9zdCBwb3dlciBjb3JkcyB5b3Ugd2FudCA8
+L1A+DQo8UD5hbmQgcHJvdmlkZSBPRU0mYW1wO09ETSBzZXJ2aWNlIGFsc28uPC9QPg0KPFA+Jm5i
+c3A7PC9QPg0KPFA+UGxzIGNvbnRhY3QgdXMgaWYgeW91IGhhdmUgYSBwdXJjaGFzZSBwbGFuIGZv
+ciBjYWJsZSBhbmQgcG93ZXIgY29yZHMsIEl04oCZcyBiZXR0ZXIgaWYgeW91IGNhbiA8L1A+DQo8
+UD5zZW5kIG1lIGEgZHJhd2luZ3Mgb3IgcGhvdG9zIGZvciB0aGVtIGFuZCBJIHdpbGwgZ2l2ZSB5
+b3UgYSBtb3JlIGFjY3VyYXRlIGFuZCBjb21wZXRpdGl2ZSA8L1A+DQo8UD5wcmljZSBhbmQmbmJz
+cDsgc2VuZCB5b3Ugc29tZSBzYW1wbGVzIGltbWVkaWF0ZWx5IGlmIHlvdSB3YW50ICx3ZSBjYW4g
+YXNzdXJlIHlvdSBvZiB0aGUgYmVzdCBxdWFsaXR5PC9QPg0KPFA+Jm5ic3A7cHJvZHVjdHMgYW5k
+IHBlcmZlY3Qgc2VydmljZXMuPC9QPg0KPFA+Jm5ic3A7PC9QPg0KPFA+TWF5YmUgeW91IGNhbiB2
+aWV3IG91ciBob21lcGFnZTogPEEgaHJlZj0iaHR0cDovL3d3dy56c2hvbmdsaS5jb20iPmh0dHA6
+Ly93d3cuenNob25nbGkuY29tPC9BPiBmb3IgbW9yZSBkZXRhaWxzIGFib3V0IG91ciBjb21wYW55
+IGFuZCBvdXIgcHJvZHVjdHMuIDwvUD4NCjxQPiZuYnNwOzwvUD4NCjxQPldlIGFyZSBsb29raW5n
+IGZvcndhcmQgdG8gcmVjZWl2aW5nIHlvdXIgZWFybHkgaW5xdWlyeSAsIGFuZCBhc3N1cmluZyB5
+b3UgdGhhdCB5b3VyIHJlcXVpcmVtZW50cyB3aWxsIGhhdmUgb3VyIDwvUD4NCjxQPnZlcnkgYmVz
+dCBhbmQgcHJvbXB0IGF0dGVudGlvbiAuPC9QPg0KPFA+Jm5ic3A7PC9QPg0KPFA+QmVzdCB3aXNo
+ZXMuIDwvUD4NCjxQPiZuYnNwOyA8L1A+DQo8UD4mbmJzcDsgPC9QPg0KPFA+SkFTT04gPC9QPg0K
+PFA+WkhPTkdTSEFOIEhPTkdMSSBXSVJFJmFtcDtBUFBMSUFOQ0UgRkFDVE9SWSBDTy4sTFREIDwv
+UD4NCjxQPk5vLjIyNyBEb25n4oCZYW4gcmQuIEhhaXpob3UsR3V6aGVuIHRvd24gWmhvbmdzaGFu
+IGNpdHksR3Vhbmdkb25nIHByLiBDaGluYSA8L1A+DQo8UD5URUw6Kzg2LTc2MC0yMjM2MjAzOCA8
+L1A+DQo8UD5GQVg6Kzg2LTc2MC0yMjMxMTUzMyA8L1A+DQo8UD5NT0I6Kzg2IDEzNDMyMTAxNDc5
+PC9QPg0KPFA+PEEgaHJlZj0iaHR0cDovL3d3dy56c2hvbmdsaS5jb20iPmh0dHA6Ly93d3cuenNo
+b25nbGkuY29tPC9BPiA8L1A+DQo8UD5FLW1haWw6amFzb25fMTQ3OUAxMjYuY29tPC9QPg0KPFA+
+Jm5ic3A7PC9QPjwvQk9EWT48L0hUTUw+DQo=

@@ -1,0 +1,108 @@
+Return-Path: <>
+Delivered-To: s.krer@almotamaiza.ly
+Received: from 35-158-27-43.cprapid.com
+	by 35-158-27-43.cprapid.com with LMTP
+	id ULaJLr/ki2I7eQAALyatdA
+	(envelope-from <>)
+	for <s.krer@almotamaiza.ly>; Mon, 23 May 2022 21:47:11 +0200
+Return-path: <>
+Envelope-to: s.krer@almotamaiza.ly
+Delivery-date: Mon, 23 May 2022 21:47:11 +0200
+Received: from mailnull by 35-158-27-43.cprapid.com with local (Exim 4.95)
+	id 1ntE1H-00084T-LA
+	for s.krer@almotamaiza.ly;
+	Mon, 23 May 2022 21:47:11 +0200
+X-Failed-Recipients: sedigkrer@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@35-158-27-43.cprapid.com>
+To: s.krer@almotamaiza.ly
+References: <CAHhJ92drSkhtfBu_WMeZzgDfkP9bjJGbRrp3qU0G24+hcDbfFQ@mail.gmail.com> <d91b1eba-fbf3-4cde-83df-bb6237e0f363@Spark>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1653335231-eximdsn-1750308453
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1ntE1H-00084T-LA@35-158-27-43.cprapid.com>
+Date: Mon, 23 May 2022 21:47:11 +0200
+
+--1653335231-eximdsn-1750308453
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  sedigkrer@gmail.com
+    host email-smtp.eu-central-1.amazonaws.com [18.184.197.143]
+    SMTP error from remote mail server after end of data:
+    554 Message rejected: Email address is not verified. The following identities failed the check in region EU-CENTRAL-1:
+    s.krer@almotamaiza.ly
+
+--1653335231-eximdsn-1750308453
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; 35-158-27-43.cprapid.com
+
+Action: failed
+Final-Recipient: rfc822;sedigkrer@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; email-smtp.eu-central-1.amazonaws.com
+Diagnostic-Code: smtp; 554 Message rejected: Email address is not verified. The following identities failed the check in region EU-CENTRAL-1: s.krer@almotamaiza.ly
+
+--1653335231-eximdsn-1750308453
+Content-type: message/rfc822
+
+Return-path: <s.krer@almotamaiza.ly>
+Received: from [156.38.49.122] (port=21014 helo=[10.162.72.122])
+	by 35-158-27-43.cprapid.com with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.95)
+	(envelope-from <s.krer@almotamaiza.ly>)
+	id 1ntE1H-00084K-Ot
+	for sedigkrer@gmail.com;
+	Mon, 23 May 2022 21:47:11 +0200
+Date: Mon, 23 May 2022 21:46:48 +0200
+From: s.krer@almotamaiza.ly
+To: Sedig Krer <sedigkrer@gmail.com>
+Message-ID: <d91b1eba-fbf3-4cde-83df-bb6237e0f363@Spark>
+In-Reply-To: <CAHhJ92drSkhtfBu_WMeZzgDfkP9bjJGbRrp3qU0G24+hcDbfFQ@mail.gmail.com>
+References: <CAHhJ92drSkhtfBu_WMeZzgDfkP9bjJGbRrp3qU0G24+hcDbfFQ@mail.gmail.com>
+Subject: Re:
+X-Readdle-Message-ID: d91b1eba-fbf3-4cde-83df-bb6237e0f363@Spark
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="628be4b3_6b8b4567_213e"
+
+--628be4b3_6b8b4567_213e
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+=D9=85=D8=B1=D8=AD=D8=A8=D8=A7
+On 27 Apr 2022, 3:46 AM +0200, Sedig Krer <sedigkrer=40gmail.com>, wrote:=
+
+> Hi
+
+--628be4b3_6b8b4567_213e
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+<html xmlns=3D=22http://www.w3.org/1999/xhtml=22>
+<head>
+<title></title>
+</head>
+<body>
+<div name=3D=22messageBodySection=22>
+<div dir=3D=22auto=22>=D9=85=D8=B1=D8=AD=D8=A8=D8=A7</div>
+</div>
+<div name=3D=22messageReplySection=22>On 27 Apr 2022, 3:46 AM +0200, Sedi=
+g Krer &lt;sedigkrer=40gmail.com&gt;, wrote:<br />
+<blockquote type=3D=22cite=22 style=3D=22border-left-color: grey; border-=
+left-width: thin; border-left-style: solid; margin: 5px 5px;padding-left:=
+ 10px;=22>Hi</blockquote>
+</div>
+</body>
+</html>
+
+--628be4b3_6b8b4567_213e--
+
+
+--1653335231-eximdsn-1750308453--

@@ -1,0 +1,709 @@
+Return-Path: <TheReaddleteam-qkjihhy1tjullijidk1d@cmail19.com>
+Delivered-To: info@almotamaiza.ly
+Received: from business71.web-hosting.com
+	by business71.web-hosting.com with LMTP
+	id YLj7HTus5GCFdxIAQZTD9Q
+	(envelope-from <TheReaddleteam-qkjihhy1tjullijidk1d@cmail19.com>)
+	for <info@almotamaiza.ly>; Tue, 06 Jul 2021 15:17:15 -0400
+Return-path: <TheReaddleteam-qkjihhy1tjullijidk1d@cmail19.com>
+Envelope-to: info@almotamaiza.ly
+Delivery-date: Tue, 06 Jul 2021 15:17:15 -0400
+Received: from mx197.a.outbound.createsend.com ([203.55.21.197]:45119)
+	by business71.web-hosting.com with esmtp (Exim 4.94.2)
+	(envelope-from <TheReaddleteam-qkjihhy1tjullijidk1d@cmail19.com>)
+	id 1m0qZB-00563W-BD
+	for info@almotamaiza.ly; Tue, 06 Jul 2021 15:17:15 -0400
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=cm; d=readdlenews.com;
+ h=Subject:From:To:Reply-To:Date:MIME-Version:Content-Type:List-Unsubscribe:Message-ID; i=team@readdlenews.com;
+ bh=J58fZDHafhdNZegzlM6bs/tYht8=;
+ b=tAh7oPqFCK0xZhzbKuflk+5AUspQKZKoOUZHVYQlHcv0RGTHABvJXfrLbHnPIsW5ETGCal9qvoM0
+   MnabfjZkFPFSWcEOpsMIW7hBRwJrwCOLVHO6q3wgCjIfu/1F9W6m4WqSxNOvGxrwhd/UEf3kOBY/
+   4Y4BPEgcdJY/Re+RuUE=
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=cs2013; d=cmail2.com;
+ h=Subject:From:To:Reply-To:Date:MIME-Version:Content-Type:List-Unsubscribe:Message-ID;
+ bh=J58fZDHafhdNZegzlM6bs/tYht8=;
+ b=VAwBITTMOPDU3qz7qs806K0ARnu3xhcTyZAwzzVXINhQughmsEWJLcdiZVFuA5S8uc4SuW2mZUF8
+   91x9Klp6cdJUhP4lrFNQiorvZr7mMZ3TKeEWvlUS4TZg4fXf5PcOZsNjR62F1XYtGGMmOyTkvAoe
+   UNezhxoNNbDZrZTGckM=
+Subject: Meet Shared Inboxes in Spark!
+From: "The Readdle team" <team@readdlenews.com> 
+To: "info@almotamaiza.ly" <info@almotamaiza.ly>
+Reply-To: team@readdlenews.com
+Date: Wed, 07 Jul 2021 05:07:31 +1000
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_baa616dc-ad67-464f-b1c5-af666980b907_"; charset=utf-8
+X-Mailer: Create Send
+X-Complaints-To: abuse@cmail19.com
+X-Feedback-ID: CA1-d-qkjihhy:LI1-d-nikyky:CL1-d-jjkikr:createSEND
+List-Unsubscribe: <http://unsub.cmail19.com/t/d-u-qkjihhy-tjullijidk/>,
+ <mailto:unsubscribe-qkjihhy2tjullijidk2d-17B9EFC9@cmail19.com?subject=Unsubscribe>
+Message-ID: <cm.0507313789350.qkjihhy.tjullijidk.d@cmail19.com>
+X-Spam-Status: No, score=0.2
+X-Spam-Score: 2
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "business71.web-hosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Are you replying to this email or should I take it? ‌ ‌
+    ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌
+    ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ [...] 
+ Content analysis details:   (0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: cmail19.com]
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_IMAGE_RATIO_08    BODY: HTML has a low ratio of text to image
+                             area
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 MIME_QP_LONG_LINE      RAW: Quoted-printable line longer than 76
+                             chars
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+X-Spam-Flag: NO
+
+--_baa616dc-ad67-464f-b1c5-af666980b907_
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Are you replying to this email or should I take it?   =E2=80=8C =E2=80=8C=
+ =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=
+=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=
+=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C=
+ =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=
+=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=
+=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C=
+ =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=
+=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=
+=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C=
+ =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=
+=80=8C =E2=80=8C =E2=80=8C
+
+Introducing Shared Inboxes in Spark
+
+=E2=80=9CAre you replying to this email or should I handle it?=E2=80=9D W=
+hen multiple people access the same inbox like info@ or sales@, things qu=
+ickly get messy. It=E2=80=99s unclear who=E2=80=99s working on what, so y=
+ou end up with missed deadlines and unhappy customers.
+
+With new Shared Inboxes in Spark, you can handle an inbox together with y=
+our teammates and see who=E2=80=99s responsible for each email.
+
+Learn how it works [https://sparkmailapp.com/blog/spark-introduces-share=
+d-inboxes-teams?utm_source=3DNewsletter&utm_medium=3Demail&utm_campaign=3D=
+shared-inbox-email-current]
+
+What you can do with Shared Inboxes:
+
+=E2=80=A2 Grant access to other people, without sharing passwords
+
+=E2=80=A2 Assign emails to others or yourself, just like tasks
+
+=E2=80=A2 Set deadlines and track progress
+
+=E2=80=A2 Discuss emails with others in a private chat
+
+=E2=80=A2 Write emails together in real time
+
+Get the latest version of Spark and give Shared Inboxes a try!
+
+Try Shared Inboxes [https://sparkmailapp.com/download?utm_source=3DNewsl=
+etter&utm_medium=3Demail&utm_campaign=3Dshared-inbox-email-current]
+
+At the moment Shared Inboxes are only available for Gmail accounts on Mac=
+ and iOS. The Android version is being rolled out over the next two weeks=
+=2E
+
+Created with =E2=9D=A4=EF=B8=8F,
+
+The Readdle team
+
+Need some help? Visit our  Help Center [https://sparkmailapp.com/help/].=
+
+
+If you don't want to receive this type of emails anymore, you can  unsubs=
+cribe https://readdle.cmail19.com/t/d-u-qkjihhy-tjullijidk-k/. =C2=
+=A9 2021 Readdle Inc. 795 Folsom str., San Francisco, CA 94107
+
+--_baa616dc-ad67-464f-b1c5-af666980b907_
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://ww=
+w.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang=3D"en" xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:s=
+chemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:off=
+ice">
+<head>
+  <title>Spark Shared Inboxes Current en</title>
+  <meta content=3D"width=3Ddevice-width; initial-scale=3D1.0;" name=3D"vi=
+ewport" />
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <!--[if mso]>
+    <style type=3D"text/css">
+    p {font-family: sans-serif !important;}
+    </style>
+<![endif]-->
+<style type=3D"text/css">
+    p\0 { padding-left: 10px !important; padding-right: 10px !important; =
+}
+     =20
+      @media (prefers-color-scheme: dark) {
+        body { background: #191c23 !important; color: #fff !important; }
+            .layout { background: #191c23 !important; }
+            /*.main { background: #242833 !important; }*/
+            p { color: #ebebeb !important; }
+            .note { background-color: #29303d !important; }
+            #logo-spark { content: url(http://i1.cmail19.com/ei/d/E7/628/=
+E75/204848/csimport/2dc0999dbd294b6a8944c26630b72fe5_0.png); }
+            #logo-readdle { content: url(http://i2.cmail19.com/ei/d/E7/62=
+8/E75/204848/csimport/0bbac15004174232bb1c35a91ca72fa5_1.png); }
+       =20
+    }=20
+      @media only screen and (min-device-width : 320px) and (max-device-w=
+idth : 480px) {
+        u + #body { width: 100vw !important; }
+        .gmailfix { display:none; display:none!important; }
+        .logo { display: none !important; }
+        .title { font-size: 26px !important; line-height: 1.3 !important;=
+ padding: 24px 0 0 !important; }
+        .main { padding-left: 20px !important; padding-right: 20px !impor=
+tant; }
+        #logo-spark { width: 50% !important; }
+        .button-text { width: 92% !important; }
+        .wrapper { padding: 0 !important; width: 100% !important; }
+        .video { width: 92% !important; }
+        .content-block { width: 100% !important; }
+        .content-text, .text-list, .text-sign, .note { font-size: 16px !i=
+mportant; line-height: 26px !important; }
+        .note { padding-left: 20px !important; padding-right: 20px !impor=
+tant; }
+        .footer-text { padding: 32px 30px 50px !important; }
+    }
+    @media only screen and (min-device-width : 320px) and (max-device-wid=
+th : 568px) and (device-aspect-ratio: 40/71) {
+        .wrapper { padding: 0 !important; }
+    }
+    @media only screen and (min-device-width : 374px) and (max-device-wid=
+th : 376px) {
+       =20
+    }
+    @media only screen and (min-device-width : 413px) and (max-device-wid=
+th : 415px) {
+       =20
+    }
+    @media only screen and (min-device-width : 768px) and (max-device-wid=
+th : 1024px) {
+    }
+</style>
+<!--[if gte mso 9]>
+<xml>
+  <o:OfficeDocumentSettings>
+    <o:AllowPNG/>
+    <o:PixelsPerInch>96</o:PixelsPerInch>
+ </o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+</head>
+<body id=3D"body" bgcolor=3D"#F5F5F7" style=3D"mso-line-height-rule: exac=
+tly; font-family: 'HelveticaNeue', 'Helvetica Neue', 'TeXGyreHerosRegular=
+', Helvetica, Tahoma, Geneva, Arial, sans-serif; margin: 0; padding: 0; f=
+ont-size: 18px; font-weight: 400; font-stretch: normal; color: #474C59; b=
+ackground: #F5F5F7; text-rendering: optimizeLegibility;">
+    <div style=3D"display: none; max-height: 0px; overflow: hidden;">
+    Are you replying to this email or should I take it?=20
+    </div>
+   =20
+    <div style=3D"display: none; max-height: 0px; overflow: hidden;">
+    =C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C
+    </div>
+    <table class=3D"layout" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0" align=3D"center" bgcolor=3D"#F5F5F7">
+        <tr>
+            <td>
+                <table class=3D"wrapper" width=3D"640" border=3D"0" cells=
+pacing=3D"0" cellpadding=3D"0" align=3D"center" style=3D"width: 640px; ma=
+x-width: 640px; margin: 0 auto; padding: 0; text-align: center;">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class=3D"gmailfix" style=3D"white-sp=
+ace:nowrap; font:15px courier; line-height:0;">
+                                    =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0=20
+                                    =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0=20
+                                    =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 =20
+                                </div>
+                                <table class=3D"content-block" id=3D"main=
+-content" width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+align=3D"center" style=3D"margin: 0; padding: 0 20px; text-align: center;=
+ color: #3d4751;">
+                                    <tbody>
+                                        <tr>                             =
+  =20
+                                            <td align=3D"center">
+                                                <table width=3D"100%" bor=
+der=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"padding: 0;">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class=3D"=
+logo" align=3D"left" style=3D"mso-padding-alt: 12px 0 0;">
+                                                                <img id=3D=
+"logo-readdle" alt=3D"Readdle" width=3D"92" style=3D"display: block; heig=
+ht: auto; margin: 0; padding: 16px 40px 0; mso-padding-alt: 16px 40px 0; =
+color: #0d0d0d; font-size: 24px; font-weight: bold; text-align: right;" s=
+rc=3D"http://i3.cmail19.com/ei/d/E7/628/E75/204848/csimport/87db6be425d84=
+ac29f6e17c48b5fc6b7_2.png" border=3D"0" />
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <!--[if mso]><table clas=
+s=3D"spacing" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0" align=3D"center" style=3D"margin: 0; padding: 0; text-align: center; =
+font-size: 16px; line-height: 20px;"><tr><td>=C2=A0</td></tr></table><![=
+endif]-->
+                                                <table width=3D"100%" bor=
+der=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"center"><tbody><tr=
+><td align=3D"center"><img id=3D"logo-spark" style=3D"display: inline-blo=
+ck; margin: 0; padding: 18px 0 0; text-align: center;" src=3D"http://i4.c=
+mail19.com/ei/d/E7/628/E75/204848/csimport/531f60304e6a4861a60c4fead0fb47=
+2e_3.png" border=3D"0" width=3D"254" height=3D"auto" alt=3D"Spark" /></td=
+></tr></tbody></table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <!--[if mso]><table clas=
+s=3D"spacing" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0" align=3D"center" style=3D"margin: 0; padding: 0; text-align: center; =
+font-size: 16px; line-height: 18px;"><tr><td>=C2=A0</td></tr></table><![=
+endif]-->
+                                                <table width=3D"100%" bor=
+der=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"center"><tbody><tr=
+><td align=3D"center"><a href=3D"https://readdle.cmail19.com/t/d-l-qkjihh=
+y-tjullijidk-r/"><img class=3D"video" style=3D"display: inline-bl=
+ock; margin: 0; padding: 18px 0 0; text-align: center;" src=3D"http://i5.=
+cmail19.com/ei/d/E7/628/E75/204848/csimport/149f0392e38a40c6920e024e97d94=
+6e8_4.png" border=3D"0" width=3D"536" height=3D"auto" alt=3D"Watch Video"=
+ /></a></td></tr></tbody></table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <table class=3D"content-b=
+lock main" width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+ style=3D"padding: 0 40px;">
+                                                    <tr>                 =
+              =20
+                                                        <td align=3D"cent=
+er" style=3D"mso-padding-alt: 24px 40px 24px;">
+                                                            <p class=3D"t=
+itle" style=3D"margin: 0; padding: 24px 70px 0; color: #2F4A68; font-size=
+: 32px; line-height: 41px; font-weight: 500; text-align: center;">
+                                                            Introducing S=
+hared=C2=A0Inboxes in Spark  </p>
+                                                            <!--[if mso]=
+><table class=3D"spacing" width=3D"100%" border=3D"0" cellspacing=3D"0" c=
+ellpadding=3D"0" align=3D"center" style=3D"margin: 0; padding: 0; text-al=
+ign: center; font-size: 8px; line-height: 16px;"><tr><td>=C2=A0</td></tr>=
+</table><![endif]-->
+                                                            <p id=3D"text=
+-1" class=3D"content-text" style=3D"margin: 0; padding: 16px 0 0; color: =
+#474C59; font-size: 18px; line-height: 28px; text-align: left;">
+                                                            =E2=80=9CAre =
+you replying to this email or should I handle it?=E2=80=9D When multiple =
+people access the same inbox like info@ or sales@, things quickly get mes=
+sy. It=E2=80=99s unclear who=E2=80=99s working on what, so you end up wit=
+h missed deadlines and unhappy customers.  </p>
+                                                            <!--[if mso]=
+><table class=3D"spacing" width=3D"100%" border=3D"0" cellspacing=3D"0" c=
+ellpadding=3D"0" align=3D"center" style=3D"margin: 0; padding: 0; text-al=
+ign: center; font-size: 8px; line-height: 16px;"><tr><td>=C2=A0</td></tr>=
+</table><![endif]-->
+                                                            <p id=3D"text=
+-2" class=3D"content-text" style=3D"margin: 0; padding: 16px 0 24px; colo=
+r: #474C59; font-size: 18px; line-height: 28px; text-align: left;">
+                                                            With new <b>S=
+hared Inboxes in Spark</b>, you can handle an inbox together with your te=
+ammates and see who=E2=80=99s responsible for each email.  </p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td >
+                                                            <table width=3D=
+"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"padding:=
+ 0;">
+                                                                <tr>
+                                                                    <td v=
+align=3D"middle">
+                                                                        <=
+hr style=3D"margin: 0; padding: 0; border: none; width: 100%; height: 1px=
+; background-color: #DDDDDD;" />
+                                                                    </td>=
+
+                                                                    <td i=
+d=3D"btn" style=3D"width: 300px;" align=3D"center" valign=3D"top">
+                                                                        <=
+div class=3D"button" style=3D"padding: 0"><!--[if mso]>
+                                                                  <v:roun=
+drect xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schemas-mi=
+crosoft-com:office:word" href=3D"https://readdle.cmail19.com/t/d-l-qkjihh=
+y-tjullijidk-y/" style=3D"height:48px;v-text-anchor:middle;width:=
+280px;" arcsize=3D"16%" stroke=3D"f" fillcolor=3D"#2FA5FF">
+                                                                    <w:an=
+chorlock/>
+                                                                    <cent=
+er>
+                                                                  <![end=
+if]-->
+                                                                      <a =
+href=3D"https://readdle.cmail19.com/t/d-l-qkjihhy-tjullijidk-j/"
+                                                                style=3D"=
+background-color:#2FA5FF;border-radius:8px;color:#ffffff;display:inline-b=
+lock; vertical-align: middle; font-family:'Open Sans', 'Helvetica Neue',s=
+ans-serif;font-size:17px;font-weight:500;line-height:48px;text-align:cent=
+er;text-decoration:none;width:280px;-webkit-text-size-adjust:none;">Learn=
+ how it works</a>
+                                                                  <!--[i=
+f mso]>
+                                                                    </cen=
+ter>
+                                                                  </v:rou=
+ndrect>
+                                                                <![endif=
+]--></div>
+                                                                    </td>=
+
+                                                                    <td v=
+align=3D"middle">
+                                                                        <=
+hr style=3D"margin: 0; padding: 0; border: none; width: 100%; height: 1px=
+; background-color: #DDDDDD;" />
+                                                                    </td>=
+
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <!--[if mso]=
+><table class=3D"spacing" width=3D"100%" border=3D"0" cellspacing=3D"0" c=
+ellpadding=3D"0" align=3D"center" style=3D"margin: 0; padding: 0; text-al=
+ign: center; font-size: 8px; line-height: 24px;"><tr><td>=C2=A0</td></tr>=
+</table><![endif]-->
+                                                            <p class=3D"c=
+ontent-title" style=3D"padding: 24px 10px 10px; margin: 0; font-size: 22p=
+x; font-weight: 500; line-height: 33px; color: #2F4A68; text-align: cente=
+r;">
+                                                                What you =
+can do with Shared Inboxes:=20
+                                                            </p>
+                                                            <!--[if mso]=
+><table class=3D"spacing" width=3D"100%" border=3D"0" cellspacing=3D"0" c=
+ellpadding=3D"0" align=3D"center" style=3D"margin: 0; padding: 0; text-al=
+ign: center; font-size: 8px; line-height: 10px;"><tr><td>=C2=A0</td></tr>=
+</table><![endif]-->
+                                                            <table id=3D"=
+list-1" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" s=
+tyle=3D"margin: 0; padding: 0;">
+                                                                <tr>
+                                                                    <td w=
+idth=3D"24" valign=3D"top">
+                                                                        <=
+p class=3D"number" style=3D"margin: 0; padding: 6px 0 0 0; font-size: 24p=
+x; line-height: 28px; color: #475059; text-align: left;">
+                                                                         =
+   =E2=80=A2           </p>
+                                                                    </td>=
+
+                                                                    <td>
+                                                                        <=
+p id=3D"text-list-1" class=3D"text-list" style=3D"margin: 0; padding: 6px=
+ 0 0; font-size: 18px; line-height: 28px; color: #475059; text-align: lef=
+t;">
+                                                                         =
+   <b>Grant access</b> to other people, without sharing passwords        =
+  </p>
+                                                                    </td>=
+
+                                                                </tr>
+                                                                <tr>
+                                                                    <td w=
+idth=3D"24" valign=3D"top">
+                                                                        <=
+p class=3D"number" style=3D"margin: 0; padding: 5px 0 0 0; font-size: 24p=
+x; line-height: 28px; color: #475059; text-align: left;">
+                                                                         =
+   =E2=80=A2           </p>
+                                                                    </td>=
+
+                                                                    <td>
+                                                                        <=
+p id=3D"text-list-2" class=3D"text-list" style=3D"margin: 0; padding: 5px=
+ 0 0; font-size: 18px; line-height: 28px; color: #475059; text-align: lef=
+t;">
+                                                                         =
+   <b>Assign emails</b> to others or yourself, just like tasks          <=
+/p>
+                                                                    </td>=
+
+                                                                </tr>
+                                                                <tr>
+                                                                    <td w=
+idth=3D"24" valign=3D"top">
+                                                                        <=
+p class=3D"number" style=3D"margin: 0; padding: 5px 0 0 0; font-size: 24p=
+x; line-height: 28px; color: #475059; text-align: left;">
+                                                                         =
+   =E2=80=A2           </p>
+                                                                    </td>=
+
+                                                                    <td>
+                                                                        <=
+p id=3D"text-list-3" class=3D"text-list" style=3D"margin: 0; padding: 5px=
+ 0 0; font-size: 18px; line-height: 28px; color: #475059; text-align: lef=
+t;">
+                                                                         =
+   <b>Set deadlines</b> and track progress           </p>
+                                                                    </td>=
+
+                                                                </tr>
+                                                                <tr>
+                                                                    <td w=
+idth=3D"24" valign=3D"top">
+                                                                        <=
+p class=3D"number" style=3D"margin: 0; padding: 5px 0 0 0; font-size: 24p=
+x; line-height: 28px; color: #475059; text-align: left;">
+                                                                         =
+   =E2=80=A2           </p>
+                                                                    </td>=
+
+                                                                    <td>
+                                                                        <=
+p id=3D"text-list-4" class=3D"text-list" style=3D"margin: 0; padding: 5px=
+ 0 0; font-size: 18px; line-height: 28px; color: #475059; text-align: lef=
+t;">
+                                                                         =
+   <b>Discuss emails</b> with others in a private chat          </p>
+                                                                    </td>=
+
+                                                                </tr>
+                                                                <tr>
+                                                                    <td w=
+idth=3D"24" valign=3D"top">
+                                                                        <=
+p class=3D"number" style=3D"margin: 0; padding: 5px 0 0 0; font-size: 24p=
+x; line-height: 28px; color: #475059; text-align: left;">
+                                                                         =
+   =E2=80=A2           </p>
+                                                                    </td>=
+
+                                                                    <td>
+                                                                        <=
+p id=3D"text-list-5" class=3D"text-list" style=3D"margin: 0; padding: 5px=
+ 0 0; font-size: 18px; line-height: 28px; color: #475059; text-align: lef=
+t;">
+                                                                         =
+   <b>Write emails</b> together in real time          </p>
+                                                                    </td>=
+
+                                                                </tr>
+                                                               =20
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <table width=3D=
+"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                                                                <tr>
+                                                                    <td v=
+align=3D"middle" style=3D"padding: 32px 0 0;">
+                                                                        <=
+hr style=3D"margin: 0; padding: 0; border: none; width: 100%; height: 1px=
+; background-color: #DDDDDD;" />
+                                                                    </td>=
+
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <!--[if mso]=
+><table class=3D"spacing" width=3D"40" border=3D"0" cellspacing=3D"0" cel=
+lpadding=3D"0" align=3D"center" style=3D"margin: 0; padding: 0; text-alig=
+n: center; font-size: 8px; line-height: 32px;"><tr><td>=C2=A0</td></tr></=
+table><![endif]-->
+                                                            <p id=3D"text=
+-3" class=3D"content-text" style=3D"margin: 0; padding: 32px 0 28px; colo=
+r: #474C59; font-size: 18px; line-height: 28px; text-align: left;">
+                                                            Get the lates=
+t version of Spark and give Shared Inboxes a try!   </p>
+                                                            <!--[if mso]=
+><table class=3D"spacing" width=3D"40" border=3D"0" cellspacing=3D"0" cel=
+lpadding=3D"0" align=3D"center" style=3D"margin: 0; padding: 0; text-alig=
+n: center; font-size: 8px; line-height: 28px;"><tr><td>=C2=A0</td></tr></=
+table><![endif]-->
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td >
+                                                            <table width=3D=
+"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"padding:=
+ 0;">
+                                                                <tr>
+                                                                    <td i=
+d=3D"btn" style=3D"width: 300px;" align=3D"center" valign=3D"top">
+                                                                        <=
+div class=3D"button" style=3D"padding: 0 0 32px"><!--[if mso]>
+                                                                  <v:roun=
+drect xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schemas-mi=
+crosoft-com:office:word" href=3D"https://readdle.cmail19.com/t/d-l-qkjihh=
+y-tjullijidk-t/" style=3D"height:48px;v-text-anchor:middle;width:=
+300px;" arcsize=3D"16%" stroke=3D"f" fillcolor=3D"#25C700">
+                                                                    <w:an=
+chorlock/>
+                                                                    <cent=
+er>
+                                                                  <![end=
+if]-->
+                                                                      <a =
+href=3D"https://readdle.cmail19.com/t/d-l-qkjihhy-tjullijidk-i/"
+                                                                style=3D"=
+background-color:#25C700;border-radius:8px;color:#ffffff;display:inline-b=
+lock; vertical-align: middle; font-family:'Open Sans', 'Helvetica Neue',s=
+ans-serif;font-size:17px;font-weight:500;line-height:48px;text-align:cent=
+er;text-decoration:none;width:300px;-webkit-text-size-adjust:none;">Try S=
+hared Inboxes</a>
+                                                                  <!--[i=
+f mso]>
+                                                                    </cen=
+ter>
+                                                                  </v:rou=
+ndrect>
+                                                                <![endif=
+]--></div>
+                                                                    </td>=
+
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <!--[if mso]=
+><table class=3D"spacing" width=3D"100%" border=3D"0" cellspacing=3D"0" c=
+ellpadding=3D"0" align=3D"center" style=3D"margin: 0; padding: 0; text-al=
+ign: center; font-size: 16px; line-height: 32px;"><tr><td>=C2=A0</td></tr=
+></table><![endif]-->
+                                                            <table>
+                                                                <tr>=20
+                                                                    <td w=
+idth=3D"100%" class=3D"note" style=3D"margin: 0; background: #ECECF4; pad=
+ding: 18px 20px; border-radius: 16px;">
+                                                                        <=
+p style=3D"display: inline-block; margin: 0; color: #474C59; font-size: 1=
+6px; line-height: 26px; text-align: center;  ">
+                                                                         =
+   At the moment Shared Inboxes are only available for Gmail accounts on =
+Mac and iOS. The Android version is being rolled out over the next two we=
+eks.          </p>
+                                                                    </td>=
+
+                                                                </tr>
+                                                            </table>
+                                                                   =20
+                                                            <!--[if mso]=
+><table class=3D"spacing" width=3D"100%" border=3D"0" cellspacing=3D"0" c=
+ellpadding=3D"0" align=3D"center" style=3D"margin: 0; padding: 0; text-al=
+ign: center; font-size: 16px; line-height: 24px;"><tr><td>=C2=A0</td></tr=
+></table><![endif]-->
+                                                            <p class=3D"t=
+ext-sign" style=3D"margin: 0; padding: 28px 0 0; color: #475059; font-siz=
+e: 18px; line-height: 28px; text-align: left;">
+                                                                         =
+         Created with =E2=9D=A4=EF=B8=8F,<br>
+The Readdle team </p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style=3D"mso-margin-alt:0=
+; mso-padding-alt:10px 85px 48px;">
+                                                <!--[if mso]><table clas=
+s=3D"spacing" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0" align=3D"center" style=3D"margin: 0; padding: 0; text-align: center; =
+font-size: 16px; line-height: 20px;"><tr><td>=C2=A0</td></tr></table><![=
+endif]-->
+                                                <p class=3D"footer-text" =
+style=3D"font-size: 12px; color: #77828C; line-height: 18px; margin: 0; p=
+adding: 32px 85px 46px; text-align: center; -webkit-text-size-adjust: non=
+e;">
+                                                    Need some help? Visit=
+ our <a style=3D"text-decoration: none; color: #2f9aff;" href=3D"https://=
+readdle.cmail19.com/t/d-l-qkjihhy-tjullijidk-d/">Help Center</a>.=
+<br>
+If you don't want to receive this type of emails anymore, you=C2=A0can=C2=
+=A0<a href=3D"https://readdle.cmail19.com/t/d-u-qkjihhy-=
+tjullijidk-h/" style=3D"text-decoration: none; color: #2f9aff;">unsubscribe</a>. =C2=
+=A9=C2=A02021 Readdle Inc. 795 Folsom str., San=C2=A0Francisco, CA 94107 =
+                                         </p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+   =20
+<img src=3D"https://readdle.cmail19.com/t/d-o-qkjihhy-tjullijidk/=
+o.gif" style=3D"visibility: hidden !important; display: block !important;=
+ height:1px !important; width:1px !important; border: 0 !important; margi=
+n: 0 !important; padding: 0 !important" width=3D"1" height=3D"1" border=3D=
+"0" alt=3D"" /></body>
+</html>=
+
+
+
+
+--_baa616dc-ad67-464f-b1c5-af666980b907_--
